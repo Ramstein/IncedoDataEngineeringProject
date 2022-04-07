@@ -1,0 +1,1001 @@
+customerNumber (CIF),cardLast4Digits,transactionDate,transactionTime,transactionAmount,transactionType,merchantName,merchantCity,merchantState,merchantZip,stateCode
+48462190,3193,07/31/2021,13:51,65258,jcb,Jaxnation,Memphis,Tennessee,1479,TN
+93239797,8017,03/16/2022,13:34,11848,jcb,Fivespan,Brooklyn,New York,5543,NY
+77915196,5378,07/25/2021,14:36,29034,jcb,Eadel,Washington,District of Columbia,1682,DC
+96997489,8723,06/23/2021,22:27,82174,visa,Quimm,Allentown,Pennsylvania,8199,PA
+47248978,9700,09/19/2021,11:55,37321,jcb,Zoovu,Inglewood,California,2209,CA
+86379426,1468,07/14/2021,23:11,78675,switch,Talane,Fresno,California,4612,CA
+28832513,3926,05/16/2021,10:10,32438,maestro,Riffwire,Augusta,Georgia,7532,GA
+22089367,5632,08/03/2021,9:31,22535,jcb,Trilith,Wichita,Kansas,7731,KS
+16878738,6455,06/24/2021,18:54,27062,visa-electron,Fadeo,Los Angeles,California,6801,CA
+16638656,3282,11/20/2021,10:17,52369,switch,Tavu,Cincinnati,Ohio,2659,OH
+57957080,8958,08/27/2021,4:04,29036,bankcard,Kaymbo,Nashville,Tennessee,2807,TN
+11138509,1789,12/11/2021,7:49,39522,mastercard,Bubbletube,Augusta,Georgia,2221,GA
+48199251,3902,10/09/2021,16:01,68118,mastercard,Eabox,Shawnee Mission,Kansas,9722,KS
+72706563,2278,03/29/2022,10:13,67030,diners-club-carte-blanche,Bluezoom,New York City,New York,2680,NY
+91641488,6015,06/11/2021,6:19,5948,laser,Blogtags,Springfield,Massachusetts,3959,MA
+86257148,6046,08/11/2021,9:37,23168,maestro,Jayo,San Francisco,California,3510,CA
+12813938,4719,04/09/2021,20:30,11498,jcb,Divanoodle,Charleston,West Virginia,2580,WV
+31690182,8351,02/12/2022,13:02,72137,jcb,Eamia,Riverside,California,8493,CA
+66780955,9428,02/18/2022,11:34,90209,switch,Youbridge,Saint Petersburg,Florida,9100,FL
+71122583,1385,07/12/2021,0:51,72139,switch,Zoovu,Saint Louis,Missouri,8703,MO
+37159141,2184,11/01/2021,10:30,39309,maestro,Fiveclub,Albuquerque,New Mexico,5676,NM
+15553373,9089,02/03/2022,20:11,86985,visa-electron,Meevee,Pittsburgh,Pennsylvania,3634,PA
+95018467,1332,10/29/2021,13:14,52051,jcb,Eabox,Lexington,Kentucky,7309,KY
+51287118,5630,07/03/2021,4:40,66825,mastercard,Twinte,Macon,Georgia,8275,GA
+63261573,2901,06/10/2021,8:35,28707,maestro,Browsecat,Tulsa,Oklahoma,4706,OK
+38614587,7677,07/19/2021,13:28,4310,bankcard,Dynazzy,Dallas,Texas,6055,TX
+61141942,7026,09/29/2021,1:32,41119,visa,Blogspan,Boston,Massachusetts,9708,MA
+88545315,1341,08/04/2021,13:47,47837,jcb,Miboo,Memphis,Tennessee,6178,TN
+73200399,3144,04/20/2021,21:37,59924,jcb,Photojam,Oklahoma City,Oklahoma,7303,OK
+64376157,1885,01/16/2022,18:43,59947,diners-club-enroute,Tekfly,Kansas City,Missouri,1961,MO
+63764864,8185,10/08/2021,0:28,69644,diners-club-enroute,Voolith,Killeen,Texas,1321,TX
+42615207,8757,09/11/2021,7:53,15139,jcb,Vinte,Miami,Florida,5047,FL
+52318036,3422,01/21/2022,14:00,47986,diners-club-enroute,Riffpath,Jacksonville,Florida,2816,FL
+35278878,7140,08/22/2021,22:24,30393,jcb,Aimbu,Vero Beach,Florida,7301,FL
+78378001,2821,04/16/2021,13:51,47041,jcb,Jatri,Elizabeth,New Jersey,2120,NJ
+61309673,5809,03/24/2022,1:25,47120,visa-electron,Quimba,Amarillo,Texas,2688,TX
+51001068,8063,04/30/2021,23:24,71714,jcb,Centimia,Long Beach,California,4595,CA
+79081789,1488,12/19/2021,5:11,57523,jcb,Skiptube,Brooklyn,New York,9211,NY
+38317798,1265,08/29/2021,8:07,66047,jcb,Skimia,Indianapolis,Indiana,8947,IN
+65728645,2127,04/09/2021,0:33,6408,jcb,Topicblab,Saint Louis,Missouri,1204,MO
+78133227,9666,01/22/2022,14:08,30906,maestro,Yacero,Charleston,West Virginia,9866,WV
+53497936,6644,09/25/2021,16:51,78413,bankcard,Tagpad,Minneapolis,Minnesota,4679,MN
+53953198,2378,08/31/2021,8:37,65634,china-unionpay,Yabox,Boynton Beach,Florida,3890,FL
+72481693,3869,06/28/2021,11:13,98172,bankcard,Gigazoom,Saint Petersburg,Florida,6798,FL
+53580666,4676,10/25/2021,14:54,31985,jcb,Feedfish,Minneapolis,Minnesota,4640,MN
+68795223,8510,02/04/2022,23:04,21138,jcb,Zoonder,Schenectady,New York,5137,NY
+17553654,4615,02/04/2022,9:57,98553,jcb,Youbridge,Muncie,Indiana,7895,IN
+63726897,7767,12/31/2021,16:19,60314,diners-club-carte-blanche,Meemm,Louisville,Kentucky,7646,KY
+40310931,3747,05/19/2021,14:36,88580,diners-club-enroute,Dazzlesphere,Stockton,California,9776,CA
+51082489,8082,02/03/2022,19:59,27165,jcb,Kare,Pompano Beach,Florida,2655,FL
+18783196,2305,03/06/2022,2:17,10400,jcb,Voonte,Dallas,Texas,6784,TX
+78860737,2386,01/06/2022,2:09,11964,jcb,Browsebug,San Rafael,California,2166,CA
+25995905,4765,10/26/2021,0:40,35665,jcb,Twimm,Bethlehem,Pennsylvania,9319,PA
+19808319,7074,08/05/2021,20:50,43179,americanexpress,Chatterbridge,Laurel,Maryland,9337,MD
+78361389,1941,09/21/2021,7:55,11686,visa,Riffwire,Boston,Massachusetts,3999,MA
+11949125,2566,06/02/2021,16:03,19108,jcb,Thoughtworks,Springfield,Missouri,4856,MO
+85949405,7888,01/12/2022,10:32,90968,jcb,Dynava,Tuscaloosa,Alabama,2094,AL
+44976155,8948,09/28/2021,11:53,78173,diners-club-carte-blanche,Shufflebeat,Grand Forks,North Dakota,4328,ND
+69749665,5631,04/20/2021,6:01,20479,jcb,Jazzy,Phoenix,Arizona,6132,AZ
+93714079,6163,01/28/2022,15:52,33450,jcb,Flipbug,Sacramento,California,8837,CA
+25116990,8642,05/10/2021,15:52,72957,mastercard,Fivechat,Washington,District of Columbia,7661,DC
+81965848,5234,02/28/2022,10:39,8322,americanexpress,Twinte,Columbus,Mississippi,2503,MS
+87388447,4863,09/15/2021,9:39,55683,instapayment,Ntag,Schaumburg,Illinois,9057,IL
+40530400,3308,08/23/2021,22:13,84548,maestro,Kimia,Lansing,Michigan,1421,MI
+36924716,9402,09/17/2021,17:01,92931,jcb,Skipstorm,Miami,Florida,3849,FL
+29122672,4430,09/17/2021,3:53,68804,jcb,Realpoint,Tulsa,Oklahoma,8722,OK
+63107935,1817,02/14/2022,17:58,21547,americanexpress,Thoughtsphere,Sioux City,Iowa,2696,IA
+23321680,3663,04/10/2021,18:22,58959,visa-electron,Realcube,San Francisco,California,2119,CA
+86546478,2215,12/17/2021,10:52,251,jcb,Jaxspan,Kent,Washington,1279,WA
+80272240,8359,04/30/2021,10:19,60605,switch,Linklinks,Los Angeles,California,1404,CA
+76913032,9088,04/13/2021,9:51,87878,jcb,Skyndu,Dallas,Texas,9578,TX
+28087498,5655,05/13/2021,12:52,58393,jcb,Thoughtstorm,Milwaukee,Wisconsin,9803,WI
+71366373,3503,04/25/2021,9:31,82137,jcb,Thoughtstorm,Stockton,California,7819,CA
+65548107,9336,08/31/2021,22:12,38470,jcb,Skippad,Kansas City,Kansas,7662,KS
+31531631,7441,01/07/2022,15:01,46628,jcb,Devbug,Washington,District of Columbia,2641,DC
+53975147,1502,03/06/2022,7:24,15419,jcb,Youtags,Miami,Florida,1570,FL
+76243024,4802,07/06/2021,3:40,12495,visa-electron,Pixonyx,Denver,Colorado,9624,CO
+72222298,6138,12/25/2021,8:51,91061,bankcard,Quire,Albany,New York,2408,NY
+94373119,5966,04/10/2021,22:45,31874,mastercard,Realcube,Houston,Texas,3317,TX
+17725704,8328,06/22/2021,1:31,92746,diners-club-enroute,Fivebridge,Salt Lake City,Utah,5380,UT
+88669468,6746,02/21/2022,2:06,29177,diners-club-enroute,Jabbertype,Sarasota,Florida,3005,FL
+86311328,1408,11/14/2021,11:30,78011,jcb,Avavee,Tampa,Florida,8832,FL
+36842180,7616,05/26/2021,3:34,20585,mastercard,Realfire,Memphis,Tennessee,7944,TN
+81746307,7939,06/07/2021,6:14,19812,mastercard,Kanoodle,Sacramento,California,6203,CA
+12762124,9422,03/09/2022,6:45,44417,jcb,JumpXS,Minneapolis,Minnesota,2186,MN
+80149184,8308,04/01/2022,12:48,39132,mastercard,Eadel,Evansville,Indiana,3005,IN
+87122504,6969,02/22/2022,8:16,51789,jcb,Quire,New Orleans,Louisiana,1573,LA
+70293699,9092,01/11/2022,5:08,59228,jcb,Geba,Phoenix,Arizona,5748,AZ
+19615356,6359,08/24/2021,15:38,54315,mastercard,Tagchat,Philadelphia,Pennsylvania,2181,PA
+69474311,7983,04/27/2021,15:23,37012,china-unionpay,Quinu,White Plains,New York,3741,NY
+80841843,5802,02/13/2022,21:48,28184,jcb,Skimia,Raleigh,North Carolina,7249,NC
+54876763,9146,08/08/2021,7:21,57017,mastercard,Jazzy,Erie,Pennsylvania,9616,PA
+69968105,5723,12/31/2021,20:42,9906,mastercard,Blogpad,Denver,Colorado,5222,CO
+15036311,5612,12/31/2021,18:42,75241,switch,Mymm,Ashburn,Virginia,8810,VA
+92016844,5073,11/15/2021,3:23,41797,maestro,Shufflebeat,Glendale,Arizona,2645,AZ
+44824117,4634,02/09/2022,7:00,71761,jcb,Jabberstorm,Miami Beach,Florida,4213,FL
+30161650,1549,01/02/2022,16:25,64759,jcb,Youtags,Bronx,New York,1232,NY
+77957159,2340,10/12/2021,21:54,94278,laser,Agimba,Tacoma,Washington,8661,WA
+61256461,7591,12/03/2021,6:24,21258,americanexpress,Plambee,Utica,New York,7977,NY
+22208374,9516,06/16/2021,12:02,46064,jcb,Eabox,San Diego,California,6534,CA
+84759058,3072,01/12/2022,2:37,63804,visa-electron,Shufflester,Cincinnati,Ohio,3920,OH
+70588443,3485,04/05/2022,2:30,53886,jcb,Voonyx,Salt Lake City,Utah,5408,UT
+68569713,4553,05/25/2021,2:31,11593,jcb,Quimm,Chula Vista,California,1816,CA
+57691687,4775,05/21/2021,6:43,29946,instapayment,Realpoint,Whittier,California,7048,CA
+82376918,1394,04/01/2022,10:07,47794,jcb,Plajo,Greensboro,North Carolina,9515,NC
+33463714,1429,08/11/2021,23:40,29337,switch,Flashpoint,Merrifield,Virginia,7248,VA
+51885829,2259,06/09/2021,3:04,34776,visa,Wikibox,Corpus Christi,Texas,7464,TX
+96631711,7942,03/19/2022,6:52,88756,jcb,Photolist,Bowie,Maryland,6424,MD
+79910309,7307,09/18/2021,12:42,39138,bankcard,Kaymbo,Sarasota,Florida,7810,FL
+34422516,3816,05/23/2021,4:16,3987,jcb,Photolist,Carson City,Nevada,5063,NV
+32756813,7574,11/22/2021,16:31,99322,jcb,Voonix,Washington,District of Columbia,6488,DC
+22599597,9433,05/12/2021,16:09,97948,switch,Jabberstorm,Charleston,West Virginia,5188,WV
+71809789,1476,02/04/2022,12:19,11339,jcb,Leexo,Greensboro,North Carolina,9867,NC
+89029733,3262,12/08/2021,8:08,66811,diners-club-enroute,Muxo,Louisville,Kentucky,2996,KY
+46474564,7620,01/12/2022,2:38,73718,jcb,Tagpad,Montpelier,Vermont,7989,VT
+32333851,4318,04/06/2022,14:01,21298,mastercard,Realcube,Lynn,Massachusetts,4956,MA
+16816889,1846,09/10/2021,14:46,86039,visa-electron,Yata,Charlotte,North Carolina,4692,NC
+75637317,9759,04/29/2021,11:03,68451,jcb,Dabshots,Washington,District of Columbia,2849,DC
+15342019,3060,06/12/2021,14:51,95890,jcb,Gabvine,Roanoke,Virginia,5542,VA
+27195430,5486,06/30/2021,16:45,88448,jcb,Skaboo,Austin,Texas,9275,TX
+60343037,7245,07/25/2021,13:17,12514,visa-electron,Dablist,Salt Lake City,Utah,6732,UT
+38266435,9780,11/18/2021,7:07,57119,visa,Oyope,South Bend,Indiana,5367,IN
+46462991,6158,09/15/2021,5:02,91696,americanexpress,Eayo,Shreveport,Louisiana,7592,LA
+44508844,9940,10/30/2021,1:48,70610,maestro,Mynte,New York City,New York,4469,NY
+71980172,7429,03/25/2022,2:01,52891,americanexpress,Thoughtmix,Brooklyn,New York,3228,NY
+44366999,5703,07/18/2021,0:36,46119,diners-club-enroute,Youfeed,Jamaica,New York,1825,NY
+63460872,8007,04/15/2021,5:21,42474,switch,Kare,Chicago,Illinois,8409,IL
+74172806,9407,12/12/2021,13:24,33863,mastercard,Feedbug,Lexington,Kentucky,6773,KY
+23365984,6047,02/10/2022,19:37,24461,visa,Leenti,Miami,Florida,6218,FL
+90114908,6017,11/28/2021,15:04,89315,jcb,Trudoo,Lexington,Kentucky,9184,KY
+77196212,3819,04/12/2021,5:14,86816,jcb,Centizu,Memphis,Tennessee,6520,TN
+77994418,3633,09/06/2021,20:50,66194,jcb,Brainverse,Peoria,Illinois,3526,IL
+79046091,7711,07/29/2021,1:55,3240,visa,Rhyloo,Fresno,California,1602,CA
+70594336,6667,09/02/2021,8:21,17014,jcb,Meemm,Santa Rosa,California,7181,CA
+96089398,4674,01/22/2022,13:05,39981,jcb,Leenti,Richmond,Virginia,3290,VA
+76834672,7857,03/30/2022,11:32,60310,maestro,Ozu,Richmond,Virginia,5426,VA
+32098138,1913,05/16/2021,18:53,80409,diners-club-carte-blanche,Photolist,Tampa,Florida,7916,FL
+50488049,7114,01/19/2022,15:13,88737,jcb,Topdrive,Louisville,Kentucky,5916,KY
+42286572,4103,11/09/2021,22:11,18851,visa,Devpoint,Carol Stream,Illinois,6943,IL
+51966505,4707,08/05/2021,12:36,89703,americanexpress,Npath,San Diego,California,1259,CA
+29042258,2564,01/10/2022,11:23,13082,jcb,Zoomzone,Eugene,Oregon,1823,OR
+43346691,5541,12/30/2021,16:54,64937,jcb,Realfire,Dearborn,Michigan,4763,MI
+88603051,2482,08/18/2021,12:34,3636,visa-electron,Jabbersphere,Chicago,Illinois,6720,IL
+65121852,9844,11/04/2021,17:01,49814,jcb,Dablist,Sioux Falls,South Dakota,8626,SD
+79754857,7535,03/14/2022,20:18,39954,jcb,Skiptube,San Diego,California,1420,CA
+33008085,4682,11/20/2021,2:02,55400,bankcard,Vimbo,Jacksonville,Florida,6908,FL
+41937298,2370,10/04/2021,8:27,15493,jcb,Oloo,Atlanta,Georgia,6879,GA
+84101895,6402,09/13/2021,7:42,94137,jcb,Mudo,Saginaw,Michigan,7340,MI
+48473405,9774,11/10/2021,13:53,52986,jcb,Tagcat,Santa Rosa,California,7734,CA
+53987215,3347,07/18/2021,4:53,85283,mastercard,Skidoo,Atlanta,Georgia,2010,GA
+17806320,5849,12/09/2021,16:51,70004,jcb,Linkbuzz,Tulsa,Oklahoma,9871,OK
+31269165,8567,06/02/2021,0:34,76922,switch,Janyx,New Bedford,Massachusetts,3234,MA
+16967697,9043,04/15/2021,7:15,54325,diners-club-carte-blanche,Fivechat,Allentown,Pennsylvania,5574,PA
+52342804,8966,03/30/2022,20:56,5712,jcb,Skyndu,Lees Summit,Missouri,3516,MO
+32721310,5262,11/24/2021,12:25,34089,jcb,Cogilith,Hialeah,Florida,1728,FL
+38857217,6741,11/25/2021,1:28,68024,visa-electron,Yakidoo,Topeka,Kansas,4209,KS
+53268786,7683,11/26/2021,11:06,88175,jcb,Eayo,Saint Petersburg,Florida,7077,FL
+83487150,2323,05/16/2021,11:22,57218,jcb,Jetwire,Richmond,Virginia,5624,VA
+16747012,4405,02/14/2022,18:55,13843,switch,Eare,Phoenix,Arizona,5390,AZ
+36905728,9969,08/10/2021,10:41,79320,laser,Meedoo,Virginia Beach,Virginia,6818,VA
+86574194,2891,11/30/2021,17:40,22192,instapayment,Voomm,Cincinnati,Ohio,2322,OH
+46408100,3473,09/22/2021,20:15,22494,americanexpress,Eazzy,Irvine,California,2851,CA
+16466968,2260,09/01/2021,19:39,85828,jcb,Shufflester,Des Moines,Iowa,8311,IA
+14397368,7440,12/13/2021,11:30,58001,mastercard,Yamia,Minneapolis,Minnesota,4791,MN
+37275580,8329,06/05/2021,12:26,72354,bankcard,Yakijo,Seattle,Washington,1328,WA
+21536866,7400,12/10/2021,6:11,18999,visa-electron,Photojam,Salt Lake City,Utah,2023,UT
+69603045,5367,05/15/2021,15:38,55678,china-unionpay,Npath,Atlanta,Georgia,6470,GA
+78114602,3545,05/23/2021,20:17,992,jcb,Topiclounge,New Orleans,Louisiana,2455,LA
+12391831,5207,02/12/2022,1:26,68324,china-unionpay,Layo,Phoenix,Arizona,6887,AZ
+74412182,7599,01/17/2022,9:18,50693,switch,Oloo,Santa Monica,California,3223,CA
+83227771,7645,01/30/2022,0:05,48688,jcb,Tagfeed,Dallas,Texas,3709,TX
+69665546,9534,12/08/2021,8:11,10417,diners-club-us-ca,Bubblemix,Levittown,Pennsylvania,3522,PA
+62863712,2023,02/13/2022,7:49,43538,diners-club-enroute,Youspan,Denver,Colorado,1278,CO
+25271303,2898,12/11/2021,15:01,59475,mastercard,Brainbox,Redwood City,California,3312,CA
+26223037,2536,12/20/2021,21:38,70117,americanexpress,Avavee,Lansing,Michigan,2617,MI
+38713529,7117,05/22/2021,17:17,13848,jcb,Meezzy,Oklahoma City,Oklahoma,8681,OK
+29561760,2938,02/15/2022,9:12,18778,jcb,Riffwire,Port Charlotte,Florida,2844,FL
+13635709,3463,10/06/2021,8:29,65817,americanexpress,Yozio,San Diego,California,2871,CA
+43043179,6974,06/28/2021,20:43,66889,laser,Devcast,Shawnee Mission,Kansas,8086,KS
+98021946,7638,12/14/2021,18:20,97703,jcb,Fivespan,Amarillo,Texas,1754,TX
+25679095,8643,12/20/2021,4:20,87887,switch,Skyble,El Paso,Texas,5243,TX
+45662146,1865,08/28/2021,17:09,54941,americanexpress,Thoughtbeat,Syracuse,New York,6534,NY
+79278786,5308,12/31/2021,9:11,48990,maestro,Flipopia,Athens,Georgia,1291,GA
+98004185,4481,06/13/2021,13:21,35986,diners-club-carte-blanche,Kanoodle,Nashville,Tennessee,6186,TN
+18413805,1468,09/07/2021,4:20,77006,mastercard,Livetube,Atlanta,Georgia,7593,GA
+40117674,6696,10/04/2021,6:09,73436,instapayment,Chatterbridge,Greensboro,North Carolina,4335,NC
+38063417,9142,10/31/2021,5:41,33980,jcb,Tazzy,Macon,Georgia,6545,GA
+35273983,6690,08/04/2021,17:05,13100,jcb,Brainsphere,Inglewood,California,9780,CA
+83226220,8254,10/16/2021,22:28,65371,jcb,Kamba,Juneau,Alaska,8081,AK
+65884484,9712,02/10/2022,11:31,72362,jcb,Tagpad,Lake Charles,Louisiana,8627,LA
+38011734,3807,10/07/2021,19:37,18451,visa,Livefish,Clearwater,Florida,8104,FL
+76072704,8868,04/29/2021,5:53,56409,americanexpress,Demizz,Clearwater,Florida,9987,FL
+28891847,5702,05/27/2021,0:45,18556,americanexpress,Midel,Reno,Nevada,6569,NV
+62601591,5949,06/17/2021,14:34,92325,diners-club-carte-blanche,Bluezoom,Saint Paul,Minnesota,4873,MN
+13386401,3626,06/04/2021,22:33,90532,jcb,Skinte,Miami,Florida,5070,FL
+66813699,1793,01/19/2022,11:10,73551,jcb,Divanoodle,White Plains,New York,7245,NY
+91092483,4744,08/05/2021,5:08,49384,jcb,Dynabox,Irvine,California,2453,CA
+30133682,9906,06/30/2021,7:57,96181,china-unionpay,Mycat,Syracuse,New York,4753,NY
+39028858,9584,01/16/2022,4:15,41793,diners-club-international,Photojam,Springfield,Massachusetts,3704,MA
+76062778,6182,08/01/2021,15:38,67079,jcb,Browsebug,Seattle,Washington,7185,WA
+29611938,8114,08/21/2021,7:30,51104,bankcard,Avamba,Columbus,Ohio,5856,OH
+67231137,3329,09/24/2021,3:56,84997,bankcard,Photojam,White Plains,New York,2661,NY
+99282287,9613,01/04/2022,16:56,99323,jcb,Kaymbo,Birmingham,Alabama,9693,AL
+92101529,9745,04/03/2022,16:55,67408,laser,Roodel,San Antonio,Texas,2804,TX
+88036388,1365,11/11/2021,23:55,64353,mastercard,Fadeo,Hartford,Connecticut,9571,CT
+51644051,4416,01/01/2022,15:37,56958,maestro,Twitterwire,Aiken,South Carolina,1332,SC
+18083620,9689,07/26/2021,23:12,55212,mastercard,Twitterworks,Springfield,Missouri,7140,MO
+39787254,7706,04/28/2021,7:27,8055,diners-club-carte-blanche,Skivee,Jackson,Mississippi,9207,MS
+80204515,1616,11/12/2021,5:03,8253,jcb,Trudeo,Saint Petersburg,Florida,2459,FL
+11683166,4269,08/19/2021,11:35,42449,switch,Yozio,Wilmington,Delaware,2681,DE
+43480385,5656,08/03/2021,16:32,3556,jcb,Zoomdog,Little Rock,Arkansas,9924,AR
+33985609,5715,07/27/2021,20:38,49100,jcb,Dabjam,Dallas,Texas,9849,TX
+67636919,5482,11/03/2021,15:40,45214,jcb,Photofeed,New Orleans,Louisiana,1833,LA
+89702070,1636,03/18/2022,20:05,38231,china-unionpay,Devpulse,Washington,District of Columbia,9942,DC
+57205594,9831,05/10/2021,16:00,10508,bankcard,Zoomcast,Oakland,California,5786,CA
+81991243,4468,01/28/2022,15:16,15866,visa,Flipbug,Miami,Florida,6037,FL
+63579524,5184,12/07/2021,2:03,23636,jcb,Tagcat,Sacramento,California,9805,CA
+88401751,7066,10/11/2021,18:06,28579,switch,Tambee,Palmdale,California,8872,CA
+29992111,5209,01/20/2022,21:50,29597,jcb,Camido,Garland,Texas,6102,TX
+53443001,4496,04/19/2021,12:38,88912,jcb,Youspan,Erie,Pennsylvania,1898,PA
+62326254,8973,11/17/2021,10:02,73038,maestro,Brainbox,Houston,Texas,9715,TX
+34197698,4601,12/05/2021,9:11,71145,jcb,Kwilith,Washington,District of Columbia,8548,DC
+41390263,1249,03/24/2022,5:04,75177,maestro,Oyope,Philadelphia,Pennsylvania,1949,PA
+33529483,9201,11/14/2021,4:15,32377,switch,Yacero,Milwaukee,Wisconsin,1223,WI
+99231312,1458,10/09/2021,15:24,41162,mastercard,Jabberstorm,Omaha,Nebraska,2781,NE
+14751442,6390,04/14/2021,22:15,34321,diners-club-carte-blanche,Plambee,New Haven,Connecticut,2091,CT
+46076937,4524,05/20/2021,10:21,76900,jcb,Jayo,San Diego,California,1694,CA
+79490496,7361,05/25/2021,13:24,23902,jcb,Brightdog,Terre Haute,Indiana,3542,IN
+98100922,7824,09/19/2021,1:38,38546,jcb,Ntags,New Orleans,Louisiana,5226,LA
+48756322,6867,05/03/2021,21:13,7652,jcb,Dynazzy,Chandler,Arizona,8778,AZ
+33765843,1421,01/18/2022,7:14,76810,switch,Eare,Tuscaloosa,Alabama,1361,AL
+76039681,2134,11/15/2021,0:09,23501,jcb,Topicstorm,Columbia,Missouri,9897,MO
+74246518,7821,07/18/2021,5:41,24886,diners-club-international,Twiyo,Las Vegas,Nevada,1395,NV
+41683787,2796,07/19/2021,19:54,55393,diners-club-enroute,Lazzy,Saint Cloud,Minnesota,1597,MN
+30370005,1585,05/05/2021,7:36,87868,jcb,Quimba,Detroit,Michigan,7512,MI
+50436170,8903,09/27/2021,22:16,7979,mastercard,Skilith,Long Beach,California,7879,CA
+79301641,9796,04/21/2021,13:30,47811,mastercard,Wordtune,Charleston,West Virginia,1911,WV
+64039375,1249,07/09/2021,10:09,97018,americanexpress,Oyondu,Concord,California,6352,CA
+58931388,9794,07/11/2021,21:29,43134,maestro,Topiczoom,Kansas City,Missouri,7596,MO
+30075645,6799,02/01/2022,23:30,33578,americanexpress,Flashpoint,Dayton,Ohio,4492,OH
+74040192,9896,03/26/2022,6:25,78020,switch,Divavu,Cedar Rapids,Iowa,4340,IA
+90542685,9632,11/02/2021,18:32,189,maestro,Jabbertype,Washington,District of Columbia,2014,DC
+51652804,6504,08/30/2021,11:30,16570,switch,Bluejam,Delray Beach,Florida,5160,FL
+76886361,2393,04/02/2022,16:39,76048,switch,Livetube,Washington,District of Columbia,4142,DC
+42509602,7634,10/15/2021,8:13,62887,jcb,Zoomcast,Suffolk,Virginia,3949,VA
+58247639,3716,03/17/2022,4:52,71222,diners-club-enroute,Trunyx,Jackson,Mississippi,2422,MS
+77654586,2591,05/08/2021,0:29,89299,jcb,Twitterbeat,Lancaster,Pennsylvania,3799,PA
+88184685,9570,01/15/2022,9:52,10069,jcb,Jabberstorm,Garden Grove,California,6083,CA
+18395504,8800,10/09/2021,19:34,95585,jcb,Voomm,Redwood City,California,4471,CA
+25111222,4858,01/27/2022,3:03,54238,mastercard,Skyndu,Trenton,New Jersey,4939,NJ
+67029545,9079,11/10/2021,11:44,11017,jcb,Tagcat,Los Angeles,California,7626,CA
+74247003,5444,09/20/2021,14:57,33719,mastercard,Voomm,San Francisco,California,7337,CA
+14638803,6994,11/15/2021,7:29,11288,visa-electron,Eare,Lexington,Kentucky,4070,KY
+92183406,7822,04/09/2021,22:45,38444,jcb,Yabox,Tuscaloosa,Alabama,2728,AL
+92944607,5640,02/11/2022,4:25,32810,americanexpress,Skyndu,Oakland,California,9693,CA
+30385662,5977,01/14/2022,19:54,61868,jcb,Trupe,Stockton,California,7151,CA
+33673233,9231,01/04/2022,10:45,47970,jcb,Ailane,Albany,New York,3761,NY
+66621038,5110,01/26/2022,0:58,64694,switch,Babblestorm,Salt Lake City,Utah,5039,UT
+54142660,2328,05/07/2021,22:05,13537,switch,Photobean,Portland,Oregon,8727,OR
+48894330,5089,10/22/2021,13:22,53069,americanexpress,Oloo,Albany,New York,3576,NY
+47268746,3952,06/24/2021,18:21,51726,visa-electron,Jayo,Saint Louis,Missouri,8445,MO
+59565121,4752,11/20/2021,10:37,66596,jcb,Reallinks,New York City,New York,8610,NY
+73864164,2576,10/03/2021,12:10,48622,jcb,Avavee,Fort Worth,Texas,3110,TX
+86763552,5916,01/25/2022,16:56,31596,jcb,Flashspan,Fort Worth,Texas,6674,TX
+87782144,7029,09/11/2021,6:08,85851,diners-club-carte-blanche,Quimm,Las Vegas,Nevada,5781,NV
+59220587,6685,09/13/2021,19:28,85821,jcb,Tazz,Dallas,Texas,5382,TX
+59270810,6966,04/14/2021,17:38,77824,visa-electron,Vitz,Olympia,Washington,1640,WA
+80381338,1799,03/31/2022,13:48,59611,mastercard,Dabfeed,Savannah,Georgia,6783,GA
+65135717,5573,01/22/2022,18:23,48847,jcb,Flipstorm,Rochester,New York,1152,NY
+24289797,8917,08/31/2021,12:37,47110,mastercard,Zoonoodle,Austin,Texas,2465,TX
+95601938,4867,01/30/2022,0:32,87893,jcb,Talane,El Paso,Texas,7105,TX
+69688891,2227,04/26/2021,21:45,20703,jcb,Kwilith,San Diego,California,4134,CA
+32778726,1940,11/30/2021,21:07,82903,jcb,Shufflester,El Paso,Texas,7241,TX
+58397435,4666,07/29/2021,9:18,57061,jcb,Gigazoom,Odessa,Texas,9856,TX
+43598730,7342,09/21/2021,6:56,69111,jcb,Dynabox,Lafayette,Indiana,2532,IN
+14917619,8860,05/11/2021,9:23,87296,bankcard,Fivebridge,Minneapolis,Minnesota,9570,MN
+45684764,5304,08/11/2021,0:25,97058,jcb,Jetwire,Jamaica,New York,1174,NY
+49053060,6221,07/10/2021,23:52,58056,bankcard,Livetube,Chicago,Illinois,8133,IL
+86003350,6738,10/01/2021,1:57,2066,jcb,Meeveo,Tulsa,Oklahoma,3603,OK
+52460689,2836,05/10/2021,17:21,48144,diners-club-us-ca,Photolist,Columbus,Ohio,2630,OH
+18765765,7134,07/19/2021,3:02,43107,diners-club-enroute,Riffwire,New York City,New York,7842,NY
+69226300,2030,03/25/2022,1:26,27914,jcb,Jazzy,Washington,District of Columbia,3483,DC
+30307596,4405,06/04/2021,23:46,60281,mastercard,Feedbug,Dallas,Texas,8647,TX
+75586883,6268,09/09/2021,16:25,15968,switch,Feedfish,Sioux Falls,South Dakota,7550,SD
+54968956,3532,12/20/2021,4:36,38333,jcb,Kazio,Salt Lake City,Utah,4900,UT
+88773891,8466,07/12/2021,12:33,38408,visa-electron,Blogtag,Pittsburgh,Pennsylvania,5635,PA
+24169480,7100,02/17/2022,18:34,61458,jcb,Fliptune,Pompano Beach,Florida,4362,FL
+66324564,7561,10/14/2021,10:41,97083,switch,Oyonder,Abilene,Texas,8852,TX
+79506278,4670,12/19/2021,17:16,47560,jcb,Brainlounge,New York City,New York,7595,NY
+95897648,6150,10/10/2021,9:01,44683,jcb,Kazu,Augusta,Georgia,8146,GA
+90647302,6908,03/16/2022,2:57,41426,jcb,Skimia,Charleston,West Virginia,7911,WV
+48567773,9866,07/08/2021,21:49,98640,diners-club-enroute,Twinte,New Orleans,Louisiana,8332,LA
+90369554,3927,09/04/2021,10:01,96703,jcb,Shuffledrive,Fort Wayne,Indiana,7117,IN
+85182452,2961,07/23/2021,19:43,85786,jcb,Twitterbeat,Philadelphia,Pennsylvania,9652,PA
+44934236,2526,01/20/2022,22:52,67333,jcb,Devify,Madison,Wisconsin,5524,WI
+45514828,6091,07/11/2021,0:56,29447,switch,Devify,Savannah,Georgia,2278,GA
+84091531,8995,06/23/2021,19:33,74992,jcb,Twiyo,Baltimore,Maryland,7448,MD
+83230356,3133,08/07/2021,4:57,9886,china-unionpay,Minyx,Bryan,Texas,2663,TX
+23491590,3652,06/25/2021,0:57,84592,jcb,Flashspan,Merrifield,Virginia,6053,VA
+49708320,2940,05/02/2021,3:58,3605,jcb,Trudoo,Miami,Florida,9863,FL
+46615896,7991,09/15/2021,22:12,82113,bankcard,Mynte,Honolulu,Hawaii,8052,HI
+18725875,7694,09/28/2021,7:21,97337,americanexpress,Mybuzz,Washington,District of Columbia,3474,DC
+40253281,6933,09/02/2021,6:18,30000,jcb,Latz,Bridgeport,Connecticut,9667,CT
+87367554,3524,09/13/2021,0:01,29888,diners-club-international,Yakidoo,Oakland,California,5766,CA
+16962203,3803,04/28/2021,11:26,43068,jcb,Jetwire,Denton,Texas,7855,TX
+56971254,1752,06/27/2021,15:53,86331,mastercard,Yombu,Denver,Colorado,5703,CO
+27077583,5906,04/06/2022,20:36,70748,jcb,Yozio,Naples,Florida,3640,FL
+16472871,7021,09/12/2021,9:05,22116,jcb,Devbug,Albuquerque,New Mexico,4893,NM
+97710610,9571,08/29/2021,20:08,32564,jcb,Voomm,Hagerstown,Maryland,9012,MD
+38381162,5041,04/14/2021,10:11,63772,china-unionpay,Talane,New Orleans,Louisiana,6246,LA
+41255681,9451,02/14/2022,4:24,14945,visa,Mudo,Van Nuys,California,8922,CA
+78044480,2206,03/04/2022,21:44,7014,visa-electron,Wordware,Philadelphia,Pennsylvania,1214,PA
+84575129,9071,07/23/2021,2:05,2522,jcb,Voonix,Shawnee Mission,Kansas,6345,KS
+36992074,2711,02/07/2022,4:57,99906,laser,Edgeify,Pasadena,California,9910,CA
+48384565,1866,04/21/2021,22:51,52150,instapayment,BlogXS,Cincinnati,Ohio,7655,OH
+43693343,9926,08/01/2021,15:12,18562,visa-electron,Fatz,Memphis,Tennessee,9036,TN
+37855077,5529,06/25/2021,18:07,26895,diners-club-enroute,Ailane,Cincinnati,Ohio,6244,OH
+86598092,3716,01/22/2022,18:28,26171,jcb,Shuffledrive,Terre Haute,Indiana,5390,IN
+99530136,6090,01/31/2022,3:43,44866,jcb,Browsecat,Suffolk,Virginia,8991,VA
+21476230,4464,02/14/2022,19:44,34271,switch,Meetz,Tampa,Florida,1720,FL
+69216341,2971,07/11/2021,4:34,1972,jcb,Browsedrive,Amarillo,Texas,7213,TX
+54098386,7722,04/17/2021,19:43,47252,jcb,Tagpad,Johnstown,Pennsylvania,9552,PA
+47663871,7756,05/22/2021,17:44,73489,jcb,Agimba,Anchorage,Alaska,6048,AK
+81736309,9233,09/17/2021,12:17,63034,jcb,Avavee,Fort Wayne,Indiana,3265,IN
+91032593,8900,07/25/2021,18:36,19218,jcb,Kwimbee,Oklahoma City,Oklahoma,8917,OK
+55933053,4890,03/05/2022,3:24,96142,jcb,Babblestorm,Lafayette,Indiana,7288,IN
+95481912,5432,12/31/2021,5:38,51651,diners-club-carte-blanche,Twitternation,Las Vegas,Nevada,6376,NV
+18656016,1170,03/16/2022,2:51,28154,jcb,Skipfire,Washington,District of Columbia,5473,DC
+40984790,9108,09/08/2021,1:11,32392,mastercard,Skynoodle,Detroit,Michigan,6030,MI
+24657314,3124,05/07/2021,17:52,5476,diners-club-us-ca,Abata,Marietta,Georgia,3669,GA
+83484086,2148,09/22/2021,6:06,5747,visa,Skiba,El Paso,Texas,3659,TX
+34257307,3274,07/07/2021,0:49,53268,solo,Roomm,Cincinnati,Ohio,7443,OH
+83081569,6098,07/29/2021,21:03,44701,maestro,Zoozzy,Lincoln,Nebraska,5008,NE
+15622783,8535,11/15/2021,18:19,19189,jcb,Jabbertype,Albuquerque,New Mexico,2641,NM
+61177254,9876,10/18/2021,10:47,98349,visa-electron,Miboo,Reading,Pennsylvania,1784,PA
+87662377,1256,05/20/2021,7:23,76593,jcb,Tavu,Houston,Texas,9225,TX
+53268495,4121,08/16/2021,10:49,55794,switch,Thoughtmix,San Bernardino,California,6744,CA
+25526028,1213,10/20/2021,9:54,43473,mastercard,Latz,Columbus,Ohio,9010,OH
+63453874,1201,06/09/2021,2:03,13570,jcb,Youfeed,Miami,Florida,7616,FL
+13611422,8335,09/18/2021,8:35,33026,americanexpress,Twiyo,Phoenix,Arizona,3543,AZ
+33470230,1516,10/19/2021,12:58,1377,jcb,Skiptube,Washington,District of Columbia,4568,DC
+75022566,5536,01/19/2022,1:03,35984,switch,Edgeblab,San Jose,California,6772,CA
+55205783,4215,04/13/2021,10:42,43260,jcb,Gabtune,Anchorage,Alaska,6713,AK
+17877605,4765,04/27/2021,13:20,4259,jcb,Wordify,Hayward,California,6414,CA
+27697602,1957,12/14/2021,3:07,42112,bankcard,Twimm,Las Vegas,Nevada,7077,NV
+96887005,1770,12/05/2021,20:46,41469,maestro,Kare,Washington,District of Columbia,2196,DC
+78692002,7835,09/03/2021,5:18,51188,jcb,Blogtag,Tempe,Arizona,3232,AZ
+86651688,7419,07/10/2021,15:34,67169,laser,Edgeclub,Allentown,Pennsylvania,7510,PA
+81532538,7283,01/09/2022,5:52,67922,jcb,Riffwire,Indianapolis,Indiana,6276,IN
+95938389,4275,02/03/2022,13:42,20,china-unionpay,Wordify,Boca Raton,Florida,4802,FL
+24427732,8156,12/11/2021,4:52,93987,mastercard,Photofeed,Boise,Idaho,6874,ID
+21613968,2398,05/09/2021,15:06,11990,jcb,Fivechat,Reno,Nevada,5492,NV
+71040697,6811,01/28/2022,8:43,77964,jcb,Digitube,Virginia Beach,Virginia,3836,VA
+44048913,5361,10/12/2021,17:40,24971,maestro,Fivespan,Birmingham,Alabama,2865,AL
+99160018,3470,05/12/2021,22:16,3729,jcb,Kanoodle,Montpelier,Vermont,2665,VT
+68905790,1721,02/04/2022,1:23,80581,solo,Vimbo,Miami,Florida,7477,FL
+91728038,7407,05/07/2021,20:02,299,bankcard,Trudeo,Washington,District of Columbia,7482,DC
+38553001,9353,11/08/2021,18:09,9521,jcb,Shufflebeat,Odessa,Texas,1844,TX
+32751746,3047,05/06/2021,5:06,6033,jcb,Yotz,Billings,Montana,6491,MT
+22185583,5141,01/29/2022,4:19,38998,diners-club-enroute,Skynoodle,Boca Raton,Florida,9098,FL
+87872279,4933,05/17/2021,21:19,32528,diners-club-carte-blanche,Npath,Dallas,Texas,3498,TX
+98309443,8646,03/31/2022,8:28,56107,jcb,Yakijo,Portland,Oregon,7591,OR
+82394067,7629,09/04/2021,21:40,46954,jcb,Browsebug,Flint,Michigan,5113,MI
+16005073,8813,04/04/2022,4:20,21985,visa-electron,Browsebug,Fairbanks,Alaska,3343,AK
+34193258,1639,09/04/2021,14:36,29669,china-unionpay,Skinix,Longview,Texas,4794,TX
+66053177,6967,04/21/2021,14:15,44131,jcb,Topicstorm,Detroit,Michigan,5624,MI
+30845049,2961,12/03/2021,2:42,46531,diners-club-carte-blanche,Flipopia,Charlotte,North Carolina,9175,NC
+68333590,3858,03/14/2022,7:29,66200,visa,Quinu,Madison,Wisconsin,3619,WI
+69096421,8696,09/06/2021,22:17,18618,mastercard,Talane,Tulsa,Oklahoma,8164,OK
+44870341,6191,07/15/2021,22:55,30975,jcb,Plambee,San Antonio,Texas,2525,TX
+95738061,7574,01/21/2022,11:45,95729,jcb,Blognation,Sacramento,California,5368,CA
+25426877,9668,05/07/2021,14:44,97972,jcb,Thoughtmix,Scottsdale,Arizona,6583,AZ
+64552736,7050,01/23/2022,16:49,30298,jcb,Yambee,Roanoke,Virginia,7493,VA
+17578288,8871,08/01/2021,16:01,6163,jcb,Meeveo,Washington,District of Columbia,7118,DC
+30549818,4573,10/11/2021,5:57,90737,mastercard,Youtags,Washington,District of Columbia,9088,DC
+11281470,8309,10/01/2021,15:15,28775,diners-club-carte-blanche,Riffwire,Montgomery,Alabama,1742,AL
+29779181,1678,11/21/2021,4:54,93912,mastercard,Rhyzio,El Paso,Texas,8962,TX
+77034033,7791,08/13/2021,12:23,37082,maestro,Topicshots,Salt Lake City,Utah,1657,UT
+94069011,3697,05/11/2021,3:06,82823,jcb,Aibox,El Paso,Texas,9873,TX
+49157121,9373,03/02/2022,14:38,25369,maestro,Vitz,Charlotte,North Carolina,6404,NC
+13745297,1286,01/04/2022,11:28,81138,jcb,Twitterworks,Atlanta,Georgia,3271,GA
+25225977,3711,07/11/2021,19:13,62959,jcb,Flashset,Omaha,Nebraska,1557,NE
+43972320,4373,09/18/2021,19:53,25456,jcb,Skyvu,Philadelphia,Pennsylvania,3269,PA
+45854354,7161,04/24/2021,1:52,59212,diners-club-enroute,Divape,Hartford,Connecticut,9015,CT
+89987105,1933,01/01/2022,9:19,93498,visa-electron,Realbuzz,Jackson,Mississippi,4665,MS
+82616809,9655,04/11/2021,8:29,68419,americanexpress,Flipbug,Minneapolis,Minnesota,7780,MN
+30136202,3833,05/14/2021,16:12,75860,americanexpress,Jatri,New York City,New York,7938,NY
+74237669,9372,07/01/2021,7:24,23527,americanexpress,Twimm,Washington,District of Columbia,6195,DC
+86438773,5669,04/21/2021,16:28,35472,americanexpress,Photolist,Jacksonville,Florida,8155,FL
+67189475,7169,11/28/2021,18:24,30971,jcb,Chatterpoint,Cincinnati,Ohio,7889,OH
+75849520,3129,05/09/2021,19:58,25149,mastercard,Livetube,Prescott,Arizona,8855,AZ
+76155182,3131,06/27/2021,6:33,83605,jcb,Feedbug,Aurora,Colorado,9203,CO
+35322680,5391,05/05/2021,15:24,93584,jcb,Realcube,Amarillo,Texas,5343,TX
+79079927,9844,10/28/2021,16:04,66170,visa,Vinte,Fort Lauderdale,Florida,9230,FL
+22660965,5624,12/12/2021,15:02,4877,diners-club-international,Avavee,Miami,Florida,2602,FL
+43945725,1391,05/24/2021,10:57,45593,jcb,Aimbu,Jackson,Mississippi,8414,MS
+35965194,6385,12/03/2021,7:49,13039,jcb,Riffwire,Trenton,New Jersey,9913,NJ
+28611082,1901,01/26/2022,1:57,97922,mastercard,Layo,Cincinnati,Ohio,3683,OH
+99479096,7843,02/01/2022,4:41,42729,solo,Yamia,Washington,District of Columbia,8575,DC
+86565659,8379,09/04/2021,3:59,23458,visa-electron,Browsebug,Hamilton,Ohio,6273,OH
+26334367,9464,03/08/2022,21:31,35267,diners-club-enroute,Mita,New York City,New York,4563,NY
+52432841,9225,12/19/2021,3:45,77833,maestro,Quatz,Alexandria,Louisiana,6766,LA
+85378322,9483,09/07/2021,18:21,11901,bankcard,Devify,Madison,Wisconsin,9288,WI
+54584668,6594,11/22/2021,5:13,95853,jcb,Bluejam,Hot Springs National Park,Arkansas,8701,AR
+29466082,5949,05/08/2021,14:09,78080,mastercard,Skipfire,Orlando,Florida,5379,FL
+38453536,3674,05/10/2021,22:32,42920,solo,Zoombeat,New Haven,Connecticut,6782,CT
+30188390,4480,12/03/2021,4:36,41696,jcb,Twitterwire,Watertown,Massachusetts,6781,MA
+44550266,5231,09/30/2021,19:47,83319,diners-club-carte-blanche,Youspan,Austin,Texas,8500,TX
+87274020,9277,12/27/2021,16:32,53179,americanexpress,Zoomcast,Springfield,Illinois,1401,IL
+33879883,2531,04/29/2021,2:31,72769,mastercard,Yodo,Omaha,Nebraska,8825,NE
+92297719,6048,09/30/2021,15:09,74721,jcb,Tekfly,Inglewood,California,4973,CA
+29168846,6180,12/08/2021,20:27,52828,americanexpress,Jetwire,Washington,District of Columbia,3557,DC
+69374521,5449,11/30/2021,1:47,55587,jcb,Meevee,North Las Vegas,Nevada,6826,NV
+89913676,2957,03/16/2022,0:11,43622,jcb,Tambee,Phoenix,Arizona,1818,AZ
+97907207,5595,01/14/2022,8:58,96786,americanexpress,Shuffletag,San Diego,California,6366,CA
+97962165,9808,07/14/2021,19:19,30600,americanexpress,Shufflester,Peoria,Illinois,7308,IL
+55018527,7019,10/19/2021,11:52,78786,jcb,Topdrive,Schenectady,New York,8593,NY
+95463597,4958,01/30/2022,20:43,66366,jcb,Yozio,El Paso,Texas,2132,TX
+22434055,5188,03/26/2022,8:06,76953,jcb,Dablist,Stamford,Connecticut,1910,CT
+92885520,6771,02/11/2022,16:23,37291,jcb,Edgeify,Saint Augustine,Florida,7233,FL
+80979591,2463,11/18/2021,7:09,20099,jcb,Blogspan,Tuscaloosa,Alabama,8874,AL
+28361478,6251,11/27/2021,18:04,12891,jcb,LiveZ,Roanoke,Virginia,1618,VA
+83100841,6182,06/05/2021,18:10,30536,diners-club-enroute,Camido,Sterling,Virginia,5392,VA
+38157714,7682,01/24/2022,0:08,82534,jcb,Podcat,Miami,Florida,9344,FL
+11525878,2001,03/23/2022,7:59,26828,jcb,Skidoo,Newark,Delaware,8027,DE
+49621714,2891,04/13/2021,4:02,39810,china-unionpay,Brightbean,Rochester,New York,7364,NY
+17543762,2558,08/23/2021,10:50,49677,jcb,Brainsphere,Dayton,Ohio,3695,OH
+83449905,3098,10/12/2021,3:10,67180,mastercard,Yakitri,Des Moines,Iowa,7675,IA
+63351321,2161,09/06/2021,19:03,10502,china-unionpay,Avamm,Washington,District of Columbia,2951,DC
+31989608,4394,04/06/2022,17:10,43541,americanexpress,Eamia,Harrisburg,Pennsylvania,2731,PA
+73477208,1398,11/01/2021,21:33,92,maestro,Brainbox,Washington,District of Columbia,6506,DC
+84195313,4761,04/11/2021,22:40,68400,bankcard,Twitternation,Washington,District of Columbia,1460,DC
+59662777,2626,04/28/2021,18:38,10781,china-unionpay,Youopia,Dallas,Texas,6573,TX
+72489244,8837,11/11/2021,0:56,4560,jcb,Buzzdog,Rochester,New York,9374,NY
+37055183,3549,09/09/2021,10:18,38754,jcb,Jabbersphere,Ashburn,Virginia,9210,VA
+49555731,5618,01/23/2022,14:07,1933,bankcard,Aimbu,Dallas,Texas,3930,TX
+74973452,5432,05/19/2021,2:42,10512,jcb,Trilith,Lancaster,Pennsylvania,6632,PA
+80272133,1919,05/17/2021,22:35,49433,jcb,Meeveo,Kent,Washington,1656,WA
+28448316,2953,02/20/2022,10:00,34762,americanexpress,Skilith,Topeka,Kansas,4908,KS
+18974764,2532,05/24/2021,4:22,36330,switch,Digitube,Wichita,Kansas,4703,KS
+11927599,4186,02/14/2022,0:55,38585,mastercard,Yodel,Atlanta,Georgia,8292,GA
+24147675,9733,12/05/2021,9:01,69121,jcb,Brainverse,Long Beach,California,7041,CA
+30924853,4819,02/18/2022,0:51,49529,mastercard,Shufflester,Sioux Falls,South Dakota,2152,SD
+14799058,5788,04/26/2021,19:59,78070,jcb,Flipbug,San Francisco,California,4891,CA
+29497220,7791,10/29/2021,3:18,40872,maestro,Jazzy,Kansas City,Missouri,7147,MO
+85936052,6887,12/16/2021,16:11,94652,bankcard,Realcube,Bozeman,Montana,2818,MT
+83432676,2355,09/05/2021,19:35,45752,jcb,Thoughtstorm,Washington,District of Columbia,2489,DC
+16254792,9026,05/10/2021,6:25,24336,diners-club-international,Jabberstorm,Fort Worth,Texas,4674,TX
+78807367,8351,03/03/2022,12:15,20190,laser,Latz,Richmond,Virginia,9853,VA
+85395909,8727,11/24/2021,18:10,40413,diners-club-carte-blanche,Npath,San Diego,California,6863,CA
+68339571,3276,04/17/2021,13:01,61523,americanexpress,Brainverse,Sacramento,California,4723,CA
+12562370,1947,09/21/2021,2:50,68373,maestro,Lajo,Atlanta,Georgia,2482,GA
+59518711,2280,04/02/2022,3:47,24554,instapayment,Oozz,Huntsville,Alabama,7186,AL
+16875816,9413,08/07/2021,13:49,95917,maestro,Viva,Washington,District of Columbia,6648,DC
+86576404,8680,04/20/2021,23:39,89787,jcb,Browsecat,Sterling,Virginia,5315,VA
+26835147,6515,04/28/2021,13:07,7763,visa-electron,Lajo,Charleston,West Virginia,6645,WV
+32831741,2688,01/27/2022,0:29,68746,china-unionpay,Voomm,Aurora,Colorado,7829,CO
+54564580,5311,03/09/2022,14:39,43688,jcb,Vipe,New York City,New York,1545,NY
+20660228,5851,02/16/2022,21:13,65125,jcb,Centimia,Detroit,Michigan,8776,MI
+41560523,8881,12/17/2021,21:01,58721,jcb,Youtags,Indianapolis,Indiana,7709,IN
+93743691,3940,12/12/2021,22:26,84615,switch,Snaptags,Minneapolis,Minnesota,2327,MN
+37022901,6845,12/31/2021,9:24,26608,china-unionpay,Feedfish,Phoenix,Arizona,9641,AZ
+39899336,3855,01/08/2022,3:15,58343,china-unionpay,Teklist,Olympia,Washington,2635,WA
+13466666,4147,08/10/2021,17:58,78476,jcb,Vitz,Saint Louis,Missouri,5649,MO
+69094014,3722,02/07/2022,17:18,18118,maestro,Thoughtbeat,Detroit,Michigan,1651,MI
+23791058,8532,03/31/2022,2:48,86580,bankcard,Quimba,Amarillo,Texas,2121,TX
+90645953,1794,01/22/2022,16:18,52442,jcb,Meejo,Spokane,Washington,4840,WA
+68689422,9448,10/16/2021,21:20,26251,americanexpress,Cogilith,Huntington,West Virginia,7777,WV
+68729135,8259,01/22/2022,10:27,2295,americanexpress,Skibox,Philadelphia,Pennsylvania,8478,PA
+34785019,3812,03/12/2022,11:45,46671,jcb,Kwilith,Lake Charles,Louisiana,6794,LA
+19352378,8447,03/27/2022,0:27,62641,diners-club-carte-blanche,Pixonyx,Raleigh,North Carolina,7848,NC
+19225906,6147,05/10/2021,5:39,37954,diners-club-enroute,Vimbo,Los Angeles,California,3713,CA
+29932324,7450,07/23/2021,14:17,78063,jcb,Jaxworks,Humble,Texas,9851,TX
+76378201,2073,12/02/2021,13:09,60671,instapayment,Zoomcast,Columbus,Ohio,3405,OH
+99257101,4975,11/25/2021,19:21,10278,jcb,Photospace,Des Moines,Iowa,4805,IA
+66925499,4777,12/03/2021,18:47,60530,diners-club-enroute,Wikido,Seattle,Washington,8855,WA
+56942919,9414,09/15/2021,7:56,29431,jcb,Flashspan,Charlotte,North Carolina,4226,NC
+96874960,5597,06/16/2021,10:41,58581,jcb,Latz,Las Vegas,Nevada,9749,NV
+62291402,9346,05/06/2021,10:14,90501,mastercard,Skyble,El Paso,Texas,1796,TX
+23412260,4303,09/19/2021,17:43,10455,jcb,Roomm,West Palm Beach,Florida,9794,FL
+47008895,4151,01/05/2022,19:59,49701,maestro,Geba,Escondido,California,7141,CA
+77407401,7417,05/24/2021,11:49,60890,jcb,Browsebug,Dallas,Texas,5114,TX
+57772183,5585,06/02/2021,15:50,3856,jcb,Livetube,El Paso,Texas,9219,TX
+67695106,5165,06/03/2021,9:45,97045,maestro,Photobug,Waterbury,Connecticut,8327,CT
+63893853,7421,06/24/2021,3:57,42037,jcb,Babblestorm,Columbus,Ohio,9239,OH
+24428753,5688,06/23/2021,20:53,75491,china-unionpay,Oloo,Johnson City,Tennessee,4476,TN
+22352728,7838,03/22/2022,20:41,90874,mastercard,Kwideo,Fort Worth,Texas,5356,TX
+20015967,3721,10/17/2021,7:31,999,jcb,Quimm,Wilmington,North Carolina,6112,NC
+24679103,4972,01/26/2022,8:16,7166,maestro,Mudo,Boise,Idaho,9200,ID
+30269259,4893,03/29/2022,8:37,78357,jcb,Agivu,Jackson,Mississippi,8853,MS
+77227239,5832,01/13/2022,9:48,49518,jcb,Zoonoodle,Salt Lake City,Utah,6721,UT
+95880493,9274,09/05/2021,11:18,11834,americanexpress,Eimbee,Orange,California,9359,CA
+96962542,9557,02/20/2022,4:24,84012,bankcard,Yozio,Fresno,California,3094,CA
+82347409,4699,09/19/2021,18:35,48083,jcb,Livetube,Cincinnati,Ohio,5281,OH
+29683842,3768,04/06/2022,10:24,96265,jcb,Youopia,Houston,Texas,7223,TX
+16248933,2810,05/31/2021,16:23,68310,jcb,Skyndu,Winston Salem,North Carolina,2408,NC
+65016646,2005,08/16/2021,12:08,15969,jcb,Fatz,Akron,Ohio,5282,OH
+43096974,5760,02/13/2022,14:34,59889,americanexpress,Yamia,Detroit,Michigan,9231,MI
+89221161,2522,04/24/2021,20:11,31571,china-unionpay,Innojam,Largo,Florida,1221,FL
+50210323,1397,05/10/2021,19:46,77148,mastercard,Divavu,Seattle,Washington,9141,WA
+96758561,8737,02/25/2022,21:56,72360,jcb,Skibox,San Jose,California,9598,CA
+59606926,8390,02/15/2022,9:10,65249,jcb,Edgetag,Dayton,Ohio,3181,OH
+97538516,8775,11/17/2021,4:18,97694,jcb,Flipstorm,Boston,Massachusetts,2191,MA
+41189460,3717,07/02/2021,17:46,4720,jcb,Roombo,Los Angeles,California,3476,CA
+54025011,2510,11/30/2021,10:03,72957,visa-electron,Trilia,Charlotte,North Carolina,3251,NC
+98757598,1260,08/06/2021,5:16,49173,mastercard,Kanoodle,Buffalo,New York,6905,NY
+70618854,9999,07/14/2021,23:55,96674,jcb,Rooxo,Glendale,California,3520,CA
+78491437,7614,11/30/2021,23:57,71037,instapayment,Omba,Los Angeles,California,1764,CA
+50632611,2307,06/13/2021,23:56,75447,jcb,BlogXS,Fayetteville,North Carolina,9833,NC
+83967175,4309,08/31/2021,19:51,67160,mastercard,Kare,Montgomery,Alabama,3955,AL
+49455473,9806,08/15/2021,22:32,33742,jcb,Skyndu,Little Rock,Arkansas,1672,AR
+27407590,7755,04/15/2021,9:07,98579,jcb,Feedfire,Fayetteville,North Carolina,9704,NC
+49400400,1832,03/26/2022,1:54,32696,jcb,Rhybox,Boise,Idaho,2766,ID
+22934648,2736,12/26/2021,11:12,73043,jcb,Photospace,Roanoke,Virginia,7765,VA
+19893638,6542,08/26/2021,7:44,2458,maestro,Fiveclub,Portland,Oregon,3916,OR
+46435454,8981,10/27/2021,2:15,51442,visa-electron,Thoughtworks,Moreno Valley,California,5188,CA
+22604749,2321,07/05/2021,18:33,51056,switch,Topiclounge,Washington,District of Columbia,1444,DC
+13866470,8955,02/03/2022,4:11,99436,americanexpress,Edgewire,Naples,Florida,3929,FL
+21235912,9805,03/06/2022,9:34,57300,mastercard,Thoughtsphere,Sioux Falls,South Dakota,7110,SD
+44238396,2368,06/18/2021,14:51,67963,mastercard,Yozio,Akron,Ohio,2328,OH
+93870188,7741,01/03/2022,19:33,18874,diners-club-carte-blanche,Tagcat,Olympia,Washington,3172,WA
+95504172,3938,06/04/2021,5:06,39727,jcb,Twinder,White Plains,New York,7816,NY
+35148531,6452,05/13/2021,9:25,20454,maestro,Vinte,Birmingham,Alabama,6709,AL
+73040384,6552,04/05/2022,10:28,733,jcb,Reallinks,White Plains,New York,8497,NY
+59802547,8975,10/28/2021,14:21,74924,visa-electron,Yacero,Amarillo,Texas,9401,TX
+43212191,2444,11/08/2021,3:19,39487,jcb,Kimia,Topeka,Kansas,7522,KS
+14631955,4856,09/11/2021,16:57,71735,switch,Meemm,Woburn,Massachusetts,2475,MA
+43557821,3270,04/08/2021,9:25,44004,diners-club-enroute,Wikido,Salt Lake City,Utah,9159,UT
+80758324,1194,10/09/2021,0:39,22066,visa-electron,Rhycero,Vero Beach,Florida,2829,FL
+12491408,4740,03/10/2022,12:16,72340,jcb,Zoovu,Greensboro,North Carolina,7914,NC
+15885052,9222,04/05/2022,0:34,13352,mastercard,Flashspan,Warren,Michigan,7109,MI
+12667063,1146,06/24/2021,4:49,20471,visa,Eadel,Yonkers,New York,6819,NY
+78760520,4665,11/04/2021,17:55,98986,jcb,Thoughtblab,Richmond,Virginia,7917,VA
+36679092,2200,08/01/2021,0:52,38580,maestro,Tazzy,Tucson,Arizona,3905,AZ
+75709410,5999,04/06/2022,9:26,70688,jcb,Flipstorm,Los Angeles,California,1920,CA
+98583813,3730,12/07/2021,7:13,53375,jcb,Skippad,Washington,District of Columbia,9560,DC
+58976051,6337,06/04/2021,6:56,23516,jcb,Yodel,Madison,Wisconsin,7805,WI
+26955537,3884,06/07/2021,13:18,25072,jcb,Photobean,Houston,Texas,9887,TX
+90276956,1941,11/13/2021,20:01,12831,switch,Realbridge,Whittier,California,2833,CA
+34383651,8223,05/17/2021,9:37,89945,jcb,Photojam,Saint Paul,Minnesota,6219,MN
+23911247,5666,07/17/2021,19:42,68196,jcb,Brainbox,Lincoln,Nebraska,3386,NE
+57333461,6963,05/25/2021,0:02,30844,jcb,Dazzlesphere,Richmond,Virginia,5212,VA
+51017634,2195,04/15/2021,0:26,90302,maestro,Kwimbee,Albuquerque,New Mexico,3512,NM
+83923808,7979,02/13/2022,14:42,45117,jcb,Blogspan,New Orleans,Louisiana,2961,LA
+20393963,8171,05/20/2021,14:16,68590,jcb,LiveZ,Charleston,West Virginia,2219,WV
+77548680,2625,03/01/2022,13:13,53296,diners-club-carte-blanche,Youtags,Kansas City,Missouri,1593,MO
+51316702,5091,12/08/2021,20:51,49094,jcb,Twitterworks,San Bernardino,California,5916,CA
+27525256,9626,02/25/2022,9:18,90777,bankcard,Yodel,Arlington,Texas,2729,TX
+87239794,3912,10/08/2021,4:16,77060,jcb,Tambee,Joliet,Illinois,3559,IL
+73498984,2124,11/18/2021,0:24,97511,jcb,Eare,Colorado Springs,Colorado,2908,CO
+58551892,7026,04/29/2021,11:24,89975,visa-electron,Vipe,Tulsa,Oklahoma,5336,OK
+55051901,2006,12/04/2021,9:27,16959,americanexpress,Meevee,Davenport,Iowa,3837,IA
+75115729,2992,07/18/2021,5:44,70819,jcb,Flashdog,Washington,District of Columbia,7989,DC
+99098108,8180,10/04/2021,21:20,61064,jcb,Meemm,Charleston,West Virginia,8916,WV
+72057867,4555,01/01/2022,15:14,54187,jcb,Npath,Chicago,Illinois,6457,IL
+91454673,9601,09/15/2021,1:07,25696,bankcard,Oyoyo,Phoenix,Arizona,4290,AZ
+42450668,2969,04/08/2021,10:55,94300,china-unionpay,Mita,Camden,New Jersey,2690,NJ
+91703809,9636,02/23/2022,8:19,63275,americanexpress,Cogilith,Youngstown,Ohio,8671,OH
+37727086,7497,01/25/2022,7:08,23188,bankcard,Flipstorm,Knoxville,Tennessee,7425,TN
+65198048,9967,05/18/2021,11:25,44491,jcb,Flashdog,Ogden,Utah,7845,UT
+23055620,6466,12/07/2021,7:11,53708,mastercard,Ntags,Louisville,Kentucky,1968,KY
+78915817,9475,11/26/2021,23:11,90025,jcb,Agivu,Cleveland,Ohio,4472,OH
+24013270,4426,01/19/2022,8:03,10163,mastercard,Digitube,Madison,Wisconsin,9215,WI
+20000948,8048,10/03/2021,7:29,93450,jcb,Pixonyx,Anaheim,California,5568,CA
+55269175,6001,08/20/2021,10:47,23729,maestro,Avamba,Carson City,Nevada,1516,NV
+91901476,9481,03/18/2022,1:57,59008,laser,Jabbersphere,Erie,Pennsylvania,8572,PA
+82926436,9508,01/12/2022,10:24,90637,maestro,Avavee,Fresno,California,3185,CA
+69495267,4800,03/01/2022,3:56,65994,visa-electron,Thoughtworks,Richmond,Virginia,3395,VA
+15242246,3023,12/13/2021,17:56,45725,jcb,Jaxspan,New Haven,Connecticut,4371,CT
+32547979,7298,11/08/2021,18:47,64075,jcb,Fiveclub,Birmingham,Alabama,5600,AL
+94532172,2158,05/05/2021,4:58,49075,americanexpress,Feednation,Roanoke,Virginia,1887,VA
+70436857,4568,03/20/2022,18:32,93421,jcb,Wordify,El Paso,Texas,3640,TX
+22849400,8644,05/14/2021,23:48,27622,jcb,Twimm,Pueblo,Colorado,1147,CO
+52703098,6367,04/12/2021,20:53,24010,jcb,Kare,Biloxi,Mississippi,1606,MS
+52691289,7101,09/20/2021,18:04,57097,jcb,Leenti,San Francisco,California,9511,CA
+27243522,8450,04/04/2022,18:42,34538,mastercard,Lazz,Indianapolis,Indiana,3972,IN
+60643955,9200,04/29/2021,8:55,82540,jcb,Avavee,Odessa,Texas,8198,TX
+28343487,7295,04/10/2021,5:11,40250,jcb,Tagtune,Morgantown,West Virginia,8728,WV
+24451064,1590,11/21/2021,20:33,54640,visa-electron,Omba,Bellevue,Washington,8120,WA
+41599190,7085,11/01/2021,12:43,82444,diners-club-carte-blanche,Quatz,Pueblo,Colorado,2086,CO
+29053670,9961,07/08/2021,7:33,51758,bankcard,Zooveo,Tampa,Florida,6800,FL
+55635973,6254,07/12/2021,7:38,95238,diners-club-enroute,Topicshots,New Orleans,Louisiana,9063,LA
+27444124,1324,08/20/2021,14:19,91025,jcb,Skimia,Hartford,Connecticut,8871,CT
+31692965,5860,11/11/2021,7:28,7454,diners-club-us-ca,Jaloo,Corona,California,4553,CA
+86299963,5364,07/29/2021,18:58,50032,jcb,Mynte,Anchorage,Alaska,7196,AK
+59106820,7972,03/10/2022,3:54,18171,jcb,Twitterbeat,Reno,Nevada,7866,NV
+49731819,7188,11/10/2021,15:24,99847,mastercard,Yambee,Van Nuys,California,2198,CA
+90324643,1734,02/20/2022,23:11,69371,jcb,Devcast,Amarillo,Texas,8437,TX
+31675312,4459,09/17/2021,1:57,7275,jcb,Tambee,Miami,Florida,9098,FL
+18801820,4810,03/04/2022,22:41,37746,jcb,Quimm,New York City,New York,8910,NY
+57622598,1902,03/29/2022,10:30,74366,jcb,Dabshots,Dallas,Texas,6173,TX
+35002045,9752,09/30/2021,17:57,27574,visa-electron,Eazzy,Washington,District of Columbia,9760,DC
+54002070,3441,03/05/2022,21:47,22941,switch,Pixonyx,Reading,Pennsylvania,4982,PA
+32422975,5029,01/24/2022,6:45,30193,diners-club-carte-blanche,Eamia,Sacramento,California,1665,CA
+33195071,4296,06/02/2021,2:44,83048,maestro,Devpoint,Dallas,Texas,1231,TX
+88935050,9098,01/04/2022,19:31,39289,jcb,Bubblebox,Riverside,California,2810,CA
+77541401,5308,04/27/2021,8:23,17551,china-unionpay,Dabfeed,West Palm Beach,Florida,8989,FL
+23795076,7233,01/21/2022,10:37,73612,jcb,Eire,Cincinnati,Ohio,9588,OH
+85468501,4526,09/09/2021,16:17,28066,jcb,Realblab,North Las Vegas,Nevada,3215,NV
+52760173,5451,07/15/2021,1:50,63687,maestro,Meejo,San Diego,California,8152,CA
+46425006,7833,02/28/2022,5:00,95973,mastercard,Roomm,Seattle,Washington,7066,WA
+79560705,2707,05/31/2021,15:38,40053,visa-electron,Flipopia,New York City,New York,8731,NY
+16331622,1962,06/22/2021,20:08,24319,maestro,Edgeclub,Los Angeles,California,7071,CA
+75693887,1249,06/21/2021,10:27,3777,jcb,Aibox,Madison,Wisconsin,4155,WI
+71636975,5238,08/02/2021,13:26,360,mastercard,Innotype,Roanoke,Virginia,8635,VA
+82372959,7669,05/25/2021,7:29,5396,laser,Katz,Brockton,Massachusetts,9724,MA
+22139654,9836,01/27/2022,5:11,53205,jcb,Zoomzone,Whittier,California,2938,CA
+26917920,6991,04/07/2021,21:04,44755,solo,Wikido,Boise,Idaho,5017,ID
+68229128,8337,07/23/2021,13:36,7025,jcb,Topicshots,Tampa,Florida,9021,FL
+61987234,8119,03/04/2022,18:42,21227,jcb,Twitterlist,Buffalo,New York,4726,NY
+30360696,4965,02/09/2022,6:54,43093,china-unionpay,Dabshots,Olympia,Washington,5096,WA
+45049990,1472,02/08/2022,0:31,31276,maestro,Babbleblab,Minneapolis,Minnesota,4140,MN
+47622143,5083,11/24/2021,5:29,13008,mastercard,Talane,Fort Lauderdale,Florida,2890,FL
+21119094,4695,08/05/2021,4:04,54966,jcb,Trudeo,New York City,New York,5883,NY
+52655712,7722,06/22/2021,1:57,96384,china-unionpay,Centizu,Tampa,Florida,6929,FL
+77485236,4518,04/08/2021,12:08,16476,switch,Voomm,Dallas,Texas,9539,TX
+93392977,3291,03/27/2022,1:42,99090,mastercard,Talane,Tampa,Florida,3863,FL
+53968186,7832,09/07/2021,4:00,796,bankcard,Yamia,Jacksonville,Florida,8656,FL
+83907917,2166,03/27/2022,17:01,15705,mastercard,Riffwire,Tucson,Arizona,9812,AZ
+55970888,6404,02/25/2022,3:00,93835,jcb,Zooxo,Phoenix,Arizona,4025,AZ
+58011800,4582,10/06/2021,18:30,88397,jcb,Livepath,Honolulu,Hawaii,6678,HI
+45267920,7416,10/07/2021,20:08,10620,china-unionpay,Voonyx,San Francisco,California,9947,CA
+62781544,8352,08/04/2021,10:42,57025,maestro,Tavu,Clearwater,Florida,1893,FL
+15724139,6375,06/14/2021,4:50,41636,jcb,Rhycero,Buffalo,New York,5099,NY
+45100939,6883,01/28/2022,21:20,58793,mastercard,Jaxspan,Atlanta,Georgia,7886,GA
+12811257,9548,07/22/2021,13:35,93806,jcb,Yamia,Miami,Florida,2439,FL
+96489301,7678,02/26/2022,5:59,55210,mastercard,Topiclounge,Houston,Texas,3570,TX
+63254410,5486,10/17/2021,10:11,49424,jcb,Meemm,Kansas City,Missouri,7582,MO
+13182881,6564,03/26/2022,6:51,93909,jcb,Twiyo,Van Nuys,California,9212,CA
+42868956,5615,03/02/2022,16:42,31062,jcb,Browseblab,Chula Vista,California,8820,CA
+52052872,5803,08/04/2021,11:56,84478,jcb,Janyx,Columbia,South Carolina,5120,SC
+84711512,1940,01/17/2022,9:08,90039,instapayment,Browseblab,Fort Lauderdale,Florida,2434,FL
+26167204,5447,08/28/2021,1:50,30952,switch,Yotz,Tacoma,Washington,9418,WA
+37272843,3499,03/10/2022,3:15,35910,mastercard,Oyoloo,Oklahoma City,Oklahoma,4394,OK
+92709416,4050,06/29/2021,20:36,12127,mastercard,Realcube,Garden Grove,California,4685,CA
+84372094,6347,02/12/2022,8:09,98784,china-unionpay,Livefish,Mobile,Alabama,3806,AL
+81815153,6506,04/18/2021,17:15,76249,mastercard,Livefish,Washington,District of Columbia,7037,DC
+92365584,1189,05/24/2021,8:38,89304,visa-electron,Nlounge,Provo,Utah,5594,UT
+88096628,5718,03/01/2022,3:22,9605,jcb,Kimia,Toledo,Ohio,4351,OH
+61809489,7378,05/08/2021,21:26,3380,mastercard,Avamba,Cincinnati,Ohio,8947,OH
+90083170,4350,01/27/2022,20:47,99661,jcb,Babblestorm,Cleveland,Ohio,3574,OH
+21695520,6760,02/23/2022,12:31,24161,jcb,Buzzshare,Tallahassee,Florida,9179,FL
+85875769,9546,03/23/2022,23:09,2748,china-unionpay,Twitterworks,Houston,Texas,7398,TX
+94198346,1196,01/13/2022,6:53,92375,jcb,Twitternation,Glendale,Arizona,3094,AZ
+24786395,6791,07/09/2021,23:55,7708,visa,Buzzbean,Indianapolis,Indiana,4507,IN
+38187259,5615,11/18/2021,13:56,90302,maestro,Skynoodle,Pasadena,California,7476,CA
+20003472,2782,09/21/2021,12:45,10491,maestro,Kwinu,Orlando,Florida,4844,FL
+12809366,1436,11/05/2021,10:35,77631,china-unionpay,Jaxnation,Philadelphia,Pennsylvania,8576,PA
+53067331,6269,11/22/2021,1:58,45622,jcb,Midel,Joliet,Illinois,3523,IL
+42112918,6556,03/16/2022,23:46,27760,jcb,Meeveo,Johnstown,Pennsylvania,5963,PA
+73335283,6777,09/22/2021,23:31,79672,maestro,Agimba,Buffalo,New York,8983,NY
+59937945,5553,12/18/2021,22:21,51381,switch,Einti,Omaha,Nebraska,3097,NE
+55320526,8777,12/07/2021,14:52,82951,jcb,Edgepulse,Buffalo,New York,4733,NY
+70583283,9165,09/06/2021,17:10,60956,maestro,Cogibox,New Bedford,Massachusetts,8038,MA
+11917798,1961,05/09/2021,20:00,85593,visa-electron,Devpulse,Duluth,Georgia,1682,GA
+18168750,4004,08/16/2021,23:22,55525,diners-club-enroute,Oyoyo,Boynton Beach,Florida,9534,FL
+20992053,9788,08/21/2021,13:09,48447,jcb,Yadel,Long Beach,California,5525,CA
+35988777,2212,10/04/2021,23:03,59831,diners-club-enroute,Divape,Miami,Florida,8685,FL
+92947110,9235,07/16/2021,18:26,77256,jcb,Meeveo,Toledo,Ohio,6204,OH
+17565731,3262,12/12/2021,13:35,94835,jcb,Tanoodle,Santa Barbara,California,9425,CA
+99756334,9687,11/04/2021,6:42,68465,laser,Tavu,Anderson,South Carolina,5976,SC
+43084758,5523,02/04/2022,6:40,725,jcb,Yakidoo,Tacoma,Washington,1818,WA
+17709013,8009,09/13/2021,22:17,92353,jcb,Jaxworks,Tacoma,Washington,3836,WA
+17026164,5720,02/06/2022,3:40,5850,jcb,Vidoo,Tacoma,Washington,3759,WA
+20813484,1807,03/11/2022,8:40,4872,jcb,Realbuzz,Gainesville,Florida,9079,FL
+76378088,2537,12/20/2021,17:04,39493,jcb,Yodel,Rochester,New York,5762,NY
+55287466,3979,05/11/2021,17:59,30610,jcb,Npath,Greensboro,North Carolina,3576,NC
+16030216,8733,12/23/2021,1:17,51236,visa,Bubblemix,Mesa,Arizona,1891,AZ
+62461071,4388,03/31/2022,20:36,8738,switch,Midel,West Hartford,Connecticut,1768,CT
+12914196,8361,06/30/2021,0:34,96381,switch,Kwinu,San Antonio,Texas,5465,TX
+33006242,9441,10/06/2021,8:18,2210,laser,Browsetype,Boulder,Colorado,2551,CO
+71808261,4213,09/23/2021,10:10,41218,diners-club-enroute,Trilia,Oklahoma City,Oklahoma,4964,OK
+98117295,8333,08/26/2021,10:30,64734,jcb,Ntags,Fort Lauderdale,Florida,4374,FL
+82554288,4455,09/02/2021,18:47,54176,diners-club-carte-blanche,Leexo,Hicksville,New York,3579,NY
+38584982,2306,05/28/2021,16:56,9996,switch,Ntag,Newark,New Jersey,4018,NJ
+18709096,8167,08/22/2021,21:31,34608,jcb,Kazu,Orlando,Florida,5883,FL
+70913363,8384,01/06/2022,12:56,56784,jcb,Camido,Sioux Falls,South Dakota,2600,SD
+42273327,6842,07/14/2021,7:38,46934,switch,Feedbug,Albuquerque,New Mexico,3169,NM
+56372177,3193,05/23/2021,7:36,79365,jcb,Voolia,Tucson,Arizona,5334,AZ
+95765394,4984,07/31/2021,6:27,5143,laser,Thoughtmix,Chico,California,8380,CA
+71889166,7775,03/12/2022,0:01,78388,jcb,Yakidoo,Houston,Texas,5631,TX
+47710730,6359,08/21/2021,18:22,14932,jcb,Avamba,Vancouver,Washington,6131,WA
+71886599,5401,11/27/2021,9:31,15799,jcb,Abatz,Fairbanks,Alaska,6606,AK
+26959133,5116,04/15/2021,21:21,93616,mastercard,Dabvine,Orlando,Florida,1487,FL
+69031183,4595,08/25/2021,4:30,13017,jcb,Fanoodle,Fort Lauderdale,Florida,9377,FL
+74009209,7665,01/04/2022,22:51,58393,maestro,Jabberbean,Wilkes Barre,Pennsylvania,7365,PA
+29654502,4223,08/26/2021,4:43,79017,jcb,Tambee,Baltimore,Maryland,2827,MD
+32726204,9994,10/05/2021,4:19,17480,diners-club-carte-blanche,Kwinu,New Orleans,Louisiana,4682,LA
+48567833,5078,08/02/2021,7:00,32896,jcb,Divavu,Louisville,Kentucky,7916,KY
+89783074,2544,05/04/2021,15:29,48997,jcb,Youspan,Honolulu,Hawaii,2118,HI
+37505392,8101,10/26/2021,2:54,98647,china-unionpay,Buzzbean,Amarillo,Texas,6240,TX
+97270534,2893,01/26/2022,12:05,7739,diners-club-enroute,Devshare,Philadelphia,Pennsylvania,7273,PA
+79140823,4896,08/07/2021,3:17,46790,americanexpress,Roombo,Washington,District of Columbia,8283,DC
+50420455,3753,05/04/2021,11:37,50417,diners-club-us-ca,Buzzbean,Cincinnati,Ohio,8262,OH
+25522665,4715,06/19/2021,3:31,39904,jcb,Twitterbeat,Norman,Oklahoma,6001,OK
+99110569,3406,08/28/2021,1:45,86820,maestro,Eamia,Miami,Florida,2022,FL
+72698694,7552,05/16/2021,5:27,97924,china-unionpay,Izio,Naples,Florida,2458,FL
+87092208,8729,08/10/2021,13:08,13648,diners-club-enroute,Oyope,Indianapolis,Indiana,8620,IN
+32439095,6038,05/23/2021,23:12,19410,bankcard,LiveZ,Edmond,Oklahoma,1576,OK
+79374575,4905,12/12/2021,13:57,37799,jcb,Photofeed,Alhambra,California,8805,CA
+80447145,6245,02/18/2022,11:18,76641,americanexpress,Youbridge,Kansas City,Missouri,3521,MO
+46887408,9231,02/05/2022,20:47,39226,china-unionpay,Ooba,Tulsa,Oklahoma,7169,OK
+40271764,2632,02/23/2022,12:02,17930,visa-electron,Demimbu,New York City,New York,6061,NY
+30160925,2210,11/17/2021,15:19,29248,jcb,InnoZ,Philadelphia,Pennsylvania,4677,PA
+98741930,4160,05/21/2021,16:12,52408,jcb,Fliptune,Winter Haven,Florida,3109,FL
+34277875,3491,11/28/2021,15:53,68596,diners-club-enroute,Minyx,Farmington,Michigan,7351,MI
+37037975,3221,12/04/2021,22:00,71776,laser,Tagfeed,Jacksonville,Florida,4597,FL
+66548015,4643,01/24/2022,1:05,90797,mastercard,Geba,Syracuse,New York,6553,NY
+24110570,2312,04/02/2022,13:01,50571,switch,Tanoodle,Washington,District of Columbia,9595,DC
+31510647,8750,11/03/2021,23:05,33810,americanexpress,Chatterbridge,Huntington Beach,California,8508,CA
+53643719,3833,06/26/2021,0:57,8851,jcb,Kamba,New York City,New York,3193,NY
+42161076,9869,10/30/2021,7:32,7438,diners-club-carte-blanche,Jayo,Jacksonville,Florida,9729,FL
+60862297,8477,05/08/2021,11:28,55172,maestro,Blognation,Pensacola,Florida,8400,FL
+96874242,2924,03/25/2022,14:42,48506,mastercard,Eabox,Miami Beach,Florida,1757,FL
+32995161,2045,04/29/2021,18:41,78381,mastercard,JumpXS,Louisville,Kentucky,4099,KY
+35345044,7767,02/13/2022,7:41,7396,americanexpress,Jaxspan,Jacksonville,Florida,8035,FL
+32890318,7117,09/03/2021,1:42,84242,jcb,Bubblemix,Austin,Texas,5971,TX
+50307600,7304,06/13/2021,15:52,44845,visa-electron,Skyba,Honolulu,Hawaii,9745,HI
+57686664,9953,08/26/2021,3:14,63822,laser,Meejo,Topeka,Kansas,6319,KS
+51134028,1760,02/11/2022,18:47,8121,jcb,Brainbox,Naples,Florida,2978,FL
+14375999,2536,02/13/2022,13:05,44104,jcb,Roodel,Columbus,Ohio,8890,OH
+43961115,6799,09/22/2021,3:33,97142,americanexpress,Twitterbridge,Youngstown,Ohio,3052,OH
+55049659,5201,01/04/2022,7:51,81562,jcb,Flashdog,Littleton,Colorado,3199,CO
+84185659,6762,04/12/2021,7:11,17802,jcb,Miboo,San Antonio,Texas,6328,TX
+97792047,8273,05/02/2021,20:16,60387,diners-club-carte-blanche,Demimbu,Miami,Florida,9676,FL
+31010856,9466,11/10/2021,15:41,63573,americanexpress,Kare,Petaluma,California,9012,CA
+45009649,6723,04/17/2021,19:44,17090,jcb,Feedbug,Miami,Florida,8623,FL
+55125267,1345,10/01/2021,13:49,68740,mastercard,Rhyloo,Des Moines,Iowa,6136,IA
+71888053,4990,02/01/2022,11:45,38984,americanexpress,Skilith,Oklahoma City,Oklahoma,3439,OK
+76724323,2957,05/27/2021,11:23,88854,mastercard,Edgetag,San Antonio,Texas,6333,TX
+44042251,2227,06/07/2021,3:38,19024,bankcard,Rhyzio,North Hollywood,California,7507,CA
+14477833,9603,04/01/2022,14:03,83042,maestro,Wikivu,South Bend,Indiana,3778,IN
+41880938,8279,04/05/2022,17:23,86498,maestro,Snaptags,Syracuse,New York,5931,NY
+34679955,2784,01/21/2022,11:16,57938,switch,Digitube,Washington,District of Columbia,1571,DC
+43428536,2299,01/26/2022,2:54,82062,jcb,Rhynoodle,Las Vegas,Nevada,2641,NV
+59155617,8678,03/01/2022,8:49,74184,jcb,Wikivu,Oklahoma City,Oklahoma,5991,OK
+96016466,8111,01/30/2022,6:51,86068,diners-club-enroute,Geba,Vancouver,Washington,3677,WA
+60213403,9846,10/27/2021,16:34,27345,diners-club-enroute,Npath,Hartford,Connecticut,1733,CT
+50163505,7011,03/29/2022,16:49,60038,visa,Edgeblab,Los Angeles,California,1750,CA
+43504906,1260,03/28/2022,8:37,24355,diners-club-carte-blanche,Yambee,Bryan,Texas,1201,TX
+43495288,1343,09/20/2021,12:45,19711,jcb,Quire,Duluth,Minnesota,2344,MN
+69605278,9349,02/20/2022,5:34,49210,jcb,Avamm,Abilene,Texas,3893,TX
+13768511,9930,01/13/2022,14:57,79620,jcb,Tazzy,Ocala,Florida,8362,FL
+83310018,7039,10/21/2021,10:09,34859,china-unionpay,Centizu,Minneapolis,Minnesota,7027,MN
+48226224,3801,06/05/2021,9:08,29005,jcb,Layo,Washington,District of Columbia,2729,DC
+53794929,5549,02/05/2022,17:47,13804,jcb,Roodel,Columbus,Ohio,1715,OH
+29757499,2559,05/27/2021,7:15,93598,jcb,Livefish,New Orleans,Louisiana,6880,LA
+31691116,2082,01/09/2022,13:06,6206,jcb,Bubbletube,Greensboro,North Carolina,6412,NC
+54728039,5337,07/16/2021,15:18,79473,visa,Centizu,Baltimore,Maryland,1753,MD
+77309810,9831,05/27/2021,18:41,25613,diners-club-international,Tambee,Orlando,Florida,6911,FL
+70608182,9904,05/19/2021,4:54,5531,jcb,Oba,Abilene,Texas,1169,TX
+69883795,8335,08/26/2021,0:37,33178,laser,Trilith,York,Pennsylvania,6462,PA
+12628871,5882,02/24/2022,1:57,24227,bankcard,Zoomlounge,Palatine,Illinois,5098,IL
+96998594,5127,01/10/2022,12:52,39998,diners-club-international,Wikivu,Torrance,California,5519,CA
+91109516,1378,10/25/2021,21:37,34157,jcb,Edgewire,Honolulu,Hawaii,3667,HI
+71748841,3640,08/27/2021,8:09,86195,bankcard,Chatterpoint,Daytona Beach,Florida,3238,FL
+47913256,5182,10/25/2021,9:12,93867,jcb,Divape,Kansas City,Missouri,7708,MO
+29118336,8648,10/05/2021,2:54,35521,visa,Eabox,Palmdale,California,8378,CA
+46620025,9937,01/12/2022,23:24,62276,laser,Bluejam,Memphis,Tennessee,2475,TN
+91159139,7901,12/11/2021,4:56,65708,jcb,Oyope,Ashburn,Virginia,9728,VA
+18486481,5473,05/19/2021,8:48,51059,switch,DabZ,New Haven,Connecticut,5139,CT
+62232830,2034,07/03/2021,11:43,20725,jcb,Zoomdog,Jacksonville,Florida,2606,FL
+57797139,8322,05/19/2021,7:56,26098,americanexpress,Zoomdog,Milwaukee,Wisconsin,2126,WI
+29407385,6768,12/31/2021,11:18,17515,jcb,Rooxo,Evansville,Indiana,3269,IN
+83513328,9776,04/03/2022,21:12,87888,mastercard,Ntag,Los Angeles,California,7854,CA
+13451200,7512,01/20/2022,2:23,78481,visa-electron,Blogspan,Bronx,New York,1272,NY
+49961822,5005,08/10/2021,0:46,70587,jcb,Skaboo,Miami,Florida,4082,FL
+16990958,9586,10/07/2021,21:32,98501,jcb,Minyx,Fort Worth,Texas,6818,TX
+26261644,4351,04/07/2021,13:47,43631,jcb,Chatterpoint,San Antonio,Texas,9971,TX
+29899078,3768,06/20/2021,7:03,85631,visa,Riffwire,Oklahoma City,Oklahoma,9037,OK
+64628735,2570,03/01/2022,19:03,39453,maestro,Youbridge,Waterbury,Connecticut,9476,CT
+82539226,3831,04/01/2022,10:02,96157,jcb,Avamm,New York City,New York,7737,NY
+60685192,4716,04/19/2021,19:31,91589,maestro,Zoomcast,Schenectady,New York,5365,NY
+34110830,2571,03/06/2022,16:02,81856,switch,Voolia,Bakersfield,California,7086,CA
+63909298,6697,05/10/2021,4:01,7275,maestro,Abata,Pasadena,Texas,8085,TX
+88553172,1979,05/04/2021,5:15,28641,americanexpress,Gabcube,Orlando,Florida,6403,FL
+76761934,4263,06/05/2021,9:12,17894,jcb,Leexo,Greensboro,North Carolina,5545,NC
+69770829,8073,04/02/2022,2:33,72922,mastercard,Midel,Saint Paul,Minnesota,4219,MN
+57792745,1887,06/16/2021,0:47,43683,jcb,Eidel,Dearborn,Michigan,3684,MI
+72541874,6645,10/11/2021,0:12,25602,jcb,Pixope,Hagerstown,Maryland,5513,MD
+41959388,6989,09/28/2021,9:07,13666,americanexpress,Ainyx,Portland,Oregon,7477,OR
+79204073,2578,07/09/2021,22:15,38635,jcb,Shuffledrive,Norwalk,Connecticut,3502,CT
+18040038,5169,10/26/2021,15:46,8744,switch,Skyba,Des Moines,Iowa,6937,IA
+62140409,1494,10/15/2021,21:00,43260,laser,Realcube,Paterson,New Jersey,3196,NJ
+32513485,4558,04/04/2022,5:23,77325,diners-club-us-ca,Geba,Pomona,California,5138,CA
+97170383,6126,05/23/2021,9:10,82655,switch,InnoZ,Phoenix,Arizona,7249,AZ
+67516731,6089,04/16/2021,9:40,39571,diners-club-carte-blanche,Zoozzy,Kansas City,Missouri,8787,MO
+93407033,3502,08/10/2021,13:48,1295,mastercard,Quinu,Albuquerque,New Mexico,3099,NM
+54490043,6628,06/12/2021,21:04,37155,mastercard,Realmix,Columbus,Ohio,5199,OH
+17103319,8280,12/10/2021,10:53,10817,china-unionpay,Babbleopia,Boston,Massachusetts,7519,MA
+20275927,3483,07/17/2021,10:38,87060,jcb,Fivespan,Albany,New York,7654,NY
+36167533,9618,03/18/2022,13:42,66711,mastercard,Plambee,Kansas City,Missouri,3898,MO
+99974861,2818,01/27/2022,13:36,97390,jcb,Gevee,College Station,Texas,8101,TX
+67165917,9576,11/21/2021,1:48,41742,jcb,Eabox,Sunnyvale,California,9883,CA
+68955888,2043,12/23/2021,10:59,85009,jcb,Ntag,Petaluma,California,7922,CA
+84163168,3930,04/12/2021,2:53,11616,visa-electron,Yotz,Chandler,Arizona,8409,AZ
+92561214,2853,06/07/2021,9:02,49911,diners-club-international,Quatz,Topeka,Kansas,1666,KS
+69334242,5634,12/30/2021,21:47,37526,jcb,Feednation,Greeley,Colorado,3740,CO
+80824652,7562,05/28/2021,17:04,23221,jcb,Tavu,Mesquite,Texas,1583,TX
+81701372,1786,08/14/2021,5:07,39450,maestro,Katz,Louisville,Kentucky,3993,KY
+61232239,8732,09/17/2021,11:54,98101,china-unionpay,Quimba,Montpelier,Vermont,9190,VT
+39400476,9851,06/06/2021,22:14,36437,jcb,Flipstorm,Oklahoma City,Oklahoma,3685,OK
+73969834,4597,02/10/2022,6:53,22464,switch,Oyondu,El Paso,Texas,1712,TX
+17375622,7217,10/02/2021,17:24,55409,jcb,Realbuzz,Honolulu,Hawaii,8383,HI
+94731593,4394,10/01/2021,2:41,2172,jcb,Mycat,Fort Worth,Texas,9413,TX
+53231420,6363,11/10/2021,3:02,74063,visa-electron,Pixonyx,Jacksonville,Florida,4015,FL
+88385600,6126,09/14/2021,16:19,94964,mastercard,Lajo,Portsmouth,New Hampshire,3214,NH
+49136065,1990,07/24/2021,14:27,56267,mastercard,Riffwire,San Antonio,Texas,7576,TX
+74129240,3999,02/03/2022,5:11,76823,china-unionpay,Skyvu,Pittsburgh,Pennsylvania,1845,PA
+21596805,8602,12/30/2021,9:48,57765,diners-club-enroute,Quinu,Birmingham,Alabama,9804,AL
+78631559,5048,08/30/2021,16:43,76088,jcb,Leenti,Washington,District of Columbia,7058,DC
+35811370,9015,09/13/2021,19:09,60982,maestro,Rhybox,Fort Lauderdale,Florida,5147,FL
+35472864,5237,07/16/2021,16:12,53635,laser,Photospace,New Orleans,Louisiana,9770,LA
+80688421,9694,11/28/2021,17:59,10835,jcb,Rhyloo,Minneapolis,Minnesota,3699,MN
+31506884,3506,10/18/2021,11:10,76297,jcb,Realpoint,Ocala,Florida,4295,FL
+71774433,9827,10/14/2021,20:50,69858,visa,Twitternation,Pueblo,Colorado,9112,CO
+56375275,6997,12/16/2021,7:32,38640,jcb,Twinder,Winston Salem,North Carolina,7570,NC
+52865264,7064,11/04/2021,2:23,52053,jcb,Quamba,Shreveport,Louisiana,9497,LA
+81192025,4747,06/15/2021,13:24,25400,jcb,Youspan,Washington,District of Columbia,1452,DC
+22504401,9499,08/03/2021,8:18,98521,maestro,Blogpad,Cincinnati,Ohio,6343,OH
+88858819,9596,04/05/2022,1:34,79818,jcb,Linkbuzz,Memphis,Tennessee,6078,TN
+81827459,8172,03/08/2022,13:26,65509,visa-electron,Browsebug,Hartford,Connecticut,2405,CT
+81549964,5418,08/27/2021,10:58,61750,diners-club-carte-blanche,Wordware,Atlanta,Georgia,8314,GA
+64234594,7626,09/25/2021,4:11,14843,jcb,Fatz,Albuquerque,New Mexico,9079,NM
+72550960,1592,12/16/2021,17:52,47584,jcb,Kwimbee,San Antonio,Texas,2988,TX
+93068044,2848,06/17/2021,18:00,30567,maestro,Gabtype,Gatesville,Texas,2231,TX
+34547349,9836,06/28/2021,17:23,84170,jcb,Linkbridge,Kansas City,Missouri,4710,MO
+60683546,2961,09/12/2021,13:32,48616,jcb,Jazzy,Denver,Colorado,3037,CO
+49379571,2945,04/10/2021,18:40,37296,instapayment,Yakijo,Odessa,Texas,2052,TX
+22560594,7201,03/07/2022,3:24,14121,jcb,Agivu,Madison,Wisconsin,3367,WI
+47147301,3303,07/06/2021,6:56,10626,diners-club-carte-blanche,Youspan,Clearwater,Florida,5414,FL
+78583865,4564,08/23/2021,20:26,74664,jcb,Yoveo,Frankfort,Kentucky,5036,KY
+43549598,5962,02/27/2022,23:18,26820,mastercard,Riffpedia,Pittsburgh,Pennsylvania,7562,PA
+64647788,6272,03/16/2022,7:57,52832,china-unionpay,Edgeify,Shawnee Mission,Kansas,7519,KS
+23088296,9761,02/22/2022,13:25,51889,jcb,Yotz,Baltimore,Maryland,7086,MD
+75113966,2208,11/01/2021,20:39,8672,mastercard,Blognation,Sacramento,California,1592,CA
+93877440,7530,03/12/2022,3:37,86065,bankcard,Riffpath,New Orleans,Louisiana,3288,LA
+26870097,3072,01/19/2022,21:04,53715,maestro,Jayo,Columbus,Georgia,5391,GA
+33543606,7767,10/19/2021,11:55,39752,mastercard,Skinix,Charleston,West Virginia,3004,WV
+15265873,7015,11/29/2021,8:09,62137,mastercard,Bubblebox,Cleveland,Ohio,8493,OH
+37545861,2315,11/23/2021,1:09,99943,diners-club-carte-blanche,Kaymbo,Cleveland,Ohio,4274,OH
+25064216,1994,03/10/2022,0:14,75408,mastercard,Fivespan,Youngstown,Ohio,2722,OH
+47618630,2011,07/03/2021,3:32,69389,switch,Pixoboo,Mobile,Alabama,7310,AL
+33921720,5069,05/03/2021,20:32,89012,jcb,Twitterwire,Norwalk,Connecticut,5984,CT
+84913177,3792,06/28/2021,3:36,86036,diners-club-us-ca,Midel,Torrance,California,8701,CA
+41108554,7681,01/11/2022,0:58,70537,diners-club-us-ca,Blognation,Schenectady,New York,1427,NY
+96169047,9849,06/19/2021,9:28,12984,visa-electron,Skinte,Jackson,Mississippi,9472,MS
+94696581,9427,07/13/2021,17:38,13943,mastercard,BlogXS,Sioux Falls,South Dakota,9188,SD
+45020057,6018,07/28/2021,7:13,89296,jcb,Tagchat,Baltimore,Maryland,7109,MD
+67540938,6680,04/20/2021,23:17,28030,jcb,Edgewire,Montgomery,Alabama,9977,AL
+19989372,3822,11/14/2021,19:16,40787,maestro,Mita,Largo,Florida,1655,FL
+15034788,8288,12/03/2021,13:23,55586,jcb,Browsedrive,Los Angeles,California,7222,CA
+35299177,7314,09/14/2021,16:32,61535,jcb,Tagcat,South Bend,Indiana,8656,IN
+73403541,4680,01/28/2022,2:41,44012,americanexpress,Bubbletube,Memphis,Tennessee,9242,TN
+54239968,6549,02/28/2022,15:29,11255,visa-electron,Browseblab,Aurora,Colorado,8615,CO
+40373271,2265,10/26/2021,5:23,30890,mastercard,Cogidoo,Minneapolis,Minnesota,5823,MN
+74269664,6967,04/12/2021,2:51,94399,switch,Fliptune,Omaha,Nebraska,5269,NE
+90346452,9156,12/22/2021,16:28,15450,jcb,Riffwire,Tulsa,Oklahoma,8125,OK
+92856668,8128,05/28/2021,13:49,97178,switch,Podcat,Erie,Pennsylvania,3607,PA
+55055640,2839,10/22/2021,3:56,22193,china-unionpay,Blogpad,Tallahassee,Florida,4201,FL
+21166354,5841,05/22/2021,16:22,96230,china-unionpay,Skalith,Honolulu,Hawaii,4422,HI
+25175326,8330,10/14/2021,15:50,90122,china-unionpay,Gabtune,Springfield,Illinois,3807,IL
+58193411,4600,03/21/2022,14:15,30485,jcb,Youbridge,Mesa,Arizona,5118,AZ
+19289068,6417,01/28/2022,7:45,2577,bankcard,Meeveo,Saint Paul,Minnesota,5254,MN
+39116292,8681,11/16/2021,6:42,28917,jcb,Yakitri,Charleston,West Virginia,9512,WV
+75659488,7311,03/19/2022,18:33,80494,jcb,Eabox,Oakland,California,8176,CA
+73644235,1182,06/07/2021,13:27,70459,maestro,Quatz,Schenectady,New York,9427,NY
+77579151,5250,12/25/2021,12:56,82393,visa,Wikivu,Montgomery,Alabama,6256,AL
+40361676,6940,06/20/2021,10:42,43969,maestro,LiveZ,Boise,Idaho,1355,ID
+88723665,1957,04/01/2022,0:12,18308,laser,Skinte,Phoenix,Arizona,7795,AZ
+14041256,3593,09/14/2021,11:06,30645,china-unionpay,Skiba,New York City,New York,9835,NY
+90989621,6530,06/07/2021,17:21,15194,mastercard,Meembee,Sacramento,California,1176,CA
+72128695,4093,05/11/2021,1:36,30592,jcb,Jaxspan,Aurora,Colorado,6537,CO
+16297449,9580,12/20/2021,2:59,51834,mastercard,Skinix,El Paso,Texas,9174,TX
+56595854,8268,08/20/2021,9:04,73560,jcb,Browsezoom,Lake Worth,Florida,6592,FL
+57521447,1867,11/22/2021,20:28,72231,maestro,Thoughtsphere,Tacoma,Washington,9372,WA
+64154454,4725,09/24/2021,0:53,2512,switch,Twitterwire,New Haven,Connecticut,1916,CT
+18713745,7725,02/27/2022,12:20,10764,maestro,Voonder,Salt Lake City,Utah,7585,UT
+24416130,2920,08/04/2021,3:56,15724,laser,Tagopia,Dallas,Texas,8542,TX
+43724625,5299,11/29/2021,14:17,62499,maestro,Aimbo,Davenport,Iowa,8439,IA
+36272837,8193,03/02/2022,23:54,93794,jcb,Kwideo,Lincoln,Nebraska,3310,NE
+19128896,8186,02/03/2022,12:39,48662,jcb,Blogpad,Hollywood,Florida,5502,FL
+92612075,5185,08/17/2021,8:44,29285,switch,Buzzshare,Whittier,California,2443,CA
+53524772,5605,04/18/2021,16:42,59043,jcb,Yakitri,Athens,Georgia,1935,GA
+62326501,7056,08/23/2021,13:50,44247,jcb,Rhynyx,Baton Rouge,Louisiana,4772,LA
+85373331,8890,11/08/2021,20:45,69890,maestro,Eare,Harrisburg,Pennsylvania,1486,PA
+28447820,5628,11/24/2021,18:40,12824,maestro,Shuffledrive,Albany,New York,7294,NY
+72694768,5594,01/15/2022,16:34,55170,jcb,Janyx,Washington,District of Columbia,4102,DC
+97521327,9956,02/24/2022,8:18,36132,diners-club-enroute,Quinu,Corona,California,9081,CA
+69915721,4560,10/24/2021,13:04,97624,jcb,Twimbo,Syracuse,New York,1962,NY
+37572425,5872,02/08/2022,4:07,25914,jcb,Wordpedia,Honolulu,Hawaii,4443,HI
+13737278,9972,10/28/2021,22:13,50535,diners-club-enroute,Jaxbean,Allentown,Pennsylvania,7689,PA
+80909645,4593,10/04/2021,5:13,80847,diners-club-us-ca,Livepath,Lincoln,Nebraska,3898,NE
+82571508,8114,04/21/2021,4:06,53649,jcb,Dynava,Lake Charles,Louisiana,3302,LA
+23654451,4628,04/02/2022,0:15,9468,jcb,Innojam,Midland,Texas,4222,TX
+78135126,1317,08/04/2021,14:38,26773,jcb,Voolia,Jacksonville,Florida,9816,FL
+19229288,4737,02/08/2022,2:09,50911,jcb,Skyba,Dallas,Texas,4106,TX
+81012921,3182,07/21/2021,18:55,8598,switch,Trudoo,Bakersfield,California,1706,CA
+32073548,5195,01/27/2022,0:20,3613,visa,Zoonoodle,Indianapolis,Indiana,6528,IN
+79470525,5640,07/19/2021,13:25,23227,jcb,Skynoodle,Boston,Massachusetts,1181,MA
+76669796,8322,04/02/2022,15:43,97893,jcb,Oyonder,Corpus Christi,Texas,4123,TX
+18026499,6756,06/27/2021,23:34,48336,jcb,Eabox,Columbus,Ohio,9589,OH
+77060230,2661,06/03/2021,15:28,96191,jcb,Dynabox,Washington,District of Columbia,6833,DC
+34535792,3010,03/04/2022,18:29,72382,jcb,Skalith,Washington,District of Columbia,3844,DC
+48248576,4820,08/17/2021,13:30,77095,bankcard,Mymm,Flint,Michigan,6743,MI
+36435549,8453,12/22/2021,0:19,47141,diners-club-us-ca,Thoughtsphere,Mansfield,Ohio,2754,OH
+33079604,8440,12/27/2021,7:04,7612,americanexpress,Avavee,Dallas,Texas,8943,TX
+43716207,2138,03/05/2022,1:57,66393,mastercard,Mudo,Spokane,Washington,3820,WA
+77785591,7677,05/24/2021,15:22,35381,jcb,Thoughtblab,Fort Wayne,Indiana,8877,IN
+31661034,9653,06/08/2021,13:56,70700,jcb,Agimba,Richmond,Virginia,2161,VA
+71368190,8878,07/01/2021,16:59,10956,jcb,Realbridge,Kansas City,Missouri,5616,MO
+78109672,3427,04/14/2021,8:20,69322,jcb,Rhyzio,Birmingham,Alabama,9807,AL
+99070763,8254,02/27/2022,8:37,27631,bankcard,Wikibox,Saint Louis,Missouri,8808,MO
+40139347,4941,01/09/2022,10:33,80024,maestro,Realmix,West Palm Beach,Florida,8710,FL
+15880948,8450,03/21/2022,23:42,35847,solo,Twitterworks,Pueblo,Colorado,4139,CO
+25623706,5633,07/31/2021,12:12,15779,jcb,Mymm,Scranton,Pennsylvania,7685,PA
+67584103,2501,11/01/2021,5:28,89010,switch,Quimm,Charlottesville,Virginia,2265,VA
+90530257,2048,09/15/2021,23:44,24647,jcb,Photojam,Levittown,Pennsylvania,8468,PA
+49606990,1362,11/13/2021,0:47,43214,jcb,Oyope,Panama City,Florida,1359,FL
+73463748,4169,10/30/2021,4:47,51687,diners-club-us-ca,Devcast,Columbia,Missouri,2431,MO
+92516212,5373,04/08/2021,13:08,48644,jcb,Trilith,Denver,Colorado,1191,CO
+25622697,5790,09/24/2021,21:18,79877,jcb,Buzzbean,Washington,District of Columbia,5051,DC
+24727486,3778,11/30/2021,22:42,32676,jcb,Flashset,New York City,New York,1680,NY
+46260773,9504,05/11/2021,17:45,99397,maestro,Blogtag,Cleveland,Ohio,3986,OH
+66106596,3677,08/28/2021,12:02,41534,jcb,Photospace,Boynton Beach,Florida,5468,FL
+72292207,2296,12/22/2021,23:22,43504,laser,Quamba,Salt Lake City,Utah,9840,UT
+79179592,5781,11/14/2021,23:24,65642,maestro,Eabox,Davenport,Iowa,1695,IA
+21365555,9469,07/12/2021,3:49,16731,diners-club-carte-blanche,Leenti,San Antonio,Texas,5802,TX
+94665035,9859,08/25/2021,8:04,8789,diners-club-enroute,Gabvine,Spokane,Washington,2344,WA
+48604438,2153,11/01/2021,16:18,24959,jcb,Demizz,Sparks,Nevada,1880,NV
+91964086,2587,10/08/2021,23:56,52283,jcb,Aimbo,El Paso,Texas,9851,TX
+57021121,9378,11/12/2021,6:19,23033,jcb,Photobug,Baltimore,Maryland,9627,MD
+21903505,4558,01/04/2022,7:01,27785,switch,Ozu,Mobile,Alabama,4343,AL
+87303228,7472,09/21/2021,18:37,4109,jcb,Wikizz,Detroit,Michigan,7415,MI
+37217674,1399,04/20/2021,12:14,43725,switch,Zava,Saint Paul,Minnesota,6059,MN
+54006469,5430,07/09/2021,10:52,36952,jcb,Dazzlesphere,Worcester,Massachusetts,6700,MA
+76208420,3107,03/05/2022,21:34,16017,americanexpress,Eimbee,Houston,Texas,8982,TX
+61039923,7717,10/08/2021,10:26,75071,laser,Zoonoodle,Charlotte,North Carolina,6365,NC
+88894896,5452,09/13/2021,11:25,33526,jcb,Twinte,Buffalo,New York,8255,NY
+90495963,1379,01/27/2022,20:10,80637,jcb,Browsebug,Newport News,Virginia,3283,VA
+11805717,8931,11/11/2021,8:39,49701,switch,Katz,Cleveland,Ohio,1743,OH
+86128586,2114,05/21/2021,6:35,54136,china-unionpay,Brainsphere,Shawnee Mission,Kansas,1499,KS
+24830013,4484,01/24/2022,17:06,76548,china-unionpay,Mita,Killeen,Texas,3105,TX
+73560464,3830,05/09/2021,10:14,5418,diners-club-enroute,Oba,San Francisco,California,5078,CA
+90033364,2690,09/26/2021,0:45,62329,jcb,Cogibox,Escondido,California,5877,CA
+93024666,2161,02/23/2022,16:19,14103,laser,JumpXS,Birmingham,Alabama,3502,AL
+83770960,4474,06/22/2021,23:24,48396,mastercard,Realcube,Burbank,California,3301,CA
+73314895,5141,07/25/2021,21:01,7946,jcb,Realmix,Indianapolis,Indiana,3854,IN
+94283320,9437,01/09/2022,16:59,12852,laser,Oyonder,Little Rock,Arkansas,7160,AR
+89789355,4837,06/18/2021,2:33,24702,jcb,Yata,New York City,New York,9672,NY
+16789925,5358,07/30/2021,13:45,22454,mastercard,Gigabox,Reno,Nevada,5192,NV
+14979790,2558,07/09/2021,22:56,27,jcb,Innojam,Amarillo,Texas,1767,TX
+54572295,3441,09/30/2021,8:12,70421,jcb,Voomm,Washington,District of Columbia,4697,DC
+57944104,8397,07/10/2021,8:07,65648,jcb,Lajo,Albany,New York,6296,NY
+77477407,7148,06/28/2021,17:47,46125,laser,Dynabox,Springfield,Ohio,2052,OH
+66577405,3721,01/28/2022,3:48,94145,jcb,Divanoodle,Memphis,Tennessee,5242,TN
+56669027,7020,11/07/2021,3:16,56594,diners-club-enroute,Brightdog,Omaha,Nebraska,4981,NE
+77230032,8340,01/17/2022,11:35,84477,china-unionpay,Realfire,Huntsville,Alabama,1856,AL
+18771585,8437,06/25/2021,14:29,62117,jcb,Jayo,Hamilton,Ohio,5299,OH
+28619650,1151,03/31/2022,2:55,46677,diners-club-enroute,Skilith,Orlando,Florida,6324,FL
+56145901,5565,03/16/2022,19:19,79851,jcb,Twinder,El Paso,Texas,1467,TX
+72862843,5507,02/01/2022,8:35,13762,visa,Photospace,Des Moines,Iowa,2946,IA
+24214496,1750,07/08/2021,20:56,10493,jcb,Oyoba,Austin,Texas,2675,TX
+92275198,5761,08/29/2021,10:46,65917,instapayment,Realblab,Wilkes Barre,Pennsylvania,9828,PA
+64640545,4862,12/20/2021,21:42,36639,jcb,Centizu,Kansas City,Missouri,9199,MO
+89613335,6676,08/15/2021,10:19,71774,jcb,Mybuzz,New York City,New York,1761,NY
+95697568,7245,10/08/2021,5:03,74166,jcb,Tagcat,Kansas City,Missouri,5259,MO
+19038835,9210,12/10/2021,19:33,84975,jcb,Yoveo,Cleveland,Ohio,5119,OH
+45103976,2380,06/08/2021,13:52,74220,jcb,Aimbu,Dayton,Ohio,3936,OH
+33253757,1567,11/16/2021,11:08,35782,china-unionpay,Wordtune,Lincoln,Nebraska,4391,NE
+95970093,2120,08/29/2021,12:46,49959,jcb,Janyx,San Francisco,California,5112,CA
+71033848,5862,02/22/2022,7:47,14704,visa,Dabtype,Tulsa,Oklahoma,1796,OK
+93480952,5067,04/10/2021,7:23,80087,jcb,Meezzy,Santa Ana,California,8965,CA
+49873150,1963,02/22/2022,17:53,18190,bankcard,Eamia,Farmington,Michigan,1712,MI
+53283068,2723,03/01/2022,16:37,52661,maestro,Jaxnation,Atlanta,Georgia,7772,GA
+57321412,2944,12/13/2021,15:50,31584,jcb,Voomm,North Las Vegas,Nevada,7687,NV
+34681083,3324,01/27/2022,13:03,84522,diners-club-enroute,Skivee,Erie,Pennsylvania,6420,PA
+85064287,3685,06/02/2021,14:51,92282,visa-electron,Realcube,Trenton,New Jersey,2901,NJ
+72611361,2791,02/10/2022,13:21,45600,jcb,Meejo,Kansas City,Kansas,2426,KS
+71584450,9884,03/31/2022,11:09,39910,diners-club-enroute,Mycat,New York City,New York,2208,NY
+47749525,9045,10/21/2021,6:12,67600,diners-club-carte-blanche,Edgeclub,Elizabeth,New Jersey,8023,NJ
+88855677,9573,05/12/2021,7:15,13291,jcb,Gigazoom,Fort Wayne,Indiana,1131,IN
+76252532,4421,04/13/2021,22:34,68624,jcb,Jaxworks,New York City,New York,8643,NY
+79277533,8646,12/14/2021,13:59,80755,mastercard,Digitube,Gaithersburg,Maryland,2621,MD
+21158414,4269,06/11/2021,2:53,63445,visa,Rooxo,Albuquerque,New Mexico,2633,NM
+49632663,3476,01/09/2022,9:27,89676,switch,Centizu,Las Vegas,Nevada,8542,NV
+14409364,8479,08/04/2021,20:27,22188,mastercard,Voonder,Aurora,Colorado,9377,CO
+55323924,8576,05/17/2021,9:47,78317,mastercard,Skiba,Augusta,Georgia,6966,GA
+45519156,9315,02/18/2022,16:03,66542,jcb,Realbridge,Worcester,Massachusetts,3913,MA
+62911104,1980,02/05/2022,8:39,35357,jcb,Divape,Muskegon,Michigan,3704,MI
+59733967,5659,03/18/2022,1:38,83231,jcb,Trunyx,Staten Island,New York,3159,NY
+95414692,1657,04/03/2022,1:06,42311,americanexpress,Wikizz,Nashville,Tennessee,9508,TN
+99123213,8504,02/08/2022,18:30,62936,diners-club-carte-blanche,Gabcube,Philadelphia,Pennsylvania,9082,PA
+56420132,7319,04/06/2022,13:19,11438,mastercard,Eazzy,Buffalo,New York,3024,NY
+95984303,9126,04/02/2022,14:58,57773,jcb,Midel,Evansville,Indiana,9886,IN
+73068522,3094,07/04/2021,4:44,78881,jcb,Npath,Salt Lake City,Utah,9714,UT
+82986509,9731,07/22/2021,1:08,99849,laser,Minyx,Houston,Texas,5898,TX
+54301061,7943,03/17/2022,20:57,34762,bankcard,Myworks,Pensacola,Florida,6182,FL
+27890683,9125,08/26/2021,0:53,5831,china-unionpay,Twitterlist,Los Angeles,California,2056,CA
+99280630,9330,02/11/2022,16:02,56691,china-unionpay,Teklist,Mobile,Alabama,4090,AL

@@ -1,0 +1,1001 @@
+customerNumber (CIF),dateOfBirth,branchNumber,citizenshipCode,currCountryCode,employmentStatus,incomeInThousands,marketSegment,maritalStatus,stateCode,City,customerOpeningDate,Gender
+71560992,07/03/2003,459,US,USD,employed,1970513,demographic,single,ND,Fargo,07/10/2019,Male
+16875468,05/05/2004,208,US,USD,unemployed,1159498,Standard,married,DC,Washington,11/19/2020,Female
+16684122,15/05/1997,893,US,USD,salaried,1683782,demographic,married,NC,Charlotte,06/16/2016,Male
+30033542,21/10/1991,563,US,USD,employed,1390140,geographic,married,MO,Kansas City,06/11/2016,Male
+11409734,30/06/2002,966,US,USD,salaried,1759819,Standard,married,CO,Colorado Springs,03/25/2020,Male
+87372529,09/11/1993,56,US,USD,self-employed,610396,geographic,married,OH,Cincinnati,02/17/2020,Male
+63955556,21/04/2004,536,US,USD,employed,837031,geographic,single,OK,Oklahoma City,09/03/2020,Male
+51021905,10/02/2004,862,US,USD,employed,1856561,demographic,single,PA,Scranton,05/14/2014,Male
+33328591,27/12/2003,311,US,USD,self-employed,1466642,behavioral,married,FL,Tampa,06/05/2019,Male
+36938334,17/08/1999,176,US,USD,salaried,31019,behavioral,single,CA,Mountain View,12/13/2021,Male
+33769066,11/03/1997,388,US,USD,salaried,154324,geographic,separated,KS,Shawnee Mission,11/08/2019,Female
+99539159,04/10/1998,872,US,USD,employed,581630,Standard,separated,CA,Santa Cruz,01/23/2018,Male
+94643434,12/03/1997,699,US,USD,employed,1408132,behavioral,separated,PA,Harrisburg,05/27/2017,Male
+61571393,18/07/2001,73,US,USD,self-employed,863486,geographic,separated,DC,Washington,07/26/2015,Non-binary
+50791638,05/06/1999,977,US,USD,self-employed,1878062,demographic,married,CA,Los Angeles,05/22/2018,Male
+79753650,05/07/1997,207,US,USD,employed,1147696,geographic,married,TX,San Antonio,12/14/2017,Male
+87802283,15/06/1992,57,US,USD,unemployed,347294,geographic,married,TX,Dallas,12/13/2017,Female
+19575183,15/12/2001,876,US,USD,salaried,916504,Standard,married,IL,Springfield,01/25/2018,Male
+23186813,15/02/1994,594,US,USD,salaried,233450,psychographic,single,TX,Austin,04/23/2021,Female
+43855060,14/10/1996,383,US,USD,unemployed,530097,psychographic,married,KY,Louisville,12/17/2016,Female
+53910228,20/10/2001,360,US,USD,unemployed,665845,psychographic,married,MA,Boston,01/02/2016,Female
+90522225,26/10/2000,94,US,USD,employed,1405954,demographic,separated,OH,Cincinnati,07/26/2020,Male
+99223606,08/08/1995,160,US,USD,salaried,1252943,psychographic,separated,NY,New York City,02/25/2021,Female
+42169087,20/07/1990,504,US,USD,salaried,1124011,Standard,single,AZ,Phoenix,04/17/2015,Male
+79068690,12/07/1997,852,US,USD,salaried,1000707,demographic,married,MA,Springfield,02/10/2018,Male
+53228026,30/03/2000,620,US,USD,employed,172579,demographic,separated,NM,Santa Fe,01/25/2020,Female
+40191972,08/09/1995,71,US,USD,employed,1103118,geographic,married,NY,New York City,04/14/2017,Male
+29871552,11/03/1991,518,US,USD,unemployed,751274,demographic,single,TX,Houston,02/18/2021,Male
+84515076,01/11/1993,947,US,USD,employed,472529,demographic,single,MI,Lansing,02/13/2018,Genderqueer
+44368884,18/06/2002,285,US,USD,salaried,335069,demographic,married,AL,Birmingham,07/24/2016,Male
+55200824,06/11/2000,389,US,USD,employed,1573211,geographic,single,MT,Billings,05/10/2014,Male
+20136359,26/11/1994,786,US,USD,self-employed,498949,geographic,separated,TX,Austin,05/31/2016,Male
+90834221,29/01/1992,882,US,USD,self-employed,769887,geographic,separated,TX,Denton,07/06/2021,Female
+93561417,20/11/2004,567,US,USD,self-employed,516910,behavioral,separated,NY,Jamaica,10/04/2016,Female
+41313755,14/04/2004,755,US,USD,unemployed,665835,psychographic,married,MN,Minneapolis,04/06/2017,Male
+89568464,14/04/1990,741,US,USD,unemployed,937229,demographic,married,WA,Tacoma,07/12/2018,Female
+68154129,12/07/1995,428,US,USD,salaried,865220,Standard,single,CA,Bakersfield,08/02/2015,Male
+65470114,05/12/2002,639,US,USD,self-employed,539679,psychographic,separated,CT,Stamford,07/06/2015,Non-binary
+57676199,09/01/1991,3,US,USD,employed,1998962,psychographic,separated,FL,Jacksonville,11/23/2020,Male
+69574883,24/03/2003,475,US,USD,self-employed,1965458,psychographic,separated,TX,Austin,01/23/2018,Male
+85578790,28/03/1991,635,US,USD,salaried,53939,behavioral,married,NY,New York City,11/13/2014,Female
+16318964,04/07/1999,762,US,USD,self-employed,914848,psychographic,married,FL,Boca Raton,05/16/2021,Male
+67821518,03/05/2004,986,US,USD,self-employed,1991490,Standard,single,PA,Pittsburgh,09/16/2018,Male
+72129839,29/09/1992,779,US,USD,unemployed,1537023,behavioral,married,FL,Pompano Beach,06/04/2017,Female
+80606170,17/11/1993,838,US,USD,unemployed,462077,geographic,married,DC,Washington,12/02/2016,Male
+40025382,07/08/2002,689,US,USD,employed,1727117,behavioral,single,CA,Long Beach,10/05/2019,Male
+76442554,31/12/2002,738,US,USD,unemployed,1229731,demographic,separated,GA,Savannah,10/30/2014,Female
+94550978,18/07/1994,551,US,USD,employed,1417392,Standard,married,WA,Seattle,02/24/2022,Female
+22886555,20/08/2004,984,US,USD,salaried,1093254,psychographic,married,FL,West Palm Beach,07/11/2016,Female
+24517541,27/10/2001,918,US,USD,self-employed,280857,geographic,separated,TX,Austin,07/13/2018,Female
+28248592,04/09/1991,467,US,USD,self-employed,943678,Standard,married,LA,Baton Rouge,07/24/2015,Female
+26215525,01/09/1993,706,US,USD,unemployed,1327052,geographic,separated,AK,Anchorage,12/24/2018,Male
+59739137,08/10/2003,339,US,USD,employed,1732247,psychographic,separated,AR,Little Rock,02/03/2019,Female
+65614707,03/10/1991,885,US,USD,salaried,558721,Standard,married,WA,Seattle,12/01/2021,Female
+83971003,12/04/1994,856,US,USD,salaried,1362966,Standard,married,FL,Pompano Beach,02/02/2021,Female
+13473558,17/02/2000,748,US,USD,salaried,859495,Standard,married,FL,Boynton Beach,11/11/2014,Genderqueer
+91266733,04/01/2003,267,US,USD,salaried,626870,geographic,separated,FL,Tampa,11/04/2016,Male
+24049783,13/07/1994,732,US,USD,salaried,1136821,demographic,single,NM,Albuquerque,09/29/2017,Male
+26990768,07/08/2000,824,US,USD,unemployed,779769,psychographic,separated,NC,Charlotte,05/08/2018,Male
+15028343,05/06/1993,488,US,USD,unemployed,1299937,demographic,single,VA,Arlington,08/17/2014,Polygender
+24980199,25/11/1992,579,US,USD,self-employed,1035152,behavioral,single,AL,Tuscaloosa,01/15/2020,Female
+24485087,09/07/1998,357,US,USD,self-employed,1022575,demographic,separated,TX,Waco,08/25/2020,Male
+19647942,23/06/1997,64,US,USD,unemployed,691107,behavioral,married,DC,Washington,04/04/2016,Bigender
+94353733,12/08/2002,839,US,USD,self-employed,324017,behavioral,married,FL,Gainesville,08/06/2020,Female
+88961780,09/11/2001,253,US,USD,self-employed,1668122,behavioral,single,IL,Chicago,11/13/2019,Female
+90542922,10/09/2003,426,US,USD,employed,547048,behavioral,single,WA,Tacoma,02/21/2015,Female
+31209026,09/09/2002,206,US,USD,unemployed,1450623,demographic,married,MD,Frederick,05/24/2015,Genderqueer
+77709808,04/08/1999,715,US,USD,unemployed,434820,Standard,separated,AL,Gadsden,02/26/2021,Male
+58728591,03/04/2005,883,US,USD,salaried,1574607,psychographic,single,NY,Rochester,07/09/2016,Female
+36154278,14/01/2000,350,US,USD,salaried,1540916,behavioral,single,PA,Philadelphia,02/05/2018,Female
+24164716,20/09/1997,818,US,USD,employed,253082,Standard,single,PA,Philadelphia,12/27/2015,Bigender
+25118707,25/10/2003,626,US,USD,unemployed,18485,geographic,separated,OK,Tulsa,12/16/2021,Female
+25366405,23/06/1991,858,US,USD,unemployed,291000,psychographic,single,DC,Washington,09/22/2018,Non-binary
+43902901,09/08/1998,608,US,USD,salaried,1634495,behavioral,separated,IN,Fort Wayne,02/27/2017,Agender
+66763115,14/10/1997,704,US,USD,unemployed,1690471,Standard,married,FL,Boca Raton,07/14/2017,Male
+77140230,25/02/1992,712,US,USD,employed,297640,geographic,single,FL,Boca Raton,03/27/2020,Female
+63369763,13/12/1996,883,US,USD,unemployed,1046159,behavioral,separated,DC,Washington,03/21/2015,Female
+52931298,26/11/1998,597,US,USD,self-employed,666970,demographic,married,OH,Columbus,09/24/2014,Female
+32059765,14/11/1990,936,US,USD,employed,962552,geographic,separated,FL,Daytona Beach,05/04/2016,Male
+92379282,11/01/1993,116,US,USD,salaried,1670398,demographic,separated,IL,Peoria,01/10/2017,Female
+38413272,13/08/2001,86,US,USD,unemployed,316314,demographic,single,VA,Vienna,11/18/2019,Female
+91629471,11/09/1995,686,US,USD,self-employed,685303,Standard,single,PA,Philadelphia,03/26/2018,Female
+29977766,16/10/1995,736,US,USD,salaried,1579214,demographic,single,NY,Rochester,05/06/2014,Genderfluid
+90450855,07/12/1989,597,US,USD,employed,1543027,behavioral,married,VA,Lynchburg,11/03/2016,Female
+77451091,28/08/1995,612,US,USD,unemployed,87755,demographic,married,TX,Gatesville,04/03/2019,Male
+43339604,22/03/2004,786,US,USD,self-employed,535584,geographic,separated,CA,Inglewood,09/24/2017,Female
+38085767,10/06/1989,32,US,USD,self-employed,792922,psychographic,separated,MN,Saint Paul,05/18/2020,Female
+18263968,30/01/1997,439,US,USD,employed,1328156,behavioral,single,CA,Los Angeles,07/30/2020,Male
+44520638,22/03/2003,702,US,USD,unemployed,1704204,psychographic,separated,AL,Birmingham,02/08/2017,Female
+51256120,21/12/1994,474,US,USD,unemployed,432177,geographic,married,NY,New York City,04/21/2021,Genderqueer
+70728869,05/01/2000,880,US,USD,employed,655226,demographic,separated,TX,Corpus Christi,09/14/2015,Genderfluid
+25033397,13/08/1989,791,US,USD,employed,1865046,demographic,single,MO,Kansas City,07/18/2017,Female
+27031371,08/06/2002,720,US,USD,salaried,968343,demographic,single,MN,Minneapolis,08/17/2020,Male
+90016536,04/10/1999,718,US,USD,salaried,1851372,psychographic,single,NC,Charlotte,07/28/2021,Male
+65821156,14/05/2002,430,US,USD,employed,77151,behavioral,single,KS,Wichita,10/27/2017,Female
+61712087,16/10/1991,959,US,USD,unemployed,195528,demographic,single,CA,Santa Ana,06/21/2016,Female
+58510163,06/03/2002,301,US,USD,self-employed,493530,demographic,separated,CA,Santa Cruz,10/02/2015,Male
+38456219,05/05/2004,466,US,USD,self-employed,1187894,geographic,married,OH,Cincinnati,09/11/2015,Female
+77293845,10/08/1993,415,US,USD,self-employed,1899859,Standard,married,LA,New Orleans,02/11/2020,Male
+64456893,22/06/2004,674,US,USD,employed,1125537,demographic,married,MN,Minneapolis,09/23/2021,Female
+31072150,02/09/2001,274,US,USD,salaried,1407745,demographic,married,TX,Dallas,10/13/2021,Female
+64105147,28/08/2002,167,US,USD,salaried,1080393,Standard,single,LA,Shreveport,09/29/2019,Male
+57719923,29/08/2000,46,US,USD,employed,1077051,Standard,married,VA,Arlington,01/13/2018,Female
+22665635,08/07/1998,654,US,USD,unemployed,349972,behavioral,married,MO,Kansas City,09/08/2019,Female
+86535579,08/03/2001,88,US,USD,unemployed,1114489,psychographic,single,NM,Santa Fe,08/31/2014,Female
+62492524,19/01/2005,201,US,USD,unemployed,1233124,geographic,separated,CA,Ventura,04/26/2019,Male
+52587497,21/02/1996,53,US,USD,self-employed,1184784,Standard,single,OH,Toledo,01/02/2021,Male
+99931451,29/11/1990,269,US,USD,salaried,972159,Standard,single,MN,Saint Paul,01/10/2021,Female
+61371011,10/07/2002,356,US,USD,unemployed,1029895,behavioral,separated,CA,Sunnyvale,03/08/2017,Male
+50686844,01/04/1999,100,US,USD,salaried,569982,Standard,single,MO,Saint Louis,09/09/2020,Agender
+99556371,19/08/1998,899,US,USD,self-employed,1886720,psychographic,separated,FL,Miami,06/20/2019,Male
+14895989,31/10/2003,492,US,USD,unemployed,1102247,behavioral,married,CA,North Hollywood,12/09/2017,Female
+98303255,19/11/2004,906,US,USD,unemployed,1924279,Standard,single,NY,Albany,02/28/2019,Female
+56527234,07/05/1998,177,US,USD,unemployed,570772,geographic,married,KS,Shawnee Mission,05/11/2017,Female
+62752753,07/03/1992,204,US,USD,unemployed,1803389,psychographic,married,TX,El Paso,04/12/2014,Genderfluid
+51125059,18/06/1994,690,US,USD,self-employed,1858114,Standard,married,TN,Memphis,09/08/2015,Female
+94689808,21/02/2003,731,US,USD,employed,1512445,demographic,single,GA,Savannah,10/03/2019,Female
+47645381,17/08/2001,275,US,USD,unemployed,1230474,demographic,single,DC,Washington,02/27/2022,Female
+88478534,24/11/2003,913,US,USD,self-employed,1244332,Standard,single,PA,Philadelphia,05/21/2016,Genderfluid
+61591341,06/09/1999,388,US,USD,self-employed,1995336,demographic,single,HI,Honolulu,03/31/2018,Female
+73547307,17/05/2001,468,US,USD,unemployed,1239898,psychographic,single,LA,Baton Rouge,10/11/2021,Female
+69741438,21/02/1998,276,US,USD,self-employed,62064,Standard,married,CO,Denver,07/30/2014,Female
+34333029,28/01/2004,314,US,USD,unemployed,1563050,behavioral,separated,SC,Spartanburg,06/07/2020,Male
+98903723,21/08/1995,2,US,USD,unemployed,87701,demographic,married,OK,Oklahoma City,08/30/2019,Male
+44842140,27/02/2002,5,US,USD,unemployed,1181246,behavioral,single,FL,Largo,07/05/2020,Male
+56371874,03/05/1990,175,US,USD,salaried,1891755,psychographic,single,CO,Denver,04/09/2015,Male
+24773479,19/08/1999,92,US,USD,unemployed,1789563,geographic,single,VA,Norfolk,01/18/2020,Genderfluid
+66850911,27/08/2003,539,US,USD,self-employed,305662,demographic,single,TX,Irving,03/04/2019,Male
+96630751,03/05/1999,289,US,USD,self-employed,989857,psychographic,single,NY,Jamaica,01/16/2017,Male
+38448366,14/12/1990,315,US,USD,unemployed,16333,geographic,separated,OH,Cincinnati,02/09/2020,Bigender
+37592422,05/03/1997,605,US,USD,employed,1041167,geographic,married,IL,Carol Stream,03/15/2016,Male
+29105722,03/04/2005,260,US,USD,self-employed,1657193,psychographic,single,ID,Boise,09/21/2019,Male
+35254532,28/07/1992,163,US,USD,employed,1577770,Standard,single,CA,Berkeley,12/01/2021,Genderfluid
+37277029,17/11/1999,157,US,USD,unemployed,525191,Standard,married,TX,Dallas,08/22/2018,Male
+45671302,15/01/1992,653,US,USD,self-employed,1478812,behavioral,married,AZ,Tucson,12/04/2021,Female
+76577310,13/08/1993,383,US,USD,self-employed,900233,Standard,separated,GA,Macon,08/13/2021,Male
+45794678,29/01/2002,589,US,USD,self-employed,1134573,Standard,separated,CA,Fresno,08/25/2018,Male
+41780384,03/08/1991,374,US,USD,self-employed,387490,behavioral,separated,NY,Albany,09/29/2019,Female
+89454516,20/08/1994,387,US,USD,salaried,454794,Standard,married,NE,Lincoln,04/26/2016,Female
+80638555,20/04/1996,921,US,USD,unemployed,690913,geographic,married,TX,Spring,10/25/2014,Female
+84608391,22/01/1992,96,US,USD,unemployed,515140,behavioral,separated,TX,Dallas,06/27/2014,Male
+87441315,09/01/1993,68,US,USD,self-employed,252438,behavioral,married,IL,Peoria,07/29/2015,Female
+91416720,19/04/2001,90,US,USD,employed,44206,geographic,separated,FL,Miami,04/10/2018,Female
+52358031,13/07/1991,985,US,USD,unemployed,1760962,geographic,married,VA,Alexandria,08/05/2017,Female
+66071004,10/10/1989,309,US,USD,self-employed,1798298,Standard,separated,TX,Amarillo,03/12/2019,Male
+25444719,04/12/1997,214,US,USD,employed,373475,Standard,single,CA,Stockton,12/31/2018,Female
+35854651,06/10/1995,644,US,USD,self-employed,789172,behavioral,separated,CA,Long Beach,05/28/2016,Female
+43850477,14/02/2001,458,US,USD,unemployed,387440,Standard,married,FL,Boca Raton,03/20/2016,Female
+14908174,22/07/2000,46,US,USD,salaried,1408098,psychographic,married,FL,Naples,12/17/2014,Female
+72598534,27/02/1990,267,US,USD,salaried,1563602,behavioral,single,NY,White Plains,08/04/2020,Female
+38342215,24/10/2002,503,US,USD,self-employed,1871502,Standard,separated,NV,Las Vegas,04/23/2018,Male
+96351532,09/06/1997,118,US,USD,employed,591678,demographic,married,LA,New Orleans,03/23/2022,Female
+36952375,05/07/1995,530,US,USD,employed,1954695,geographic,separated,MO,Kansas City,04/08/2019,Female
+74621464,26/07/1995,284,US,USD,unemployed,1054653,behavioral,separated,WV,Huntington,05/18/2017,Male
+79786531,18/05/2004,594,US,USD,self-employed,413677,psychographic,single,TX,Dallas,02/07/2016,Female
+64651522,08/04/1998,147,US,USD,unemployed,1850253,demographic,married,FL,Melbourne,09/09/2021,Female
+96011257,06/12/1995,307,US,USD,employed,908765,psychographic,single,TX,Austin,09/21/2014,Male
+52361113,13/10/2004,119,US,USD,salaried,1740188,behavioral,married,NV,North Las Vegas,09/30/2021,Female
+67688407,29/04/2004,336,US,USD,salaried,634823,geographic,single,TN,Knoxville,03/21/2016,Male
+66715218,21/12/1993,865,US,USD,unemployed,117683,behavioral,single,NV,Las Vegas,07/14/2020,Female
+71399778,16/03/1990,378,US,USD,employed,638465,behavioral,single,LA,Baton Rouge,06/06/2015,Male
+44402403,17/10/1990,735,US,USD,salaried,541930,demographic,married,CT,New Haven,11/30/2016,Male
+99111255,11/08/2004,936,US,USD,self-employed,1659085,geographic,married,VA,Newport News,05/22/2017,Male
+17151169,26/04/1995,993,US,USD,self-employed,1275476,demographic,single,HI,Honolulu,09/16/2017,Agender
+40336128,12/01/1995,917,US,USD,salaried,1592364,behavioral,married,PA,Philadelphia,11/06/2021,Genderfluid
+18417674,18/02/2000,829,US,USD,self-employed,240912,Standard,married,FL,Panama City,06/28/2021,Bigender
+42213169,04/06/2001,744,US,USD,employed,473994,psychographic,married,PA,Erie,03/21/2015,Female
+73330804,18/05/1999,388,US,USD,self-employed,945095,behavioral,married,TX,Austin,08/30/2019,Male
+32748225,14/10/1995,935,US,USD,salaried,660647,demographic,married,NC,Raleigh,08/05/2020,Female
+24793189,04/02/2002,884,US,USD,employed,1342520,behavioral,single,TN,Memphis,10/10/2019,Female
+97684191,01/03/2005,22,US,USD,unemployed,557436,demographic,married,DC,Washington,12/20/2021,Female
+61317769,17/02/2002,524,US,USD,unemployed,207552,behavioral,separated,MA,Springfield,05/20/2017,Female
+81618762,26/04/1991,269,US,USD,salaried,348770,demographic,married,OH,Dayton,08/29/2017,Female
+37376142,13/07/1991,895,US,USD,salaried,1934512,Standard,separated,TX,Gatesville,01/21/2017,Male
+52218632,28/12/1993,622,US,USD,unemployed,102721,demographic,single,IA,Sioux City,08/20/2017,Female
+88951566,03/10/1993,314,US,USD,salaried,198377,geographic,separated,FL,Boca Raton,09/25/2014,Female
+39411097,17/10/1993,484,US,USD,unemployed,731840,psychographic,separated,FL,Jacksonville,02/24/2015,Female
+20562831,16/05/1996,255,US,USD,unemployed,1007440,geographic,married,NV,Henderson,05/21/2019,Female
+25232849,17/05/1990,224,US,USD,unemployed,1252323,psychographic,married,FL,Tallahassee,10/30/2014,Female
+96515901,01/03/1998,132,US,USD,unemployed,455711,geographic,married,DC,Washington,02/25/2018,Female
+40426137,14/04/1992,497,US,USD,unemployed,1870650,geographic,separated,IN,Evansville,05/13/2017,Female
+98437188,21/05/1996,877,US,USD,employed,1610319,psychographic,married,TX,El Paso,12/03/2015,Female
+74343363,05/06/2004,520,US,USD,employed,77035,geographic,single,AL,Mobile,04/29/2020,Female
+19479563,03/09/2000,710,US,USD,salaried,631263,behavioral,separated,GA,Lawrenceville,01/08/2021,Male
+91276735,02/01/2002,66,US,USD,employed,983980,Standard,married,VA,Hampton,06/03/2020,Male
+21327492,14/10/1993,250,US,USD,self-employed,73078,geographic,single,IN,Terre Haute,09/01/2016,Female
+72472175,20/03/2005,220,US,USD,salaried,1672430,psychographic,separated,MO,Saint Louis,09/07/2018,Male
+46448606,31/05/1994,718,US,USD,self-employed,1907782,behavioral,separated,MI,Flint,01/03/2017,Genderfluid
+27135022,10/04/2004,74,US,USD,unemployed,1101081,behavioral,separated,CA,Los Angeles,10/30/2016,Female
+22839973,16/08/1991,704,US,USD,unemployed,1580798,geographic,married,TX,Waco,07/26/2021,Male
+14363697,29/09/1995,436,US,USD,unemployed,1339072,psychographic,separated,IL,Chicago,12/22/2020,Agender
+56682678,24/06/1990,668,US,USD,unemployed,422491,behavioral,married,VA,Dulles,12/01/2019,Female
+96316108,14/06/2000,774,US,USD,employed,1612195,demographic,married,IL,Peoria,08/24/2016,Male
+23678204,05/10/2001,336,US,USD,unemployed,196174,behavioral,separated,TX,Houston,02/26/2021,Female
+17181244,18/06/2000,627,US,USD,employed,401988,Standard,separated,NY,New York City,12/02/2018,Male
+52851593,16/02/2005,404,US,USD,unemployed,952694,demographic,single,MN,Minneapolis,09/16/2016,Female
+81465036,05/10/2003,636,US,USD,unemployed,290564,Standard,single,NY,New York City,10/01/2017,Female
+50868361,05/12/1998,899,US,USD,salaried,742095,demographic,separated,MI,Saginaw,07/07/2017,Male
+89524134,11/02/1994,843,US,USD,employed,45286,Standard,single,CO,Colorado Springs,04/18/2019,Female
+55661829,07/08/1998,765,US,USD,salaried,1665662,Standard,single,CA,Los Angeles,05/12/2016,Male
+69447224,18/10/1991,65,US,USD,unemployed,476164,geographic,married,IN,Fort Wayne,06/17/2015,Genderfluid
+92875238,12/03/2001,752,US,USD,salaried,1744649,demographic,single,OK,Tulsa,05/08/2021,Male
+68383915,22/11/1990,831,US,USD,self-employed,51374,geographic,single,CA,Pasadena,09/12/2019,Female
+78623991,03/03/2001,96,US,USD,employed,1258417,geographic,married,CA,Oakland,06/26/2018,Female
+42243206,28/10/2000,216,US,USD,salaried,1639674,geographic,separated,CA,San Jose,08/11/2020,Female
+59062212,23/12/2001,91,US,USD,employed,520360,behavioral,single,IN,Indianapolis,03/12/2017,Male
+24813013,09/11/1990,206,US,USD,salaried,1326812,geographic,married,AZ,Phoenix,12/11/2018,Female
+80994087,25/07/1994,277,US,USD,salaried,530551,psychographic,married,VA,Hampton,08/23/2018,Male
+33546405,26/09/1997,404,US,USD,salaried,65528,psychographic,single,PA,Pittsburgh,12/06/2021,Female
+44719342,07/07/1993,993,US,USD,salaried,1466554,psychographic,single,KY,Lexington,04/24/2017,Female
+91946315,03/02/1991,404,US,USD,employed,1499652,behavioral,separated,PA,Pittsburgh,07/20/2017,Male
+55176574,13/06/1995,571,US,USD,employed,978941,geographic,separated,CA,Concord,03/30/2022,Male
+29692818,19/08/1990,798,US,USD,unemployed,1795379,geographic,married,FL,Miami Beach,03/04/2018,Female
+92097933,03/01/1998,135,US,USD,employed,1534355,behavioral,married,VA,Roanoke,03/24/2015,Female
+45453194,26/02/1994,706,US,USD,employed,367651,Standard,single,IN,Indianapolis,11/12/2019,Female
+59262640,04/05/1991,100,US,USD,employed,81586,geographic,married,NE,Lincoln,09/29/2016,Female
+65256167,17/03/2002,32,US,USD,salaried,112011,Standard,separated,GA,Atlanta,11/01/2015,Female
+76543340,05/03/1998,73,US,USD,salaried,1889746,Standard,married,PA,Wilkes Barre,04/03/2017,Female
+77049744,01/08/1992,120,US,USD,employed,1452454,psychographic,separated,TX,San Antonio,06/07/2014,Male
+62716999,23/07/1997,253,US,USD,salaried,850845,Standard,single,CA,Corona,12/22/2019,Bigender
+65481849,26/12/1989,256,US,USD,self-employed,560208,behavioral,married,NY,New York City,05/11/2019,Female
+14133427,25/08/1998,583,US,USD,unemployed,1336277,geographic,single,NM,Albuquerque,02/23/2016,Female
+53478045,21/03/1992,589,US,USD,self-employed,877386,behavioral,married,AZ,Mesa,09/20/2017,Bigender
+64307839,24/09/2001,494,US,USD,salaried,1210838,Standard,single,CA,Fresno,06/16/2020,Male
+31914523,16/10/1997,239,US,USD,employed,1018711,Standard,separated,MN,Minneapolis,05/07/2020,Genderqueer
+58062453,11/08/1990,211,US,USD,self-employed,808437,psychographic,married,SC,Columbia,09/16/2018,Male
+85857541,07/07/1992,31,US,USD,self-employed,1557326,Standard,separated,TN,Memphis,06/20/2014,Female
+89607382,21/07/1990,62,US,USD,employed,1531558,Standard,married,OR,Salem,12/17/2015,Male
+33711140,29/06/2001,645,US,USD,unemployed,622839,psychographic,separated,CA,Sacramento,03/10/2018,Male
+24219565,10/05/1995,705,US,USD,salaried,1117967,psychographic,married,OR,Portland,11/27/2015,Female
+29681483,04/01/2001,982,US,USD,self-employed,1898901,Standard,married,KS,Shawnee Mission,09/26/2018,Male
+62034600,26/04/1990,768,US,USD,unemployed,1495317,behavioral,married,AZ,Tucson,06/06/2018,Male
+16675680,31/07/2004,652,US,USD,employed,1210320,demographic,married,IL,Springfield,11/08/2016,Female
+91860318,27/08/1997,745,US,USD,unemployed,77912,Standard,single,AR,Little Rock,02/12/2016,Female
+73843140,28/01/1997,884,US,USD,employed,410356,geographic,single,NC,Winston Salem,09/24/2016,Male
+56995922,27/09/2002,379,US,USD,salaried,433266,psychographic,single,PA,Philadelphia,01/11/2016,Female
+20798086,23/01/1990,80,US,USD,self-employed,1219431,behavioral,single,NC,Charlotte,08/27/2020,Female
+80830025,20/03/1999,76,US,USD,self-employed,228669,Standard,separated,NY,New York City,11/02/2014,Male
+89368391,25/05/1991,245,US,USD,self-employed,1054654,behavioral,married,CA,Fresno,01/27/2021,Bigender
+85766913,18/10/1995,264,US,USD,employed,1203885,behavioral,single,IL,Decatur,03/03/2022,Genderqueer
+13675860,31/05/2001,617,US,USD,salaried,839181,Standard,separated,CA,Berkeley,02/28/2021,Male
+36530660,15/10/1997,774,US,USD,unemployed,154451,behavioral,single,OK,Oklahoma City,11/26/2019,Female
+22619722,17/07/2002,346,US,USD,self-employed,792472,behavioral,single,TX,Austin,09/25/2015,Female
+26281161,04/07/1999,29,US,USD,self-employed,292239,Standard,married,MA,Boston,11/05/2014,Female
+90866256,23/07/1996,984,US,USD,employed,833214,Standard,married,MN,Minneapolis,11/26/2019,Female
+85286325,21/03/1994,29,US,USD,salaried,171247,demographic,married,MA,Boston,10/10/2019,Male
+83254853,31/08/1993,615,US,USD,self-employed,1639027,demographic,separated,CO,Denver,11/10/2016,Male
+42392338,28/12/1998,648,US,USD,unemployed,407792,Standard,single,FL,Ocala,10/10/2017,Male
+16185030,10/10/2001,435,US,USD,employed,1155336,geographic,separated,CA,San Jose,10/03/2015,Male
+17191042,17/11/1993,949,US,USD,unemployed,1283618,geographic,married,KY,Lexington,07/02/2020,Agender
+82346913,16/11/2004,290,US,USD,salaried,970450,geographic,separated,CA,Los Angeles,11/19/2019,Genderfluid
+71963771,17/01/1997,37,US,USD,employed,95341,behavioral,married,FL,Tampa,09/02/2015,Bigender
+11885309,30/06/1990,385,US,USD,self-employed,671794,demographic,single,FL,Tampa,02/03/2016,Female
+80675222,24/08/1994,129,US,USD,salaried,159477,Standard,separated,CA,Los Angeles,06/02/2019,Male
+78976944,14/08/2000,895,US,USD,unemployed,438742,Standard,single,GA,Lawrenceville,12/03/2021,Female
+95029160,16/12/1989,298,US,USD,employed,158634,Standard,separated,OK,Tulsa,11/29/2014,Male
+58431533,01/06/1993,203,US,USD,unemployed,702552,psychographic,separated,CO,Denver,01/31/2019,Male
+51778306,21/09/1992,499,US,USD,employed,1131718,Standard,separated,CA,San Mateo,01/12/2017,Male
+95588992,06/01/2000,117,US,USD,unemployed,1874715,demographic,separated,TN,Memphis,09/23/2018,Male
+93102071,05/02/2005,948,US,USD,salaried,545872,behavioral,single,FL,Pompano Beach,03/14/2019,Agender
+26818994,05/01/2005,726,US,USD,salaried,1225360,demographic,separated,CA,Stockton,11/26/2020,Male
+43755253,04/05/2002,321,US,USD,unemployed,1073928,behavioral,single,MN,Duluth,07/24/2019,Male
+96635912,30/04/2004,694,US,USD,employed,668593,demographic,separated,WI,Madison,02/22/2018,Male
+90504392,10/06/1999,671,US,USD,employed,141341,demographic,married,IA,Des Moines,03/14/2015,Female
+86600753,15/02/2002,545,US,USD,unemployed,1202396,psychographic,married,CA,San Jose,09/17/2020,Female
+96004468,13/05/2003,124,US,USD,salaried,740392,geographic,separated,MS,Columbus,10/20/2020,Male
+86554915,20/08/2001,609,US,USD,employed,1049516,psychographic,married,CA,Inglewood,09/15/2018,Male
+22414845,15/07/1989,498,US,USD,employed,1108694,behavioral,single,NC,Winston Salem,01/14/2015,Female
+94747921,03/12/1989,866,US,USD,employed,754223,psychographic,married,IL,Springfield,12/02/2019,Male
+39462975,01/01/2000,259,US,USD,unemployed,642429,Standard,married,TN,Jackson,01/25/2018,Male
+76718228,19/08/1995,799,US,USD,self-employed,1139735,Standard,married,FL,Tampa,04/24/2019,Male
+11541797,24/01/2005,40,US,USD,self-employed,1456342,demographic,separated,TX,Houston,02/26/2022,Male
+38560538,06/09/1993,199,US,USD,self-employed,565640,demographic,single,MO,Columbia,06/22/2017,Female
+68198827,07/05/1989,756,US,USD,employed,1120185,geographic,married,CA,Bakersfield,10/31/2014,Male
+84822971,23/11/1990,385,US,USD,self-employed,1026953,demographic,separated,MA,Springfield,05/13/2018,Male
+16281666,27/06/1995,73,US,USD,salaried,724688,behavioral,single,TX,Longview,06/25/2015,Male
+93335068,29/12/2000,218,US,USD,salaried,1490820,Standard,married,KY,Lexington,09/30/2020,Male
+91880295,10/03/1996,968,US,USD,salaried,1490181,Standard,single,CA,North Hollywood,12/14/2020,Male
+56950479,31/01/1996,207,US,USD,salaried,1710106,behavioral,single,AL,Tuscaloosa,10/20/2021,Male
+54990435,23/02/1994,445,US,USD,salaried,577911,Standard,married,PA,Pittsburgh,05/21/2020,Male
+15203967,01/12/1999,251,US,USD,unemployed,441252,behavioral,separated,ID,Boise,11/13/2016,Male
+86178534,29/06/1998,274,US,USD,employed,429223,demographic,separated,TN,Memphis,01/18/2022,Male
+32820353,01/02/1990,165,US,USD,unemployed,1725244,Standard,single,IL,Peoria,07/07/2021,Female
+76693163,14/09/1997,683,US,USD,self-employed,1299397,behavioral,married,MO,Kansas City,11/08/2021,Female
+64976686,10/12/1994,399,US,USD,self-employed,89715,geographic,married,TX,Houston,12/06/2019,Male
+31003053,25/07/1995,448,US,USD,unemployed,1067286,Standard,single,FL,Orlando,12/30/2014,Genderfluid
+85873086,21/05/2003,765,US,USD,self-employed,31321,psychographic,separated,KS,Wichita,10/04/2019,Female
+92010467,11/09/2002,763,US,USD,salaried,1593049,Standard,married,HI,Honolulu,03/16/2019,Male
+47560005,06/07/1993,140,US,USD,employed,370826,psychographic,separated,IL,Chicago,08/28/2017,Male
+70724594,06/12/1992,94,US,USD,salaried,597993,geographic,married,CA,Fullerton,09/29/2021,Male
+99878379,12/10/2000,851,US,USD,self-employed,1975415,geographic,separated,IA,Des Moines,04/16/2019,Female
+92521352,27/09/2004,877,US,USD,salaried,138587,behavioral,single,CA,San Diego,10/26/2021,Male
+99127844,20/01/1993,74,US,USD,self-employed,1848571,psychographic,single,AR,Little Rock,04/06/2015,Polygender
+16697937,14/12/2003,99,US,USD,salaried,549707,geographic,single,NY,Elmira,01/22/2018,Male
+11844174,20/10/1994,93,US,USD,unemployed,261251,geographic,married,FL,Gainesville,06/18/2019,Female
+39934677,27/04/2003,19,US,USD,employed,1757937,geographic,separated,TX,Houston,01/27/2019,Female
+78271147,15/03/1996,775,US,USD,self-employed,1913919,behavioral,single,CA,Long Beach,12/18/2015,Male
+63843549,08/06/1991,972,US,USD,unemployed,1224767,demographic,single,CO,Boulder,10/18/2016,Polygender
+19446968,04/05/1991,440,US,USD,unemployed,1362836,Standard,separated,GA,Savannah,12/26/2021,Female
+57386242,04/03/1999,723,US,USD,self-employed,261047,psychographic,separated,PA,Pittsburgh,12/06/2021,Male
+47782142,30/08/1993,882,US,USD,employed,863929,behavioral,single,TX,Houston,10/21/2016,Male
+77472403,20/11/1991,269,US,USD,salaried,443005,psychographic,single,GA,Atlanta,05/29/2014,Female
+36095149,16/11/2002,398,US,USD,self-employed,313199,demographic,married,PA,Lancaster,10/20/2015,Female
+15529348,05/12/1998,789,US,USD,self-employed,1258450,geographic,married,MO,Springfield,10/12/2016,Female
+90795097,27/04/1995,720,US,USD,self-employed,88252,geographic,separated,UT,Salt Lake City,06/21/2014,Male
+94079701,10/12/2003,943,US,USD,self-employed,1057678,psychographic,separated,NE,Omaha,09/06/2018,Male
+31979188,03/10/1992,293,US,USD,unemployed,459838,demographic,separated,AL,Gadsden,09/10/2017,Male
+61073286,30/07/1995,822,US,USD,employed,1542936,behavioral,married,LA,New Orleans,06/06/2018,Female
+70503115,21/03/2005,861,US,USD,salaried,572289,behavioral,married,TX,Wichita Falls,03/28/2022,Male
+71156945,04/04/1998,253,US,USD,salaried,846937,demographic,married,MI,Grand Rapids,10/16/2014,Male
+97204224,29/05/1993,829,US,USD,salaried,310001,Standard,separated,LA,Baton Rouge,12/23/2014,Male
+37922479,24/06/1996,357,US,USD,employed,790516,geographic,married,TX,Corpus Christi,06/02/2015,Male
+61721431,18/06/1995,857,US,USD,self-employed,1702926,demographic,single,ND,Fargo,04/16/2021,Female
+61742840,25/01/1995,743,US,USD,unemployed,1701686,behavioral,single,CO,Aurora,03/15/2017,Female
+59469733,06/10/2000,327,US,USD,unemployed,1110790,behavioral,married,TX,Dallas,01/04/2019,Female
+41433279,20/04/1998,679,US,USD,salaried,1977563,demographic,separated,CA,Fresno,08/27/2018,Male
+18284219,17/04/1996,788,US,USD,self-employed,1247913,psychographic,single,NY,Bronx,05/24/2021,Male
+86276593,09/07/1993,710,US,USD,salaried,1550049,psychographic,single,WA,Tacoma,01/02/2018,Female
+71154037,10/12/2001,397,US,USD,unemployed,682860,geographic,separated,LA,Shreveport,09/11/2017,Female
+59273382,23/01/2001,971,US,USD,employed,453328,psychographic,separated,PA,Wilkes Barre,05/04/2015,Male
+68644946,11/06/1992,489,US,USD,employed,1511453,psychographic,single,TX,Corpus Christi,02/09/2021,Female
+70953819,07/03/1990,509,US,USD,employed,239666,behavioral,single,IA,Des Moines,11/20/2016,Male
+42486593,05/03/1994,928,US,USD,unemployed,876334,psychographic,single,OH,Toledo,09/30/2019,Polygender
+39691634,15/07/2000,233,US,USD,unemployed,1586047,Standard,married,MI,Lansing,11/27/2014,Male
+55116468,22/03/1992,63,US,USD,employed,1612430,geographic,single,NH,Manchester,02/07/2022,Male
+96736610,28/07/1990,717,US,USD,salaried,360572,Standard,single,IL,Chicago,09/08/2017,Female
+43745175,25/09/2004,557,US,USD,self-employed,1523478,Standard,separated,NY,Mount Vernon,10/18/2016,Female
+36462900,17/04/2000,702,US,USD,self-employed,439609,psychographic,separated,TN,Memphis,02/22/2021,Agender
+62105227,13/03/1995,321,US,USD,employed,1771425,geographic,single,WA,Tacoma,11/06/2020,Male
+23660049,24/12/2000,52,US,USD,unemployed,1360871,Standard,separated,DC,Washington,10/11/2015,Male
+41772143,21/05/1994,164,US,USD,salaried,1386988,geographic,separated,TN,Knoxville,02/02/2017,Male
+20847010,07/11/1991,649,US,USD,employed,914992,Standard,single,NC,Raleigh,01/10/2018,Male
+62036396,28/03/1991,276,US,USD,employed,621185,behavioral,single,KY,Migrate,12/20/2014,Female
+89075779,01/03/2001,865,US,USD,self-employed,790527,psychographic,single,KS,Wichita,10/21/2018,Male
+20076967,24/04/1996,41,US,USD,unemployed,1625262,psychographic,separated,TN,Johnson City,11/06/2019,Female
+89706850,10/03/1999,742,US,USD,unemployed,588980,Standard,single,VA,Newport News,10/14/2014,Male
+95860495,06/09/2000,271,US,USD,self-employed,1847456,behavioral,single,OH,Columbus,10/01/2017,Agender
+44002096,16/11/1990,973,US,USD,self-employed,623740,behavioral,separated,SC,Charleston,02/01/2021,Genderfluid
+72106345,14/07/2003,445,US,USD,salaried,1162803,behavioral,separated,CA,Burbank,10/17/2017,Male
+19175391,12/12/1997,81,US,USD,salaried,1233449,Standard,married,NV,Reno,06/08/2016,Female
+48624413,03/02/2003,201,US,USD,unemployed,1934218,geographic,single,CO,Denver,11/15/2019,Male
+73833717,26/12/1993,178,US,USD,unemployed,1884091,geographic,separated,MD,Annapolis,08/02/2016,Male
+87964709,02/11/1997,590,US,USD,salaried,289602,behavioral,separated,OK,Tulsa,08/12/2015,Female
+80786959,17/02/1990,972,US,USD,employed,423323,Standard,separated,OK,Oklahoma City,05/09/2018,Genderfluid
+54608690,19/07/1992,703,US,USD,employed,1294622,demographic,separated,AK,Anchorage,12/12/2021,Female
+81280212,03/04/1990,92,US,USD,salaried,859758,psychographic,single,FL,Ocala,06/11/2017,Female
+15695551,13/08/1991,211,US,USD,self-employed,761850,psychographic,married,AL,Montgomery,12/23/2020,Female
+19910975,29/07/1992,555,US,USD,self-employed,25195,Standard,single,CA,Redwood City,10/18/2020,Male
+33065670,15/10/2004,670,US,USD,employed,322567,Standard,separated,WA,Spokane,10/11/2015,Female
+26161996,01/09/1993,717,US,USD,unemployed,1625304,psychographic,married,KS,Wichita,05/08/2015,Female
+97960574,27/09/1989,453,US,USD,employed,584669,demographic,single,CA,Garden Grove,04/28/2017,Female
+85412251,29/04/1997,371,US,USD,self-employed,551694,psychographic,separated,TX,Houston,06/04/2019,Male
+18308811,13/10/1994,425,US,USD,salaried,457841,Standard,single,IN,Fort Wayne,12/08/2016,Female
+53222246,20/02/1995,731,US,USD,unemployed,931484,behavioral,married,TX,Houston,11/10/2018,Male
+49091372,02/12/1993,141,US,USD,self-employed,876001,Standard,single,DC,Washington,07/18/2016,Male
+91156953,14/11/2001,529,US,USD,employed,1297379,behavioral,single,NC,Raleigh,02/27/2020,Male
+37865704,19/05/1994,827,US,USD,employed,1697856,Standard,single,TX,Dallas,06/11/2016,Female
+22642150,15/07/1996,520,US,USD,salaried,389954,Standard,single,TX,El Paso,12/21/2016,Female
+97228725,03/05/1989,965,US,USD,employed,1033627,Standard,single,LA,Baton Rouge,05/28/2021,Male
+63287711,11/09/1991,202,US,USD,self-employed,480471,psychographic,separated,MN,Minneapolis,10/05/2021,Male
+36300189,27/01/1991,400,US,USD,unemployed,1813068,behavioral,separated,MS,Jackson,04/05/2019,Male
+94891995,23/10/1995,972,US,USD,self-employed,159778,geographic,married,GA,Atlanta,05/03/2016,Female
+92999857,20/05/1991,538,US,USD,employed,1215685,demographic,married,VA,Chesapeake,12/09/2014,Male
+90396657,06/09/1994,376,US,USD,self-employed,981168,geographic,separated,TX,Abilene,03/14/2019,Male
+69694992,22/02/1995,713,US,USD,employed,783632,geographic,separated,MO,Kansas City,06/22/2016,Non-binary
+73571623,25/07/1992,655,US,USD,salaried,1166062,geographic,separated,IL,Joliet,04/12/2019,Female
+28734488,06/02/2005,232,US,USD,unemployed,1589769,demographic,separated,TN,Nashville,12/13/2017,Male
+49935352,22/11/1998,389,US,USD,employed,551080,geographic,separated,FL,Palm Bay,03/26/2018,Female
+23733844,16/01/1998,32,US,USD,employed,1892054,geographic,separated,KS,Kansas City,11/27/2020,Genderqueer
+56411833,23/08/1990,310,US,USD,salaried,1402728,psychographic,single,CA,Oakland,12/08/2016,Non-binary
+90750257,25/09/2001,974,US,USD,unemployed,788458,behavioral,separated,CA,Los Angeles,09/29/2018,Female
+98402554,27/10/1995,898,US,USD,unemployed,171601,geographic,married,MI,Southfield,06/25/2019,Male
+41408972,03/01/1997,962,US,USD,employed,1887734,Standard,married,NY,New York City,05/08/2020,Female
+58950423,08/12/1989,978,US,USD,unemployed,1858516,behavioral,married,WI,Milwaukee,07/22/2021,Female
+98237981,23/01/2003,57,US,USD,salaried,393858,demographic,separated,OH,Cleveland,06/04/2016,Female
+61081437,14/11/1998,873,US,USD,self-employed,495587,geographic,married,OH,Cleveland,07/06/2014,Female
+77813973,14/04/1992,589,US,USD,employed,1894152,psychographic,married,AL,Mobile,03/23/2018,Male
+18457879,24/10/2002,460,US,USD,self-employed,42187,psychographic,single,CA,North Hollywood,11/29/2020,Genderqueer
+11309015,29/12/1995,410,US,USD,self-employed,128519,geographic,married,AK,Anchorage,07/09/2016,Female
+34279638,07/11/2003,941,US,USD,unemployed,350094,demographic,single,CO,Aurora,08/28/2015,Female
+94038723,03/06/2002,537,US,USD,self-employed,1892137,demographic,single,LA,Shreveport,01/09/2015,Polygender
+28691721,05/10/2000,913,US,USD,self-employed,958594,geographic,single,TX,Mesquite,01/02/2021,Female
+89623345,28/01/2000,512,US,USD,unemployed,38969,Standard,single,CT,Waterbury,05/20/2019,Female
+21142319,05/02/1999,778,US,USD,employed,289924,Standard,married,HI,Honolulu,09/18/2015,Female
+41863079,18/06/1997,437,US,USD,salaried,1613567,demographic,married,CT,Hartford,10/07/2014,Male
+64069777,06/01/2002,373,US,USD,employed,1459607,psychographic,married,AL,Mobile,04/06/2020,Non-binary
+52852899,08/06/1997,654,US,USD,self-employed,1945155,behavioral,separated,IA,Sioux City,08/16/2019,Male
+71047215,28/08/2003,152,US,USD,unemployed,1869491,behavioral,separated,CO,Denver,11/13/2019,Female
+34747272,05/01/2000,938,US,USD,unemployed,93311,Standard,separated,CA,Van Nuys,02/24/2017,Female
+29219322,25/05/1992,769,US,USD,self-employed,506277,psychographic,single,CA,Los Angeles,05/21/2016,Male
+46836042,01/07/2001,994,US,USD,salaried,527678,psychographic,separated,AL,Birmingham,08/23/2019,Male
+45228371,18/10/1998,687,US,USD,employed,847306,psychographic,separated,OH,Columbus,05/10/2016,Female
+14351716,11/03/2001,577,US,USD,self-employed,568135,Standard,married,TX,San Antonio,03/03/2018,Male
+86102251,19/12/2002,767,US,USD,unemployed,1645115,psychographic,separated,PA,Harrisburg,06/04/2017,Female
+92289363,10/12/1994,124,US,USD,self-employed,1362374,demographic,single,CA,Fresno,10/12/2018,Male
+96324879,23/01/1997,58,US,USD,unemployed,1318607,geographic,separated,CO,Denver,12/01/2016,Female
+85087035,14/10/1997,648,US,USD,salaried,1164092,demographic,separated,TX,Houston,01/31/2016,Male
+94850459,01/05/2002,457,US,USD,salaried,1747358,geographic,single,FL,Saint Petersburg,10/14/2016,Female
+15600559,16/04/1997,797,US,USD,unemployed,784227,psychographic,single,CO,Colorado Springs,08/26/2016,Female
+75237983,24/07/1994,116,US,USD,self-employed,681467,psychographic,single,NY,New York City,06/08/2015,Male
+80283830,17/08/2003,153,US,USD,unemployed,1268578,demographic,separated,IN,Fort Wayne,05/31/2019,Female
+99935266,28/01/2001,52,US,USD,employed,1381510,psychographic,married,AZ,Phoenix,07/13/2016,Male
+84190885,18/11/1999,689,US,USD,salaried,1409255,psychographic,separated,AL,Birmingham,09/15/2020,Male
+83244648,04/01/2002,31,US,USD,self-employed,249162,behavioral,separated,SC,Spartanburg,05/26/2016,Genderfluid
+71699318,07/07/1997,732,US,USD,salaried,1254353,demographic,married,CO,Denver,07/20/2016,Male
+71923686,28/05/1993,915,US,USD,unemployed,363969,behavioral,single,IL,Peoria,11/24/2014,Polygender
+23225205,18/01/1999,915,US,USD,salaried,648996,Standard,married,WI,Appleton,07/27/2015,Female
+67174947,16/11/1991,450,US,USD,salaried,1452080,behavioral,separated,MI,Grand Rapids,12/14/2017,Female
+38876064,28/01/2000,397,US,USD,self-employed,1157533,demographic,single,TX,San Antonio,08/31/2020,Non-binary
+15084008,06/02/1997,645,US,USD,employed,1952134,Standard,single,TX,Arlington,01/29/2019,Male
+18123581,05/12/1999,494,US,USD,self-employed,1254730,demographic,married,PA,Pittsburgh,12/01/2016,Male
+39578153,06/01/1991,134,US,USD,salaried,56686,geographic,married,MD,Baltimore,06/23/2014,Female
+43032010,03/11/1991,67,US,USD,self-employed,208268,geographic,separated,NC,Fayetteville,03/28/2017,Female
+82119233,27/04/1991,196,US,USD,unemployed,1881380,behavioral,separated,VA,Alexandria,06/04/2021,Bigender
+42826623,23/12/1991,453,US,USD,self-employed,181183,Standard,married,IL,Springfield,01/15/2020,Male
+28277666,25/03/1996,943,US,USD,salaried,78550,behavioral,separated,CA,Sacramento,02/14/2018,Female
+80700654,26/03/2004,965,US,USD,salaried,579618,geographic,separated,TX,Round Rock,09/16/2014,Female
+94994078,05/02/1990,613,US,USD,employed,311723,demographic,separated,AZ,Phoenix,04/04/2020,Female
+99245581,20/11/2002,86,US,USD,salaried,962126,behavioral,separated,NV,Las Vegas,03/02/2019,Female
+58445760,22/02/1999,30,US,USD,unemployed,1288162,geographic,separated,FL,Fort Myers,07/07/2015,Female
+58096043,13/04/2004,111,US,USD,self-employed,352329,demographic,single,OR,Portland,03/16/2015,Male
+42644901,21/09/1999,652,US,USD,salaried,193735,behavioral,single,FL,Saint Petersburg,11/04/2018,Female
+17238047,08/03/2004,612,US,USD,employed,1412530,demographic,married,IL,Peoria,12/27/2016,Male
+96362214,03/02/2000,339,US,USD,employed,738916,geographic,single,MI,Lansing,11/08/2020,Female
+23029450,10/11/1993,613,US,USD,unemployed,164068,behavioral,separated,IL,Chicago,04/18/2018,Male
+53004153,06/08/1990,834,US,USD,employed,1687432,geographic,separated,OH,Cincinnati,04/13/2019,Male
+21443073,10/09/1993,462,US,USD,salaried,423301,geographic,separated,CA,Los Angeles,09/30/2016,Male
+72830702,22/06/2001,611,US,USD,salaried,1546975,geographic,single,CA,Oakland,12/24/2018,Female
+37213232,09/12/1997,842,US,USD,unemployed,205791,demographic,married,CA,Palmdale,05/13/2021,Female
+82341149,27/07/2004,970,US,USD,self-employed,1014864,psychographic,separated,KY,Lexington,01/06/2016,Male
+38231468,09/09/2004,206,US,USD,employed,538907,Standard,single,DC,Washington,10/06/2019,Polygender
+84121502,27/05/2001,820,US,USD,self-employed,770812,demographic,married,OK,Edmond,08/14/2014,Male
+15150136,26/08/2001,522,US,USD,unemployed,122153,demographic,married,FL,Zephyrhills,02/15/2015,Male
+25984295,13/08/1991,348,US,USD,unemployed,1731927,Standard,single,CA,Garden Grove,06/05/2020,Genderfluid
+56805534,29/05/1990,912,US,USD,unemployed,1323368,behavioral,married,AL,Birmingham,01/05/2022,Male
+37842726,26/11/1998,174,US,USD,employed,1513267,Standard,single,IL,Peoria,11/11/2021,Female
+54942646,06/09/1995,269,US,USD,salaried,696744,Standard,single,IN,Fort Wayne,03/28/2021,Male
+97145867,11/03/2004,290,US,USD,self-employed,362468,psychographic,separated,LA,New Orleans,09/07/2021,Female
+72831377,29/12/2002,544,US,USD,self-employed,1866414,Standard,married,VA,Arlington,08/12/2018,Male
+19289294,27/04/1999,720,US,USD,employed,792365,Standard,single,WI,Milwaukee,09/15/2015,Female
+72079912,18/04/2004,396,US,USD,employed,302941,Standard,married,DC,Washington,10/16/2019,Male
+18944466,26/11/1992,291,US,USD,unemployed,1909015,demographic,married,AZ,Chandler,02/23/2016,Female
+85207087,10/05/2001,473,US,USD,employed,1973709,demographic,single,FL,Fort Lauderdale,06/07/2019,Male
+97269185,07/07/1989,309,US,USD,employed,922804,psychographic,separated,AZ,Phoenix,12/22/2017,Female
+74800264,16/12/1997,772,US,USD,unemployed,282290,Standard,separated,MN,Minneapolis,11/08/2020,Male
+77334031,03/07/1993,768,US,USD,unemployed,1575412,behavioral,married,IN,Fort Wayne,11/16/2015,Polygender
+76532625,25/03/2003,345,US,USD,employed,773310,geographic,single,VA,Arlington,10/24/2018,Female
+55957989,15/04/2004,16,US,USD,unemployed,218165,Standard,married,MI,Ann Arbor,10/21/2019,Genderqueer
+69537308,19/01/2001,658,US,USD,self-employed,545263,demographic,single,PA,Pittsburgh,01/30/2020,Female
+42361140,02/07/2003,31,US,USD,salaried,1485238,psychographic,married,CA,Los Angeles,01/22/2022,Male
+34601429,09/09/1994,73,US,USD,self-employed,1420071,geographic,married,TX,San Angelo,01/09/2022,Male
+37916723,23/10/1997,434,US,USD,self-employed,1499158,Standard,single,CO,Denver,11/22/2015,Female
+75393184,24/12/1996,994,US,USD,self-employed,395269,psychographic,separated,MI,Southfield,03/16/2019,Female
+86256226,07/08/1997,805,US,USD,self-employed,1951319,behavioral,single,NC,Greensboro,04/23/2017,Female
+25801752,09/12/2001,991,US,USD,unemployed,1165855,geographic,married,KS,Kansas City,10/01/2014,Male
+83136434,29/03/2000,908,US,USD,unemployed,751447,psychographic,married,TX,San Antonio,08/30/2021,Female
+25796112,04/01/1991,894,US,USD,salaried,702690,behavioral,single,GA,Atlanta,09/18/2020,Female
+77687740,05/05/1996,551,US,USD,unemployed,232189,psychographic,separated,AL,Birmingham,07/26/2019,Female
+64634278,16/08/1992,151,US,USD,self-employed,1087477,Standard,separated,OH,Dayton,12/05/2018,Female
+30556612,03/07/1990,504,US,USD,employed,1443432,psychographic,married,NC,Raleigh,04/04/2020,Female
+88215680,15/01/1997,487,US,USD,self-employed,1820771,geographic,married,IL,Chicago,10/08/2021,Female
+26860035,17/05/1998,130,US,USD,unemployed,119045,demographic,married,NY,Buffalo,01/04/2018,Female
+61191101,29/12/1999,914,US,USD,salaried,1655335,geographic,single,CT,Fairfield,06/28/2018,Female
+93023063,26/09/1994,948,US,USD,employed,1532189,demographic,single,WV,Huntington,05/12/2014,Female
+17016303,06/01/1990,499,US,USD,self-employed,227091,behavioral,married,FL,Miami,06/16/2015,Bigender
+85524172,15/01/1997,90,US,USD,self-employed,343452,psychographic,separated,NY,New York City,03/24/2020,Male
+42681342,11/08/1991,834,US,USD,unemployed,1905143,demographic,separated,FL,Lakeland,11/10/2018,Female
+82670695,20/09/1996,567,US,USD,self-employed,966921,demographic,single,CT,Hartford,01/20/2018,Female
+12981321,11/07/1995,373,US,USD,salaried,872981,demographic,separated,AZ,Mesa,08/21/2020,Female
+30741821,08/09/1992,260,US,USD,salaried,646922,psychographic,separated,MO,Columbia,07/24/2015,Female
+83633515,26/03/1995,278,US,USD,salaried,1262522,geographic,single,CA,Los Angeles,02/16/2020,Male
+14522991,26/06/2001,491,US,USD,salaried,165742,psychographic,married,CA,Sacramento,12/02/2015,Female
+54731522,31/05/2003,168,US,USD,self-employed,1131728,demographic,separated,CT,Hartford,02/10/2022,Male
+36451114,12/02/1997,767,US,USD,salaried,518428,demographic,separated,KY,Lexington,11/10/2014,Male
+29293412,20/02/1993,998,US,USD,unemployed,725010,behavioral,separated,TX,El Paso,06/10/2019,Female
+94922673,14/03/1999,995,US,USD,employed,1497058,geographic,separated,WA,Spokane,12/17/2016,Female
+21617539,24/02/1998,403,US,USD,employed,1834786,geographic,single,WI,Green Bay,01/08/2022,Bigender
+97694085,12/08/1991,74,US,USD,salaried,1651581,psychographic,separated,OH,Dayton,06/13/2020,Female
+53414794,27/01/2002,770,US,USD,salaried,1935691,Standard,single,DE,Wilmington,03/25/2016,Female
+88198611,14/11/1995,444,US,USD,self-employed,213926,psychographic,single,IN,Indianapolis,08/19/2016,Polygender
+45860896,01/05/1994,924,US,USD,unemployed,1480948,psychographic,single,MS,Hattiesburg,07/19/2017,Male
+75127800,26/11/2002,689,US,USD,self-employed,405872,behavioral,separated,TX,El Paso,06/09/2016,Female
+52164705,03/05/1998,455,US,USD,employed,1931022,behavioral,separated,CA,San Jose,07/01/2014,Male
+33039018,14/04/1994,96,US,USD,self-employed,350163,Standard,single,UT,Salt Lake City,12/05/2014,Male
+64477298,26/04/1999,444,US,USD,salaried,57285,psychographic,single,PA,Harrisburg,09/11/2015,Female
+11321898,20/04/1989,535,US,USD,self-employed,417234,behavioral,single,WA,Bellevue,01/17/2016,Female
+18710281,28/03/2001,119,US,USD,self-employed,897316,behavioral,married,MD,Silver Spring,12/20/2017,Male
+77587405,19/06/1998,174,US,USD,salaried,1688710,geographic,separated,MN,Maple Plain,03/09/2020,Polygender
+91644035,05/09/2001,218,US,USD,employed,1272300,geographic,married,AZ,Mesa,04/30/2021,Male
+89773142,15/12/1997,217,US,USD,salaried,577363,psychographic,married,TX,Houston,06/25/2017,Genderfluid
+16163904,11/10/1989,708,US,USD,self-employed,283798,behavioral,single,TX,El Paso,01/05/2021,Male
+73828230,23/04/1998,262,US,USD,employed,959641,demographic,separated,UT,Salt Lake City,10/04/2016,Female
+54330927,12/06/1998,550,US,USD,salaried,1227550,geographic,married,TX,El Paso,06/11/2015,Male
+37441879,10/08/1989,588,US,USD,salaried,1789078,Standard,single,OH,Toledo,03/18/2018,Male
+96947062,26/12/1992,19,US,USD,unemployed,1499092,geographic,married,AL,Birmingham,08/07/2020,Female
+92114530,05/04/1997,697,US,USD,self-employed,1963901,psychographic,married,SC,Spartanburg,01/20/2017,Male
+53849051,17/04/1993,161,US,USD,self-employed,1219966,demographic,married,DC,Washington,03/23/2021,Male
+12159260,12/12/1999,978,US,USD,employed,228224,demographic,married,TX,El Paso,01/10/2016,Female
+72675642,08/05/1996,449,US,USD,self-employed,486622,demographic,married,CO,Denver,08/01/2017,Male
+57469786,16/04/2003,88,US,USD,salaried,692560,Standard,married,IN,Fort Wayne,06/28/2021,Female
+68571767,01/12/1992,631,US,USD,employed,713338,behavioral,separated,NY,Rochester,07/14/2014,Male
+57253001,20/05/1993,518,US,USD,self-employed,1516751,psychographic,married,NV,Las Vegas,08/20/2014,Male
+24429557,23/10/1990,335,US,USD,unemployed,1665755,geographic,separated,FL,Orlando,09/08/2018,Male
+48581756,02/04/1992,144,US,USD,salaried,1987901,Standard,separated,IL,Chicago,05/23/2015,Female
+43512058,07/08/2000,380,US,USD,salaried,214698,behavioral,separated,TX,Dallas,03/26/2016,Male
+85690857,11/10/2003,240,US,USD,salaried,257027,geographic,separated,CA,Los Angeles,01/28/2020,Female
+21255035,05/08/1999,875,US,USD,unemployed,165375,behavioral,separated,ND,Fargo,03/19/2017,Female
+24538065,21/06/1991,553,US,USD,salaried,442659,Standard,separated,CA,Los Angeles,03/21/2016,Female
+58116513,05/04/1999,770,US,USD,salaried,1484048,behavioral,married,PA,Philadelphia,12/12/2014,Female
+96119066,17/01/1994,114,US,USD,self-employed,1599727,behavioral,married,NM,Santa Fe,05/17/2017,Female
+66443149,15/05/2002,925,US,USD,unemployed,669591,geographic,separated,CO,Boulder,01/30/2016,Female
+21409014,20/06/2003,450,US,USD,self-employed,1372606,psychographic,single,NJ,Paterson,08/15/2015,Female
+15075630,24/07/1997,409,US,USD,salaried,472468,geographic,separated,DE,Newark,02/14/2018,Female
+60158800,16/01/1996,234,US,USD,salaried,1637201,psychographic,single,FL,Miami,06/20/2018,Male
+36275141,14/10/1996,746,US,USD,self-employed,1695626,Standard,single,MD,Hyattsville,04/08/2015,Male
+88666659,10/06/2002,473,US,USD,employed,720125,geographic,single,CA,San Diego,01/27/2015,Female
+72305654,15/07/2000,193,US,USD,unemployed,141023,geographic,single,GA,Atlanta,08/10/2021,Female
+22280942,22/02/1998,257,US,USD,unemployed,450593,Standard,married,AL,Birmingham,02/24/2015,Female
+17233967,19/03/1996,185,US,USD,salaried,139219,geographic,single,WI,Madison,08/27/2018,Female
+18813427,25/07/1992,320,US,USD,salaried,1404716,geographic,married,IA,Des Moines,09/10/2017,Female
+34549012,23/10/2004,880,US,USD,salaried,978336,geographic,married,OK,Tulsa,05/20/2014,Female
+73217622,28/11/1997,825,US,USD,salaried,80760,behavioral,single,FL,Boca Raton,07/11/2016,Female
+25655507,18/12/2004,365,US,USD,unemployed,695821,psychographic,married,FL,Jacksonville,09/24/2021,Female
+23677555,26/12/1997,416,US,USD,employed,1027165,Standard,separated,CA,San Jose,02/02/2016,Male
+40177374,07/02/2003,24,US,USD,unemployed,1271553,Standard,separated,TN,Kingsport,08/15/2014,Female
+38331373,21/05/1995,925,US,USD,unemployed,1653282,behavioral,separated,HI,Honolulu,04/11/2016,Female
+25426128,02/12/2002,509,US,USD,unemployed,474291,behavioral,single,TX,Dallas,06/25/2015,Female
+23051085,30/05/1993,990,US,USD,employed,134075,psychographic,single,MO,Saint Joseph,07/24/2016,Female
+93415439,14/12/1995,719,US,USD,self-employed,89400,psychographic,separated,NY,Syracuse,10/17/2018,Female
+94841095,06/04/1990,782,US,USD,salaried,70446,Standard,single,TX,San Antonio,11/15/2016,Male
+43113200,05/07/1999,565,US,USD,self-employed,782219,Standard,married,MD,Rockville,07/19/2014,Female
+68441472,30/12/1995,88,US,USD,salaried,1208331,demographic,married,NY,Albany,01/03/2020,Female
+48565744,07/11/1995,597,US,USD,self-employed,783262,psychographic,separated,TX,Houston,12/17/2021,Female
+87642537,29/11/1993,947,US,USD,employed,848734,demographic,single,GA,Atlanta,06/15/2020,Female
+79585901,15/02/1991,909,US,USD,employed,1712360,geographic,single,CA,Long Beach,02/17/2022,Female
+96177997,04/07/2003,132,US,USD,salaried,260002,Standard,single,NC,Greensboro,01/23/2015,Female
+53807691,27/09/1989,625,US,USD,unemployed,860993,Standard,separated,CA,Sacramento,08/25/2020,Female
+82694402,24/08/1992,169,US,USD,salaried,724265,behavioral,married,TX,Amarillo,08/13/2016,Female
+63845458,07/03/1992,898,US,USD,salaried,101431,Standard,married,KS,Topeka,10/26/2015,Male
+91480126,24/09/1997,405,US,USD,self-employed,780676,behavioral,separated,CA,Mountain View,07/02/2016,Female
+55621662,29/03/2005,703,US,USD,unemployed,886468,demographic,married,AZ,Tucson,05/02/2019,Female
+81163414,17/01/1996,522,US,USD,salaried,1891135,behavioral,single,TX,Houston,09/26/2017,Female
+50351343,17/04/2003,971,US,USD,self-employed,856823,psychographic,married,LA,New Orleans,01/16/2022,Male
+52790006,22/07/1989,91,US,USD,self-employed,1450160,psychographic,separated,TX,Laredo,08/17/2014,Female
+17764057,23/08/1994,454,US,USD,employed,445118,Standard,married,FL,Orlando,11/29/2018,Female
+39509683,03/05/1989,232,US,USD,employed,765471,demographic,married,FL,Hialeah,03/01/2016,Polygender
+24425424,05/05/1997,732,US,USD,employed,1595193,behavioral,separated,CA,Escondido,05/13/2021,Female
+48717107,21/01/2005,310,US,USD,self-employed,246819,geographic,married,OK,Oklahoma City,01/20/2022,Female
+44875195,21/05/2004,56,US,USD,salaried,668468,demographic,separated,MD,Baltimore,08/04/2015,Male
+25642171,30/04/1997,794,US,USD,employed,1471400,Standard,single,VA,Portsmouth,09/06/2019,Female
+56496257,25/10/2001,870,US,USD,unemployed,1921947,geographic,separated,DC,Washington,07/11/2020,Female
+35482215,12/01/1990,182,US,USD,self-employed,1659804,demographic,separated,CA,Pasadena,09/10/2015,Female
+45321765,25/05/1996,637,US,USD,unemployed,1657078,behavioral,separated,MI,Warren,08/23/2021,Female
+23061821,15/01/2002,37,US,USD,self-employed,1448980,demographic,separated,AZ,Tucson,07/17/2021,Female
+63080173,17/07/1994,315,US,USD,unemployed,1644167,demographic,single,MA,Boston,11/24/2018,Female
+86165134,15/01/1990,279,US,USD,employed,448143,demographic,single,DC,Washington,05/26/2017,Female
+23435241,23/12/1999,126,US,USD,employed,164068,demographic,married,MI,Detroit,06/25/2014,Female
+17493540,28/08/1993,447,US,USD,self-employed,1253723,behavioral,single,AL,Birmingham,08/15/2020,Male
+90604294,11/04/1993,391,US,USD,self-employed,554088,behavioral,separated,CT,Hartford,01/06/2021,Female
+47395479,07/03/2003,888,US,USD,unemployed,1755874,Standard,single,CA,Northridge,07/08/2019,Female
+31512448,17/06/1997,270,US,USD,unemployed,909827,demographic,single,AZ,Phoenix,10/18/2016,Female
+47024570,30/03/1998,53,US,USD,employed,420145,Standard,single,TX,Houston,05/10/2016,Female
+66447450,14/03/1999,585,US,USD,unemployed,382739,geographic,single,MD,Bethesda,08/25/2018,Female
+65575635,02/04/2002,688,US,USD,employed,228847,Standard,separated,TX,Houston,07/07/2017,Male
+44714929,31/01/1992,317,US,USD,salaried,1529225,behavioral,separated,TX,Corpus Christi,04/26/2015,Agender
+34449301,21/09/1993,651,US,USD,employed,1794301,behavioral,single,KS,Shawnee Mission,09/18/2014,Male
+81922479,02/11/1992,538,US,USD,self-employed,1034287,geographic,married,FL,Miami,09/11/2017,Female
+90426353,31/12/1995,984,US,USD,self-employed,432832,geographic,single,TX,Abilene,12/14/2020,Female
+68417401,01/01/1995,235,US,USD,salaried,902126,behavioral,single,CA,Oakland,12/17/2017,Female
+37661087,09/12/2000,551,US,USD,employed,648570,Standard,married,CO,Denver,12/01/2020,Male
+44689367,10/07/1999,87,US,USD,salaried,1160523,psychographic,single,OK,Oklahoma City,10/14/2016,Male
+44839283,16/06/1995,636,US,USD,employed,1668750,demographic,separated,CO,Pueblo,06/25/2014,Male
+62962120,26/09/1997,323,US,USD,employed,637026,behavioral,single,TX,El Paso,05/14/2016,Female
+64780084,01/02/1995,989,US,USD,salaried,1917837,psychographic,married,UT,Salt Lake City,05/30/2016,Female
+68813926,22/08/2001,312,US,USD,employed,1755603,Standard,married,FL,Homestead,11/23/2017,Female
+62247837,25/03/1992,649,US,USD,salaried,1664697,Standard,separated,NM,Santa Fe,07/10/2019,Male
+21673555,07/01/2002,824,US,USD,salaried,1906281,behavioral,single,MO,Springfield,05/23/2017,Male
+65661415,14/02/2004,903,US,USD,employed,70720,behavioral,separated,GA,Macon,06/29/2018,Male
+66939378,30/06/1999,693,US,USD,employed,734380,psychographic,married,TX,El Paso,08/27/2014,Male
+52234624,29/09/2001,393,US,USD,salaried,735162,demographic,married,MA,Brockton,11/16/2019,Female
+66681188,13/07/1997,9,US,USD,salaried,1802666,behavioral,separated,CO,Colorado Springs,08/02/2014,Female
+79109583,17/09/2004,302,US,USD,employed,1248950,behavioral,single,SC,Beaufort,01/21/2020,Female
+93040383,28/02/1995,677,US,USD,unemployed,298830,demographic,separated,AL,Montgomery,04/17/2021,Male
+99555776,17/03/2003,62,US,USD,unemployed,220065,geographic,single,TN,Memphis,07/23/2014,Male
+38432402,02/01/2002,414,US,USD,salaried,480537,Standard,married,FL,Tampa,04/28/2018,Female
+84601633,27/05/1999,366,US,USD,employed,1480368,behavioral,separated,CA,Carlsbad,05/22/2015,Non-binary
+95041086,21/07/1996,63,US,USD,employed,796848,psychographic,married,IN,South Bend,05/15/2021,Male
+79531715,11/09/1989,261,US,USD,unemployed,756995,psychographic,married,KY,Louisville,12/23/2014,Female
+31325425,19/04/1993,83,US,USD,self-employed,48998,demographic,single,CA,Burbank,01/27/2018,Male
+31549272,10/07/1998,688,US,USD,employed,1444230,psychographic,separated,CA,Fresno,04/21/2016,Male
+69035611,27/03/1995,332,US,USD,unemployed,99964,behavioral,married,NY,New York City,07/04/2014,Female
+59370365,12/03/2000,314,US,USD,salaried,1880970,demographic,single,WA,Olympia,11/16/2016,Male
+68759912,24/11/1998,596,US,USD,employed,99780,Standard,single,TX,Houston,05/23/2016,Female
+88154731,01/02/1999,753,US,USD,self-employed,1781291,psychographic,married,AZ,Phoenix,11/30/2018,Genderfluid
+67431726,29/04/1997,240,US,USD,self-employed,1355481,Standard,married,NC,Winston Salem,10/03/2018,Female
+32384464,09/03/1996,699,US,USD,unemployed,1787839,Standard,separated,AL,Mobile,01/27/2016,Agender
+45872506,19/05/1991,127,US,USD,self-employed,1454119,demographic,married,TX,Dallas,03/06/2021,Male
+75112302,04/01/1998,561,US,USD,salaried,124390,demographic,single,MT,Billings,07/11/2019,Male
+12200824,05/06/1995,103,US,USD,self-employed,535022,Standard,separated,TN,Memphis,08/19/2014,Female
+88897369,05/02/2003,51,US,USD,employed,437159,Standard,single,TX,El Paso,10/13/2016,Female
+87596948,25/04/1992,225,US,USD,salaried,201050,psychographic,separated,NC,Greensboro,06/19/2017,Male
+96694064,21/10/1997,340,US,USD,self-employed,1785630,psychographic,married,CA,Pasadena,04/08/2016,Female
+65929266,16/01/1996,213,US,USD,employed,256380,geographic,single,MD,Silver Spring,12/06/2019,Female
+56391975,12/05/1990,706,US,USD,salaried,14520,psychographic,separated,CA,San Jose,03/12/2021,Female
+33689186,22/07/1996,838,US,USD,salaried,1269040,psychographic,single,CO,Colorado Springs,04/02/2022,Male
+84827024,31/07/2001,906,US,USD,salaried,887213,psychographic,single,NM,Santa Fe,08/20/2015,Female
+63957196,09/02/2003,809,US,USD,unemployed,1143860,demographic,single,DC,Washington,04/25/2015,Female
+96689300,27/03/2003,305,US,USD,salaried,133570,demographic,separated,DC,Washington,03/18/2019,Male
+97851888,10/01/1993,363,US,USD,unemployed,1594729,Standard,separated,NE,Lincoln,12/23/2015,Male
+15026985,12/03/2003,604,US,USD,unemployed,1079650,geographic,separated,TX,Dallas,06/13/2014,Male
+69855977,11/12/1991,650,US,USD,salaried,479657,behavioral,single,AL,Mobile,10/16/2021,Male
+21644381,20/01/1994,265,US,USD,salaried,1957467,geographic,separated,IA,Des Moines,01/15/2022,Female
+63337060,01/05/2000,332,US,USD,salaried,654677,demographic,separated,TX,Arlington,12/25/2014,Female
+79234447,04/08/2002,321,US,USD,employed,1705359,psychographic,separated,TX,Dallas,08/13/2016,Male
+34954417,18/11/1998,936,US,USD,self-employed,676166,psychographic,single,NY,Utica,03/07/2018,Genderqueer
+61778981,09/08/2002,622,US,USD,salaried,603097,demographic,married,PA,Pittsburgh,03/10/2017,Female
+38885093,27/11/1996,517,US,USD,employed,523181,demographic,separated,NY,Mount Vernon,06/14/2020,Male
+87056043,30/08/1991,222,US,USD,salaried,916321,geographic,married,TX,El Paso,05/18/2021,Male
+66736479,22/04/2000,370,US,USD,unemployed,1505728,demographic,single,NY,New York City,08/10/2017,Male
+47053477,03/04/2004,494,US,USD,self-employed,1825218,psychographic,separated,NY,Brooklyn,07/22/2014,Male
+44246486,30/04/2000,386,US,USD,unemployed,1884954,Standard,married,UT,Salt Lake City,07/20/2016,Female
+90985895,30/07/1993,226,US,USD,salaried,1138694,Standard,separated,NC,Winston Salem,03/19/2016,Male
+11378884,25/11/2004,631,US,USD,salaried,1761210,psychographic,single,TX,Houston,07/15/2021,Male
+35673951,29/05/2004,368,US,USD,employed,1909953,demographic,married,AL,Montgomery,10/04/2019,Male
+77199355,07/06/1998,431,US,USD,employed,1727418,demographic,married,DC,Washington,05/19/2014,Genderqueer
+19304973,17/07/2003,905,US,USD,salaried,1800412,demographic,separated,MO,Columbia,01/04/2017,Male
+94315446,04/10/1997,329,US,USD,self-employed,1498620,geographic,separated,WI,Madison,10/12/2017,Male
+21916479,22/12/1989,363,US,USD,self-employed,70539,geographic,married,OH,Cleveland,05/01/2017,Female
+36189631,04/11/1990,263,US,USD,self-employed,1798116,Standard,separated,CT,Stamford,01/19/2020,Male
+68392488,21/03/1994,913,US,USD,unemployed,758952,geographic,separated,TX,Waco,04/02/2018,Male
+94629331,02/03/1995,888,US,USD,self-employed,1290367,Standard,married,KY,Lexington,01/20/2021,Female
+57360261,10/02/1998,806,US,USD,employed,1000602,psychographic,single,NC,Winston Salem,03/08/2017,Male
+57127344,05/03/2002,24,US,USD,unemployed,1952519,geographic,single,FL,Vero Beach,12/06/2015,Female
+74245838,17/03/2000,187,US,USD,employed,1798240,Standard,separated,OR,Portland,09/15/2016,Genderqueer
+15907001,13/09/1992,248,US,USD,employed,429665,Standard,married,FL,Pinellas Park,11/06/2020,Agender
+97635269,21/05/2001,941,US,USD,employed,956439,behavioral,married,PA,Pittsburgh,11/29/2017,Female
+44117232,04/06/2002,990,US,USD,employed,1165253,psychographic,married,TX,Conroe,02/02/2016,Male
+51705468,12/03/1994,776,US,USD,salaried,1521207,geographic,married,IN,Terre Haute,09/11/2020,Agender
+54458154,06/01/2004,613,US,USD,employed,461400,Standard,married,OH,Dayton,04/30/2014,Non-binary
+21029148,10/01/1993,531,US,USD,self-employed,12720,psychographic,single,NC,Charlotte,08/19/2021,Female
+95493098,31/01/2002,101,US,USD,salaried,254571,psychographic,separated,LA,Lafayette,04/29/2014,Male
+61601997,25/05/2003,957,US,USD,unemployed,839339,demographic,single,VA,Hampton,12/11/2015,Female
+44247054,21/06/1991,213,US,USD,unemployed,313289,geographic,single,TX,Gatesville,08/11/2019,Non-binary
+94330202,30/05/2004,487,US,USD,employed,745253,Standard,separated,CT,Waterbury,04/14/2020,Male
+44219600,19/11/2003,300,US,USD,unemployed,1639916,psychographic,single,WA,Bellevue,07/18/2016,Male
+30417297,19/07/2002,6,US,USD,self-employed,1733723,behavioral,separated,CA,San Rafael,07/23/2015,Male
+82858276,19/08/1999,43,US,USD,unemployed,417863,behavioral,married,TX,Longview,06/04/2016,Male
+99097016,28/04/2000,859,US,USD,employed,1519571,demographic,separated,CA,Inglewood,03/08/2016,Female
+92888239,19/05/1994,478,US,USD,self-employed,929515,demographic,single,WI,Racine,04/17/2014,Female
+94491402,13/08/2003,842,US,USD,salaried,369830,demographic,separated,VA,Richmond,12/31/2016,Female
+14521124,04/05/2004,152,US,USD,self-employed,1342061,Standard,single,FL,Naples,02/08/2018,Male
+57022094,14/07/1999,94,US,USD,employed,85571,demographic,separated,IL,Bloomington,09/06/2017,Male
+80427939,30/09/2000,692,US,USD,unemployed,830204,geographic,separated,DE,Wilmington,12/24/2017,Male
+69682420,07/04/2004,899,US,USD,self-employed,1399475,behavioral,married,TN,Memphis,04/26/2019,Male
+39099810,24/10/1991,810,US,USD,employed,1309756,behavioral,married,NY,New York City,12/02/2019,Male
+72933729,07/09/1992,478,US,USD,unemployed,1731162,geographic,single,GA,Macon,05/14/2017,Male
+22085318,22/08/1997,547,US,USD,salaried,898272,psychographic,single,TX,El Paso,02/21/2015,Female
+92899838,19/10/1989,850,US,USD,employed,1954888,behavioral,separated,HI,Honolulu,05/20/2019,Female
+25939295,23/09/2002,130,US,USD,self-employed,617384,geographic,married,TX,Midland,06/23/2017,Female
+91403345,16/03/1993,54,US,USD,self-employed,867682,geographic,separated,FL,North Port,06/11/2015,Female
+29962208,30/08/1991,94,US,USD,unemployed,561192,psychographic,married,PA,Harrisburg,02/04/2015,Female
+55840713,26/04/1992,923,US,USD,employed,314083,geographic,married,NY,Jamaica,02/06/2015,Female
+95509763,23/01/1996,638,US,USD,unemployed,835816,behavioral,separated,CA,Petaluma,12/20/2020,Male
+18846489,14/01/1990,318,US,USD,salaried,659485,demographic,married,LA,Shreveport,07/02/2014,Bigender
+94532038,08/09/1996,403,US,USD,salaried,311703,Standard,separated,CA,San Jose,06/21/2015,Female
+44925927,27/03/1993,146,US,USD,unemployed,1660457,demographic,separated,CA,Long Beach,04/05/2021,Polygender
+24031447,30/08/2002,530,US,USD,unemployed,211201,psychographic,separated,MO,Saint Joseph,12/13/2014,Male
+20350049,30/11/1991,591,US,USD,salaried,1341305,demographic,single,AR,Fort Smith,04/03/2022,Genderfluid
+34370964,18/11/2002,362,US,USD,self-employed,402838,geographic,married,CA,Lancaster,12/15/2014,Male
+32403753,29/08/1993,196,US,USD,employed,438351,Standard,separated,NE,Omaha,09/14/2021,Male
+44428447,05/09/1995,634,US,USD,unemployed,1616378,psychographic,separated,IL,Bloomington,12/24/2020,Female
+63308099,01/07/2004,824,US,USD,self-employed,1535638,behavioral,separated,PA,Erie,03/03/2016,Genderqueer
+42508855,24/07/1989,187,US,USD,unemployed,603068,psychographic,single,TX,Houston,04/28/2021,Male
+53513304,07/10/1997,832,US,USD,self-employed,1565206,behavioral,married,TX,Lubbock,04/28/2016,Female
+79248063,30/06/2001,184,US,USD,salaried,1810773,Standard,married,KS,Kansas City,07/28/2018,Female
+69409076,18/10/1996,788,US,USD,self-employed,146874,Standard,married,CA,San Jose,02/26/2021,Female
+21728627,29/04/1990,552,US,USD,self-employed,712065,Standard,separated,GA,Atlanta,12/17/2016,Bigender
+37809327,09/12/1994,802,US,USD,employed,326612,demographic,single,FL,Pensacola,09/17/2014,Female
+77205367,06/05/2003,445,US,USD,salaried,1992465,psychographic,separated,FL,Lehigh Acres,05/02/2016,Female
+43459755,18/01/2001,896,US,USD,salaried,541543,geographic,single,GA,Alpharetta,01/29/2016,Female
+85216919,28/05/1989,191,US,USD,self-employed,1233663,Standard,separated,PA,Philadelphia,01/18/2021,Female
+47476485,18/04/2004,100,US,USD,salaried,381989,Standard,married,MI,Detroit,02/04/2015,Male
+79639550,06/02/1990,95,US,USD,employed,1464034,demographic,separated,DC,Washington,02/02/2015,Female
+85300356,30/11/1991,855,US,USD,employed,1057771,psychographic,married,NJ,Trenton,09/17/2017,Polygender
+91599441,07/03/2001,113,US,USD,unemployed,1964104,demographic,separated,CO,Denver,07/13/2014,Female
+94892331,20/01/2001,759,US,USD,unemployed,1442485,demographic,separated,CA,Van Nuys,08/14/2016,Female
+75058391,15/05/1995,248,US,USD,self-employed,1979071,psychographic,single,OK,Oklahoma City,03/06/2017,Female
+68614333,19/03/2004,936,US,USD,employed,1369551,geographic,married,AL,Birmingham,08/08/2020,Male
+14270860,29/03/2003,219,US,USD,salaried,141078,behavioral,single,PA,Bethlehem,05/26/2021,Female
+22631690,25/09/1999,73,US,USD,employed,1651649,behavioral,married,WI,Madison,11/07/2019,Male
+67313963,08/04/2002,885,US,USD,salaried,423158,behavioral,single,OK,Tulsa,08/13/2014,Polygender
+83223579,16/02/1995,273,US,USD,employed,879355,behavioral,single,TX,Wichita Falls,02/10/2016,Male
+27716937,29/06/1991,269,US,USD,unemployed,628909,behavioral,separated,NY,New York City,10/25/2019,Male
+94796010,29/10/2000,407,US,USD,unemployed,1068800,Standard,married,AL,Birmingham,01/23/2015,Male
+46282284,04/06/2002,616,US,USD,salaried,963138,behavioral,married,GA,Augusta,03/31/2015,Male
+20405017,24/02/2003,769,US,USD,salaried,284171,demographic,married,WA,Spokane,08/31/2015,Male
+36613574,29/10/1996,547,US,USD,employed,865203,geographic,separated,GA,Atlanta,03/25/2018,Male
+84328272,09/03/1995,451,US,USD,salaried,707202,demographic,single,TN,Knoxville,12/30/2021,Genderfluid
+81188049,29/05/2001,750,US,USD,unemployed,517910,behavioral,married,SC,Greenville,06/04/2015,Female
+20863103,06/08/2003,798,US,USD,unemployed,1174490,geographic,married,MN,Maple Plain,12/20/2014,Female
+32843979,14/01/1995,137,US,USD,employed,1211225,psychographic,separated,OH,Cleveland,06/12/2017,Male
+44333582,14/10/1993,147,US,USD,self-employed,1689786,Standard,married,FL,Jacksonville,12/17/2020,Female
+27450809,31/05/2003,267,US,USD,self-employed,1201330,demographic,married,PA,Mc Keesport,09/27/2015,Male
+62088764,25/08/1997,693,US,USD,self-employed,672094,behavioral,married,DC,Washington,02/14/2022,Genderfluid
+86295010,19/05/1992,706,US,USD,salaried,1520757,Standard,single,FL,Orlando,07/13/2018,Female
+57924607,21/05/1991,260,US,USD,self-employed,292850,psychographic,married,CA,Oakland,06/19/2019,Male
+58419910,11/05/1998,415,US,USD,salaried,1720209,geographic,single,AZ,Tucson,01/16/2017,Male
+63080173,02/05/1994,789,US,USD,employed,1469609,Standard,separated,MA,Springfield,06/21/2014,Female
+74152053,12/06/2004,492,US,USD,salaried,644179,geographic,married,MN,Minneapolis,09/19/2017,Male
+87957800,16/11/2000,904,US,USD,unemployed,1069591,Standard,separated,TX,Houston,09/25/2019,Female
+11138678,08/02/1992,806,US,USD,self-employed,653480,behavioral,married,IA,Cedar Rapids,12/04/2017,Male
+38025621,11/02/1998,486,US,USD,unemployed,352864,Standard,separated,MD,Bethesda,06/22/2017,Genderfluid
+57291701,09/07/1997,156,US,USD,self-employed,350032,Standard,married,MO,Saint Louis,12/08/2018,Male
+69459345,08/10/2004,742,US,USD,unemployed,1836859,demographic,separated,IL,Chicago,06/16/2020,Male
+75915901,29/06/2004,897,US,USD,employed,1729608,behavioral,single,IL,Springfield,10/21/2018,Female
+74773252,05/02/1994,952,US,USD,self-employed,159900,Standard,separated,NV,Las Vegas,11/17/2017,Male
+12994509,04/08/2000,712,US,USD,salaried,839665,psychographic,single,DC,Washington,01/18/2017,Female
+69759272,09/04/2001,598,US,USD,employed,915258,geographic,single,NY,New York City,08/11/2019,Agender
+36300984,28/05/2000,965,US,USD,self-employed,470346,Standard,single,CO,Fort Collins,07/18/2019,Female
+32068094,06/10/2002,357,US,USD,unemployed,1972669,Standard,separated,CT,Danbury,05/09/2018,Polygender
+55570369,31/10/1992,450,US,USD,self-employed,899685,psychographic,married,OH,Columbus,07/17/2019,Polygender
+49612170,08/01/2002,528,US,USD,employed,870602,geographic,separated,GA,Atlanta,12/05/2015,Genderqueer
+41817799,14/02/2005,912,US,USD,unemployed,1335373,psychographic,single,CA,San Francisco,04/22/2014,Male
+52348649,19/11/1995,468,US,USD,unemployed,1147750,behavioral,married,CT,Hartford,03/16/2017,Agender
+95589196,18/12/1991,5,US,USD,employed,116081,demographic,single,HI,Honolulu,11/06/2015,Female
+83675770,09/09/1997,447,US,USD,employed,1052222,geographic,married,PA,Harrisburg,11/15/2019,Female
+84184157,20/09/2003,987,US,USD,employed,1377733,psychographic,married,VA,Richmond,04/14/2019,Polygender
+81379237,06/05/2003,327,US,USD,employed,258478,psychographic,separated,TX,El Paso,07/20/2016,Female
+40356859,26/11/1996,618,US,USD,unemployed,924430,psychographic,single,FL,Tampa,12/01/2021,Male
+42690262,07/04/2002,636,US,USD,unemployed,540300,behavioral,married,GA,Columbus,11/20/2014,Male
+25142037,06/01/2000,666,US,USD,employed,1273158,psychographic,married,DC,Washington,07/22/2016,Female
+97865441,07/05/1990,728,US,USD,salaried,1530884,behavioral,separated,PA,Philadelphia,09/21/2021,Male
+44853877,20/09/2001,539,US,USD,employed,623993,Standard,single,PA,Bethlehem,12/01/2019,Male
+70013858,21/01/1992,335,US,USD,unemployed,1244850,Standard,single,NY,New York City,09/25/2018,Male
+96331624,01/05/1996,461,US,USD,self-employed,1952596,Standard,single,IL,Carol Stream,12/17/2016,Female
+53561114,03/12/1989,985,US,USD,unemployed,623479,Standard,separated,DC,Washington,03/16/2020,Female
+12976645,04/04/2003,568,US,USD,employed,544380,psychographic,married,OK,Oklahoma City,01/12/2018,Female
+88269107,10/07/1993,307,US,USD,unemployed,1438244,demographic,single,TX,Beaumont,04/26/2020,Non-binary
+59591667,23/06/2003,258,US,USD,salaried,360757,demographic,single,IL,Peoria,08/30/2021,Male
+45422325,08/03/1995,888,US,USD,salaried,302129,demographic,separated,GA,Columbus,12/30/2021,Male
+89281016,27/10/1998,349,US,USD,salaried,1600671,geographic,married,IL,Carol Stream,03/03/2018,Female
+27858736,05/07/1996,475,US,USD,employed,1666991,demographic,married,TX,Waco,11/29/2020,Genderfluid
+99362753,19/09/1995,326,US,USD,self-employed,1698466,psychographic,married,DC,Washington,01/11/2020,Genderqueer
+59829149,12/09/1994,36,US,USD,salaried,346732,psychographic,married,PA,Reading,12/21/2015,Male
+86525381,19/04/2003,265,US,USD,employed,60843,Standard,married,MA,Woburn,11/24/2019,Female
+84450511,19/09/1999,718,US,USD,employed,1662235,psychographic,married,CA,Fresno,12/08/2016,Female
+82293214,15/11/1993,603,US,USD,self-employed,324159,demographic,separated,WV,Charleston,03/30/2021,Female
+58630857,09/09/1990,718,US,USD,employed,1058872,psychographic,single,FL,Fort Myers,06/08/2015,Female
+32414240,23/10/1998,620,US,USD,employed,1661579,demographic,married,MD,Baltimore,10/17/2017,Female
+36711629,17/03/1994,203,US,USD,salaried,1822339,geographic,single,LA,Baton Rouge,01/04/2019,Female
+75619869,29/08/1996,833,US,USD,unemployed,1700998,Standard,single,FL,Naples,08/08/2019,Male
+64963680,11/08/1997,986,US,USD,self-employed,977380,behavioral,married,OR,Eugene,03/02/2020,Female
+28342427,07/12/2000,680,US,USD,salaried,1154014,Standard,single,NY,Rochester,10/06/2014,Male
+51235684,09/03/1998,527,US,USD,employed,167017,psychographic,single,AL,Birmingham,11/13/2021,Female
+82395533,20/12/1994,830,US,USD,employed,1825409,behavioral,separated,CA,Fresno,04/09/2015,Male
+26152702,16/02/1993,943,US,USD,salaried,1952924,behavioral,separated,CA,San Bernardino,11/01/2019,Male
+54587378,20/01/1991,954,US,USD,self-employed,191256,behavioral,married,MI,Warren,07/30/2015,Male
+77507715,17/02/1993,203,US,USD,unemployed,1591177,demographic,married,WV,Huntington,06/13/2018,Female
+86501125,18/11/1993,209,US,USD,self-employed,1773905,psychographic,single,PA,Pittsburgh,05/08/2020,Male
+60026435,08/11/1993,402,US,USD,self-employed,1733582,behavioral,single,PA,Pittsburgh,02/22/2018,Bigender
+30763989,10/11/2000,904,US,USD,employed,1146729,geographic,married,MI,Flint,12/30/2019,Female
+83617287,17/10/1991,589,US,USD,self-employed,1498289,Standard,single,IL,Evanston,01/28/2021,Female
+30727385,02/07/1996,577,US,USD,employed,1414146,Standard,married,IN,Evansville,05/15/2014,Female
+47482223,21/04/1995,416,US,USD,salaried,1255536,Standard,married,IL,Springfield,03/04/2016,Female
+23093864,28/05/2001,469,US,USD,salaried,132371,psychographic,single,MA,Cambridge,01/24/2019,Bigender
+39719475,03/06/1992,445,US,USD,unemployed,91622,behavioral,single,AR,Little Rock,11/12/2021,Female
+38825330,02/07/2000,426,US,USD,employed,1277561,geographic,married,CA,Los Angeles,02/06/2017,Male
+42346519,05/05/2003,919,US,USD,salaried,750864,Standard,single,AZ,Phoenix,06/13/2016,Male
+16871075,20/11/1998,219,US,USD,unemployed,538099,geographic,separated,FL,Miami,11/22/2020,Female
+97953414,06/06/1995,514,US,USD,employed,421785,behavioral,married,KS,Shawnee Mission,07/01/2020,Male
+94822288,19/12/1989,444,US,USD,employed,1594091,psychographic,married,MA,Springfield,03/14/2015,Female
+18575754,24/03/2004,464,US,USD,unemployed,1987164,geographic,separated,VA,Reston,11/13/2020,Male
+62816692,13/07/2000,60,US,USD,self-employed,348320,psychographic,separated,TN,Memphis,08/08/2020,Female
+50137587,24/12/1989,533,US,USD,unemployed,303525,psychographic,single,TX,Austin,09/28/2021,Male
+25104525,01/08/1989,524,US,USD,salaried,55046,psychographic,married,FL,Vero Beach,05/05/2020,Agender
+24805916,04/12/1991,993,US,USD,salaried,1865874,psychographic,separated,AZ,Mesa,12/30/2015,Male
+43850074,01/11/2002,273,US,USD,salaried,1325246,Standard,single,NY,Rochester,10/20/2017,Male
+40468648,06/08/1990,835,US,USD,self-employed,129467,behavioral,single,VA,Springfield,10/17/2017,Male
+81736578,18/01/1993,376,US,USD,salaried,1359679,behavioral,single,TX,El Paso,06/19/2016,Male
+35718633,23/08/1989,358,US,USD,employed,25822,behavioral,separated,NY,New York City,04/29/2021,Female
+63975939,12/06/2000,517,US,USD,unemployed,268299,Standard,single,NY,New York City,12/17/2014,Female
+80214245,14/04/1997,196,US,USD,salaried,806823,behavioral,married,DC,Washington,12/11/2018,Male
+19614252,28/10/2000,443,US,USD,self-employed,1540225,Standard,single,CT,New Haven,12/29/2019,Female
+35609736,19/06/1993,449,US,USD,salaried,269177,geographic,married,GA,Atlanta,12/28/2018,Agender
+34045703,14/11/1996,127,US,USD,self-employed,1365078,Standard,separated,FL,West Palm Beach,08/23/2019,Female
+32356600,09/03/2002,196,US,USD,self-employed,138685,Standard,married,AR,North Little Rock,02/24/2018,Male
+73634565,10/08/1994,21,US,USD,salaried,1854046,geographic,separated,AZ,Phoenix,10/26/2020,Male
+51864359,15/04/1994,473,US,USD,employed,1134946,behavioral,separated,OK,Tulsa,07/14/2021,Male
+82202444,01/03/1991,501,US,USD,employed,1282657,Standard,separated,AL,Birmingham,11/19/2018,Male
+93261149,21/09/2000,757,US,USD,salaried,98205,behavioral,single,TX,San Antonio,10/26/2016,Male
+40580394,30/01/2005,794,US,USD,self-employed,1614597,demographic,single,PA,Philadelphia,03/21/2019,Non-binary
+96573928,07/01/1999,832,US,USD,employed,137761,demographic,married,PA,Philadelphia,09/29/2017,Male
+16139963,25/09/2004,531,US,USD,employed,1982819,demographic,married,TX,Houston,05/04/2016,Female
+13278420,04/02/1996,488,US,USD,self-employed,1523805,behavioral,married,FL,Bradenton,04/04/2019,Male
+69440790,02/03/2003,341,US,USD,unemployed,1820941,demographic,married,CA,San Francisco,05/16/2016,Male
+71340650,21/02/2002,881,US,USD,unemployed,1693254,Standard,separated,VA,Alexandria,08/03/2019,Female
+92901517,08/11/1997,358,US,USD,employed,811458,behavioral,married,TX,Corpus Christi,06/15/2020,Female
+86825148,06/07/1989,660,US,USD,unemployed,1691252,Standard,married,TX,Amarillo,12/25/2021,Male
+89209892,22/09/2002,522,US,USD,employed,1473060,Standard,single,NY,Rochester,07/11/2018,Female
+57160479,26/11/1989,612,US,USD,salaried,1908545,Standard,married,IA,Davenport,03/20/2017,Polygender
+58800185,29/03/2001,265,US,USD,unemployed,1088327,geographic,single,CO,Aurora,10/09/2016,Genderqueer
+24076913,15/10/2001,124,US,USD,self-employed,1008908,behavioral,separated,DC,Washington,01/23/2019,Male
+83724337,12/05/2002,123,US,USD,self-employed,1466682,psychographic,separated,NC,Charlotte,11/25/2016,Male
+37691796,12/11/2004,837,US,USD,self-employed,1072645,geographic,single,HI,Honolulu,07/23/2020,Female
+48448095,22/01/2002,726,US,USD,unemployed,214197,demographic,single,TN,Nashville,03/27/2016,Female
+98230105,16/01/1997,604,US,USD,salaried,1755276,Standard,single,PA,Pittsburgh,11/19/2017,Female
+53686463,03/10/1996,507,US,USD,employed,103955,geographic,separated,TX,Killeen,04/12/2019,Female
+90867953,08/08/2004,935,US,USD,self-employed,1491784,psychographic,married,FL,Saint Petersburg,11/30/2021,Female
+57576025,15/03/1993,286,US,USD,unemployed,484976,psychographic,separated,CT,Hartford,11/21/2015,Male
+58437686,20/02/1996,845,US,USD,unemployed,894135,geographic,married,CA,San Jose,10/23/2017,Female
+92731945,08/04/2003,429,US,USD,employed,1780931,demographic,single,NY,Buffalo,01/07/2021,Male
+24751981,19/02/1991,303,US,USD,salaried,237339,psychographic,married,WV,Huntington,08/19/2018,Male
+50086614,02/10/2002,252,US,USD,salaried,886309,behavioral,married,TN,Knoxville,11/02/2014,Female
+68110341,29/05/2004,424,US,USD,self-employed,1598859,psychographic,single,IL,Springfield,04/06/2019,Male
+44576865,07/01/2000,523,US,USD,salaried,687271,geographic,married,NY,Flushing,02/01/2015,Female
+27784655,29/05/1999,570,US,USD,salaried,1628221,behavioral,single,NY,Albany,07/23/2014,Female
+93521822,12/03/1999,335,US,USD,self-employed,440962,demographic,single,OK,Tulsa,12/11/2021,Male
+27697580,23/12/1997,280,US,USD,unemployed,644688,behavioral,single,HI,Honolulu,05/23/2019,Male
+90145459,21/09/2000,379,US,USD,salaried,1314124,psychographic,separated,NY,New York City,04/18/2018,Male
+88762767,29/09/1999,200,US,USD,employed,902038,geographic,single,DC,Washington,06/08/2021,Male
+74455865,24/04/2003,935,US,USD,self-employed,668995,behavioral,separated,NY,Schenectady,05/28/2018,Female
+44027651,06/09/2003,139,US,USD,unemployed,1158129,behavioral,single,IL,Chicago,03/27/2018,Female
+66221784,09/07/2002,164,US,USD,self-employed,1380299,behavioral,separated,CA,Newport Beach,12/12/2014,Female
+60514696,03/10/2002,267,US,USD,salaried,233456,behavioral,married,MT,Billings,07/15/2020,Male
+18408257,25/04/1992,60,US,USD,salaried,1845988,geographic,separated,NC,Fayetteville,05/24/2016,Female
+53967086,10/12/1992,809,US,USD,salaried,1595188,geographic,married,NE,Omaha,01/22/2020,Male
+84027625,13/07/1995,132,US,USD,employed,1181682,behavioral,separated,MT,Bozeman,02/15/2021,Male
+97903521,26/11/2000,79,US,USD,salaried,1432132,behavioral,separated,GA,Atlanta,07/13/2015,Female
+59294665,14/11/2000,562,US,USD,self-employed,417611,Standard,married,LA,Metairie,11/16/2019,Female
+15371791,05/12/1991,709,US,USD,unemployed,738208,Standard,single,SD,Sioux Falls,11/01/2020,Male
+13919371,25/05/1995,782,US,USD,salaried,1732538,psychographic,separated,PA,Lancaster,05/15/2014,Male
+33008733,23/02/2005,856,US,USD,self-employed,1153856,psychographic,separated,CO,Denver,09/14/2019,Genderfluid
+97669666,25/08/1995,244,US,USD,employed,250094,Standard,single,MA,Lynn,10/08/2017,Female
+90493678,27/07/2001,890,US,USD,employed,808843,Standard,separated,NH,Manchester,11/26/2014,Male
+16044653,13/04/2004,772,US,USD,salaried,1629008,Standard,separated,TX,El Paso,04/01/2022,Male
+75713064,01/07/2001,65,US,USD,unemployed,1498643,behavioral,single,PA,Erie,08/19/2016,Male
+76349988,12/04/1992,304,US,USD,unemployed,1135694,Standard,married,AZ,Phoenix,11/11/2014,Male
+89357029,24/06/1998,789,US,USD,salaried,595313,Standard,single,NY,New York City,01/27/2022,Female
+17185690,30/10/1991,13,US,USD,employed,756043,geographic,single,FL,Seminole,09/20/2017,Male
+15795585,13/04/1990,775,US,USD,unemployed,980362,behavioral,separated,CA,Garden Grove,01/30/2020,Male
+42679071,29/05/1992,442,US,USD,unemployed,1746441,behavioral,married,TX,Amarillo,05/13/2019,Male
+13320466,08/05/1989,99,US,USD,salaried,146810,demographic,separated,UT,Salt Lake City,09/05/2019,Female
+66838300,15/05/1995,93,US,USD,salaried,249126,psychographic,married,NY,New York City,11/23/2020,Genderfluid
+75541490,10/02/1996,228,US,USD,salaried,1337111,demographic,separated,NY,Rochester,05/30/2021,Female
+29598714,06/07/1997,996,US,USD,self-employed,1256936,behavioral,married,NE,Lincoln,06/26/2020,Male
+40252424,14/11/1994,489,US,USD,salaried,1104130,Standard,single,OH,Canton,03/28/2020,Non-binary
+73737551,06/08/2002,728,US,USD,employed,1405793,demographic,married,CA,San Diego,06/08/2015,Genderfluid
+75574309,20/12/2001,892,US,USD,salaried,193391,behavioral,married,PA,Erie,09/04/2020,Bigender
+28428677,07/06/2004,662,US,USD,salaried,1965459,psychographic,married,MI,Detroit,04/17/2016,Female
+36348899,11/08/2000,928,US,USD,unemployed,1371534,behavioral,single,ID,Boise,09/05/2021,Male
+63159585,04/06/2002,765,US,USD,employed,635468,demographic,separated,WI,Madison,04/21/2017,Male
+70359742,20/11/1996,565,US,USD,employed,722892,demographic,married,GA,Augusta,09/21/2015,Genderqueer
+19338568,14/04/2003,107,US,USD,employed,1699365,psychographic,married,AL,Birmingham,03/15/2020,Genderqueer
+15648603,03/03/2002,75,US,USD,self-employed,1877548,geographic,separated,NY,Buffalo,04/15/2015,Female
+83064203,11/03/1998,3,US,USD,self-employed,489987,behavioral,married,AZ,Mesa,12/21/2014,Female
+86381918,27/11/1991,839,US,USD,self-employed,1925557,geographic,married,MO,Saint Louis,05/01/2016,Female
+20070207,15/05/2002,713,US,USD,self-employed,1839761,psychographic,married,MN,Minneapolis,06/16/2019,Male
+27420901,16/02/2002,24,US,USD,self-employed,75315,behavioral,single,GA,Atlanta,06/07/2017,Female
+57533877,10/06/1989,362,US,USD,self-employed,1697861,behavioral,married,WI,Madison,02/07/2020,Female
+24316408,12/06/1990,138,US,USD,self-employed,1623796,geographic,married,NJ,Newark,09/09/2018,Female
+18776383,12/05/1996,163,US,USD,salaried,1819750,Standard,separated,OK,Tulsa,04/30/2017,Female
+52226210,08/03/1999,717,US,USD,employed,1862481,behavioral,married,FL,Palm Bay,03/03/2020,Female
+43445300,23/01/2000,980,US,USD,salaried,43110,demographic,separated,TX,Austin,12/30/2014,Female
+82359827,12/10/1994,618,US,USD,unemployed,521610,psychographic,married,PA,Philadelphia,08/11/2019,Female
+83657395,03/03/1991,729,US,USD,salaried,1754061,psychographic,separated,CA,Inglewood,10/08/2021,Female
+36855497,22/11/2004,583,US,USD,self-employed,1870794,demographic,married,MD,Baltimore,12/21/2017,Female
+19478627,31/12/1994,810,US,USD,salaried,1171290,Standard,separated,FL,Delray Beach,07/31/2014,Male
+78674196,31/05/1993,77,US,USD,salaried,739346,demographic,married,WV,Huntington,12/21/2018,Female
+54667460,25/02/1995,455,US,USD,unemployed,423394,demographic,separated,CA,San Diego,12/27/2017,Female
+97539261,01/02/1995,938,US,USD,unemployed,1387149,demographic,married,TX,Garland,09/12/2019,Male
+88524121,29/03/2003,331,US,USD,unemployed,1920743,demographic,separated,PA,Philadelphia,12/17/2018,Male
+17052645,22/07/1989,242,US,USD,unemployed,112265,geographic,separated,GA,Atlanta,09/19/2021,Male
+29149333,01/02/1995,365,US,USD,employed,1258071,geographic,single,MI,Grand Rapids,09/22/2021,Female
+31276652,27/07/1993,162,US,USD,employed,866101,psychographic,married,ID,Boise,12/13/2015,Male
+29105290,20/09/2000,514,US,USD,self-employed,825479,geographic,married,AZ,Tucson,05/04/2015,Genderfluid
+50324241,27/03/2000,968,US,USD,salaried,833288,psychographic,separated,DC,Washington,02/02/2020,Male
+53186177,29/09/2000,516,US,USD,employed,823434,behavioral,separated,FL,Lehigh Acres,11/21/2015,Female
+13543330,14/12/1992,105,US,USD,salaried,1626261,demographic,separated,LA,Baton Rouge,03/09/2017,Non-binary
+16803398,18/06/2003,987,US,USD,unemployed,239333,demographic,single,CT,Danbury,11/07/2020,Female
+99751595,22/06/1990,799,US,USD,employed,1350976,geographic,separated,CO,Greeley,04/26/2020,Female
+95710985,01/03/1999,62,US,USD,employed,1595538,demographic,single,VA,Portsmouth,06/29/2019,Non-binary
+70207216,22/06/1995,103,US,USD,salaried,200920,Standard,single,MS,Jackson,09/04/2014,Male
+68349905,19/11/1998,960,US,USD,employed,969428,Standard,single,MN,Saint Cloud,06/02/2020,Female
+29974825,27/09/1992,425,US,USD,unemployed,988279,behavioral,married,AL,Birmingham,05/25/2020,Agender
+63909632,03/05/1990,628,US,USD,unemployed,1720482,behavioral,married,CA,Sacramento,11/22/2019,Male
+62474451,05/08/1995,94,US,USD,self-employed,70177,Standard,separated,CA,Fresno,10/21/2014,Male
+17317026,17/01/1994,329,US,USD,self-employed,524967,geographic,married,WA,Olympia,10/06/2021,Genderqueer
+65859797,08/09/1991,372,US,USD,self-employed,518987,geographic,separated,TX,Longview,05/29/2017,Female
+39445737,02/10/1989,366,US,USD,employed,1987094,Standard,married,PA,Pittsburgh,09/19/2020,Male
+46624953,01/12/1995,499,US,USD,employed,423189,demographic,married,TX,Dallas,10/09/2021,Male
+46071792,04/02/2003,779,US,USD,self-employed,515150,demographic,single,KS,Topeka,07/17/2015,Male
+88419778,27/07/1996,989,US,USD,employed,810693,psychographic,single,CA,Santa Rosa,10/23/2019,Female
+74296797,19/09/2001,857,US,USD,employed,1148234,geographic,single,OH,Akron,08/06/2015,Polygender
+28572013,02/06/1994,223,US,USD,salaried,1145782,behavioral,single,VA,Arlington,03/09/2018,Female
+14022223,28/06/1996,962,US,USD,employed,444007,Standard,separated,TX,Dallas,06/22/2020,Male
+91870458,02/05/1997,671,US,USD,unemployed,1251298,geographic,single,IN,South Bend,07/14/2014,Female
+69573090,19/05/2002,954,US,USD,salaried,1029584,psychographic,single,CA,San Jose,01/07/2016,Male
+73626722,01/03/1991,784,US,USD,employed,1151525,geographic,separated,NY,Jamaica,05/30/2020,Male
+23988621,16/07/1994,108,US,USD,self-employed,1296386,psychographic,married,FL,Clearwater,02/10/2018,Male
+22339912,01/12/1990,191,US,USD,employed,109592,psychographic,married,KY,Lexington,12/11/2018,Female
+82276436,17/02/2005,127,US,USD,self-employed,77582,behavioral,separated,CA,Fullerton,04/20/2014,Female
+28673323,16/04/1999,136,US,USD,employed,1137152,demographic,married,TN,Nashville,02/12/2018,Female
+73921429,23/05/2003,732,US,USD,employed,1676679,demographic,single,NY,Syracuse,06/21/2020,Genderfluid
+96847233,06/04/1993,313,US,USD,employed,1411409,demographic,separated,TX,Fort Worth,12/14/2020,Female
+60552929,26/10/2001,577,US,USD,self-employed,1236979,behavioral,separated,TN,Knoxville,04/14/2019,Male
+18719047,06/08/1992,909,US,USD,salaried,783395,behavioral,married,NY,Mount Vernon,01/15/2022,Male
+29728576,20/07/2000,25,US,USD,employed,678583,Standard,married,NY,Jamaica,01/05/2016,Male
+59293933,19/05/2002,433,US,USD,salaried,122145,geographic,single,LA,New Orleans,06/15/2018,Female
+26507237,08/04/2002,663,US,USD,unemployed,29644,behavioral,married,ND,Bismarck,04/12/2015,Male
+86537273,06/08/1997,527,US,USD,unemployed,1236668,geographic,separated,CO,Greeley,01/06/2015,Male
+92933997,27/09/1991,680,US,USD,self-employed,406524,demographic,single,IL,Springfield,01/08/2017,Male
+85015767,24/09/1996,113,US,USD,self-employed,1084905,demographic,single,IL,Chicago,02/11/2021,Female
+29926518,22/02/1996,956,US,USD,unemployed,687230,geographic,separated,KY,Louisville,01/21/2018,Female
+54031963,21/04/1992,341,US,USD,unemployed,1897585,behavioral,married,VA,Roanoke,06/17/2014,Female
+65765570,18/01/1994,155,US,USD,salaried,788479,demographic,single,NV,Las Vegas,01/03/2021,Female
+44055911,10/07/1990,319,US,USD,unemployed,1964905,behavioral,married,NC,Charlotte,03/13/2022,Male
+54452077,04/12/1993,426,US,USD,self-employed,1873173,psychographic,separated,OH,Cincinnati,01/21/2016,Male
+52721445,07/04/2004,297,US,USD,unemployed,400908,psychographic,separated,IA,Des Moines,03/11/2020,Female
+59240363,19/06/1994,489,US,USD,self-employed,932631,Standard,married,CA,San Diego,05/09/2014,Female
+96825459,11/06/1993,168,US,USD,self-employed,1205485,demographic,married,OR,Portland,11/12/2014,Female
+77237454,10/02/1994,839,US,USD,employed,1930537,psychographic,married,TN,Knoxville,12/29/2017,Male
+82737067,25/07/1998,878,US,USD,unemployed,200412,demographic,single,CA,Lancaster,04/15/2017,Male
+87945379,28/05/1997,531,US,USD,salaried,743171,Standard,single,CA,Sacramento,02/25/2019,Female
+26982018,08/05/1998,703,US,USD,employed,641078,Standard,separated,IA,Davenport,10/01/2019,Female
+33222801,03/08/1989,342,US,USD,employed,134068,geographic,separated,MI,Battle Creek,08/15/2017,Female
+81302929,28/01/2001,161,US,USD,employed,590325,behavioral,married,GA,Savannah,01/29/2021,Male
+58619323,17/12/2004,24,US,USD,employed,764264,psychographic,separated,AK,Anchorage,12/22/2018,Female
+61131959,18/09/2004,531,US,USD,employed,1375947,psychographic,single,FL,Tampa,09/15/2015,Male
+29568837,28/10/1995,807,US,USD,unemployed,1165126,behavioral,single,SC,Anderson,01/18/2015,Non-binary
+18359306,07/11/1998,435,US,USD,unemployed,566051,geographic,married,IL,Chicago,12/25/2018,Female
+68288580,26/03/1996,786,US,USD,unemployed,1970913,psychographic,married,MI,Lansing,09/08/2015,Non-binary
+21335136,12/04/1994,244,US,USD,salaried,537792,Standard,married,NY,Syracuse,01/25/2016,Male
+65684177,15/04/1998,845,US,USD,self-employed,746995,behavioral,married,MN,Saint Paul,09/15/2021,Agender
+76877547,03/10/1992,994,US,USD,unemployed,1474939,psychographic,separated,VA,Arlington,08/26/2018,Female
+81208797,16/04/1996,206,US,USD,employed,1983417,geographic,separated,FL,Orlando,11/13/2015,Non-binary
+14405016,19/01/1998,563,US,USD,self-employed,390983,Standard,single,TX,Houston,07/25/2014,Female
+19614220,12/05/1993,665,US,USD,salaried,576163,psychographic,married,NY,New York City,10/15/2019,Female
+26395344,29/09/1989,699,US,USD,salaried,1488254,demographic,separated,FL,Jacksonville,09/09/2015,Female
+48162476,20/12/1991,762,US,USD,unemployed,1741484,behavioral,married,TX,San Angelo,05/26/2020,Male
+41995354,07/08/2000,280,US,USD,salaried,1869355,Standard,separated,PA,Harrisburg,07/07/2016,Female
+16337233,22/09/1992,151,US,USD,employed,1037848,behavioral,single,IN,Indianapolis,12/12/2017,Female
+95708620,13/12/2003,973,US,USD,unemployed,1702986,geographic,single,SC,Columbia,12/29/2021,Male
+44075833,13/07/2002,308,US,USD,unemployed,922142,demographic,married,OH,Dayton,08/12/2019,Male
+15483416,10/11/1999,16,US,USD,self-employed,710074,behavioral,married,MN,Young America,08/08/2017,Male
+40346087,08/07/1989,92,US,USD,unemployed,244619,Standard,single,FL,Bradenton,12/15/2014,Female
+65207192,28/06/2001,598,US,USD,self-employed,51177,Standard,separated,VA,Richmond,02/01/2022,Female
+88889652,18/06/1994,370,US,USD,salaried,758320,geographic,married,TX,Houston,01/13/2022,Male
+30451595,25/02/1995,139,US,USD,unemployed,1673082,Standard,married,CO,Boulder,04/22/2018,Male
+36680303,02/06/1995,624,US,USD,unemployed,1692552,Standard,separated,DC,Washington,02/06/2020,Female
+46099823,26/08/1991,918,US,USD,unemployed,57519,geographic,single,TX,Houston,10/18/2021,Male
+61875815,22/10/2003,675,US,USD,salaried,248525,behavioral,single,MA,Boston,09/18/2018,Male
+99239970,25/09/1998,736,US,USD,self-employed,245426,behavioral,separated,FL,Jacksonville,10/09/2015,Male
+58418231,03/06/2001,714,US,USD,unemployed,22152,Standard,separated,PA,Levittown,01/09/2021,Female
+70007169,11/11/1997,479,US,USD,self-employed,1051165,behavioral,separated,MD,Bethesda,09/21/2021,Female
+29504213,09/04/1999,444,US,USD,unemployed,1801562,geographic,married,DE,Newark,12/24/2016,Genderqueer
+74025246,25/06/1994,656,US,USD,salaried,83814,behavioral,single,NM,Albuquerque,05/07/2021,Female
+51601772,16/03/1997,571,US,USD,employed,137415,demographic,separated,TX,Fort Worth,04/12/2020,Female
+21398695,18/05/1990,919,US,USD,unemployed,1384213,demographic,separated,LA,Lake Charles,07/24/2018,Agender
+92975430,09/11/1997,735,US,USD,salaried,1568092,psychographic,married,TX,Amarillo,08/27/2021,Bigender
+20327974,23/10/1994,191,US,USD,salaried,1928349,demographic,single,TX,Plano,06/13/2017,Genderqueer
+27039122,03/09/1989,227,US,USD,employed,1480311,demographic,separated,MS,Jackson,06/24/2016,Male
+64177468,25/08/1997,193,US,USD,unemployed,1462683,Standard,single,CA,San Francisco,04/06/2015,Male
+42950954,03/03/1993,588,US,USD,employed,1388668,behavioral,married,OH,Columbus,03/21/2015,Female
+70707546,11/03/2001,83,US,USD,employed,285602,behavioral,single,IN,Muncie,02/20/2016,Male
+93670126,12/07/2000,23,US,USD,self-employed,1532347,behavioral,single,NC,Raleigh,09/26/2014,Male
+71458377,30/10/2004,309,US,USD,employed,878929,behavioral,separated,NE,Omaha,06/02/2017,Polygender
+27227748,25/01/1995,31,US,USD,salaried,1758883,geographic,married,DC,Washington,01/29/2021,Male
+66048094,09/04/2003,391,US,USD,unemployed,1247746,Standard,single,MI,Southfield,03/28/2022,Male
+93441362,15/07/1991,316,US,USD,self-employed,927577,Standard,married,MD,Bowie,03/30/2015,Male
+15794500,29/07/1999,19,US,USD,self-employed,333117,geographic,separated,NM,Albuquerque,02/25/2018,Female
+98933423,02/02/2000,626,US,USD,employed,418464,demographic,separated,UT,Salt Lake City,07/10/2019,Male
+44820883,21/10/2003,654,US,USD,self-employed,1401827,behavioral,married,NY,New York City,11/06/2019,Male
+79509040,19/03/1990,999,US,USD,salaried,1139716,demographic,married,FL,Gainesville,08/05/2018,Male
+56565390,03/05/2002,275,US,USD,employed,515145,Standard,married,AL,Mobile,01/15/2022,Male
+48737239,03/12/1995,738,US,USD,employed,292860,behavioral,separated,DC,Washington,01/12/2017,Male
+68628555,24/11/2002,69,US,USD,unemployed,13708,behavioral,single,MD,Frederick,02/01/2019,Female
+73380028,08/04/1997,357,US,USD,unemployed,274759,psychographic,married,NC,Durham,12/22/2021,Female
+79613380,21/07/2000,619,US,USD,salaried,1557923,demographic,separated,NY,Jamaica,04/15/2019,Female
+28181963,19/07/1993,477,US,USD,self-employed,253403,behavioral,separated,FL,Jacksonville,05/16/2019,Female
+25865428,23/08/1995,517,US,USD,employed,760350,geographic,single,OR,Portland,07/22/2017,Female
+39933887,30/09/1991,798,US,USD,salaried,1382918,behavioral,single,DC,Washington,12/20/2018,Female
+66034360,29/10/1991,797,US,USD,unemployed,1713376,Standard,single,MD,Ridgely,04/26/2014,Male
+67082390,10/02/1992,331,US,USD,unemployed,792074,behavioral,separated,FL,Clearwater,01/05/2015,Male
+44272055,12/11/1992,482,US,USD,employed,121876,behavioral,separated,IL,East Saint Louis,09/11/2014,Female
+81596257,10/03/1993,151,US,USD,employed,1331524,geographic,single,CA,Riverside,01/10/2017,Male
+90451053,08/09/1995,961,US,USD,unemployed,1108027,demographic,married,PA,Pittsburgh,10/03/2019,Female
+33502837,15/06/1992,462,US,USD,salaried,847849,geographic,separated,TX,Amarillo,06/30/2014,Female
+11481640,05/01/2005,132,US,USD,employed,648470,psychographic,married,TX,Odessa,02/13/2021,Female
+17663819,15/06/2004,792,US,USD,salaried,1184485,behavioral,single,FL,Naples,12/16/2018,Female
+17846258,18/10/1999,187,US,USD,salaried,1932786,demographic,single,VA,Fredericksburg,10/17/2016,Male
+54991145,09/03/2001,896,US,USD,self-employed,431670,geographic,separated,NV,North Las Vegas,09/06/2014,Male
+14862062,14/11/2004,874,US,USD,employed,58684,Standard,married,IL,Naperville,01/29/2022,Male
+61867375,01/10/1994,991,US,USD,employed,78443,behavioral,single,FL,Orlando,09/17/2014,Female
+90722387,10/08/1995,672,US,USD,self-employed,1815417,demographic,separated,TX,Houston,05/12/2019,Male
+79190876,04/08/2004,585,US,USD,self-employed,586535,psychographic,married,LA,Baton Rouge,11/17/2015,Female
+35937536,11/05/2002,306,US,USD,self-employed,383938,geographic,separated,MD,Rockville,11/17/2019,Female
+25159372,21/11/2000,584,US,USD,unemployed,525979,geographic,single,TN,Memphis,07/23/2018,Genderfluid
+71810234,09/07/1995,886,US,USD,salaried,986539,behavioral,separated,NY,New York City,03/03/2016,Genderfluid
+49298308,18/11/1993,462,US,USD,self-employed,1207159,demographic,single,AZ,Phoenix,07/05/2020,Female
+34164972,09/06/2000,635,US,USD,self-employed,446276,Standard,separated,TX,Denton,11/02/2017,Male
