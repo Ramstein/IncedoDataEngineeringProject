@@ -68,14 +68,14 @@ Parameters:
 Mappings:
   Function:
     SocialMediaMLFunction:
-      S3Bucket: !Ref BucketNameLambda,
+      S3Bucket: %%BUCKET_NAME%%
       S3Key: ai-driven-social-media-dashboard/%%VERSION%%/socialmediafunction.zip
     AddTriggerForFunction:
-      S3Bucket: !Ref BucketNameLambda,
+      S3Bucket: %%BUCKET_NAME%%
       S3Key: ai-driven-social-media-dashboard/%%VERSION%%/addtriggerfunction.zip
   Code:
     EC2Twitter:
-      S3Bucket: !Ref BucketNameLambda,
+      S3Bucket: %%BUCKET_NAME%%
       S3Key: ai-driven-social-media-dashboard/%%VERSION%%/ec2_twitter_reader.tar
 
 Resources:
