@@ -78,6 +78,19 @@ Mappings:
       S3Bucket: %%BUCKET_NAME%%
       S3Key: ai-driven-social-media-dashboard/%%VERSION%%/ec2_twitter_reader.tar
 
+#Mappings:
+#  Function:
+#    SocialMediaMLFunction:
+#      S3Bucket: fakdjgnkaj
+#      S3Key: ai-driven-social-media-dashboard/VERSION/socialmediafunction.zip
+#    AddTriggerForFunction:
+#      S3Bucket: fakdjgnkaj
+#      S3Key: ai-driven-social-media-dashboard/VERSION/addtriggerfunction.zip
+#  Code:
+#    EC2Twitter:
+#      S3Bucket: fakdjgnkaj
+#      S3Key: ai-driven-social-media-dashboard/VERSION/ec2_twitter_reader.tar
+
 Resources:
   AuthConsumerSecretManagerSecret:
     Type: AWS::SecretsManager::Secret
