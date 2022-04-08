@@ -60,11 +60,6 @@ echo "Packaging addtriggerfunction lambda"
 cd $deployment_dir/../source/addtriggerfunction/ || exit
 zip -q -r9 $deployment_dir/dist/addtriggerfunction.zip *
 
-# Package labelimage Lambda function
-echo "Packaging labelimage lambda function"
-cd $deployment_dir/../source/labelimage/ || exit
-zip -q -r9 $deployment_dir/dist/labelimage.zip *
-
 
 
 #zipping code for ec2, code already provided in s3 bucket
@@ -89,8 +84,8 @@ aws s3api create-bucket --bucket $1 --region us-east-1
 
 aws s3 cp $deployment_dir/dist/socialmediafunction.zip s3://$1/ai-driven-social-media-dashboard/$2/socialmediafunction.zip
 aws s3 cp $deployment_dir/dist/addtriggerfunction.zip s3://$1/ai-driven-social-media-dashboard/$2/addtriggerfunction.zip
-aws s3 cp $deployment_dir/dist/labelimage.zip s3://$1/ai-driven-social-media-dashboard/$2/labelimage.zip
 #aws s3 cp $deployment_dir/dist/ec2_twitter_reader.zip s3://$1/ai-driven-social-media-dashboard/$2/ec2_twitter_reader.zip
 aws s3 cp $deployment_dir/dist/ai-driven-social-media-dashboard.yaml s3://$1/ai-driven-social-media-dashboard/$2/ai-driven-social-media-dashboard.yaml
 
-
+echo "removing all files from dist"
+rm -rf $deployment_dir/dist
