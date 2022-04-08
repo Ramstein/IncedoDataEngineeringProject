@@ -10,9 +10,9 @@ The bank decided to collate, aggregate, and analyze a large amount of structured
 - Customer behavior on social media (Twitter, Facebook)
 
 ## Data Schema:
-- 1. Customer purchase and transaction history
+- Customer purchase and transaction history
 customerNumber (CIF),cardLast4Digits,transactionDate,transactionTime,transactionAmount,transactionType,merchantName,merchantCity,merchantState,merchantZip,stateCode
-- 2. Customer profile data
+- Customer profile data
 customerNumber (CIF),dateOfBirth,branchNumber,citizenshipCode,currCountryCode,employmentStatus,incomeInThousands,marketSegment,maritalStatus,stateCode,City,customerOpeningDate,Gender
 
 - Social Media: Twitter
