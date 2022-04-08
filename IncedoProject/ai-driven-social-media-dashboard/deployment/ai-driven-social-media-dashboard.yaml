@@ -319,10 +319,10 @@ Resources:
             }" > /home/ec2-user/twitter_reader_config.js
 
             wget ${EC2TwitterCode}
-#            wget https://ai-social-media-dashboard.s3.amazonaws.com/ai-driven-social-media-dashboard/v1.0/SocialAnalyticsReader.tar
+#           wget https://ai-social-media-dashboard.s3.amazonaws.com/ai-driven-social-media-dashboard/v1.0/SocialAnalyticsReader.tar
 
-             tar --warning=no-unknown-keyword -xf SocialAnalyticsReader.tar -C /home/ec2-user/
-#            unzip -q ec2_twitter_reader.zip -d /home/ec2-user/
+            tar --warning=no-unknown-keyword -xf SocialAnalyticsReader.tar -C /home/ec2-user/
+#           unzip -q ec2_twitter_reader.zip -d /home/ec2-user/
 
             cd /home/ec2-user
             nohup node twitter_stream_producer_app.js &
