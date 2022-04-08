@@ -187,32 +187,35 @@ Resources:
       AssumeRolePolicyDocument:
         Version: '2012-10-17'
         Statement:
-          - Effect: Allow
+          -
+            Effect: Allow
             Principal:
               Service: ec2.amazonaws.com
             Action: sts:AssumeRole
       Path: '/'
       Policies:
-        - PolicyName: eyeofcustomer-policy
+        -
+          PolicyName: eyeofcustomer-policy
           PolicyDocument:
             Version: '2012-10-17'
             Statement:
-              - Effect: Allow
+              -
+                Effect: Allow
                 Action:
                     - 'firehose:DeleteDeliveryStream'
                     - 'firehose:PutRecord'
                     - 'firehose:PutRecordBatch'
                     - 'firehose:UpdateDestination'
-                Resource: [ !GetAtt [ IngestionFirehoseStream, Arn ] ]
-                  -
-                    Effect: Allow
-                    Action:
-                      - 'secretsmanager:GetSecretValue'
-                    Resource:
-                      - !Ref AuthConsumerSecretManagerSecret
-                      - !Ref AuthAccessTokenSecretManagerSecret
-                      - !Ref AuthConsumerManagerSecret
-                      - !Ref AuthAccessTokenManagerSecret
+                Resource: [!GetAtt [IngestionFirehoseStream, Arn]]
+              -
+                Effect: Allow
+                Action:
+                    - 'secretsmanager:GetSecretValue'
+                Resource:
+                  - !Ref AuthConsumerSecretManagerSecret
+                  - !Ref AuthAccessTokenSecretManagerSecret
+                  - !Ref AuthConsumerManagerSecret
+                  - !Ref AuthAccessTokenManagerSecret
   rVPC:
     Type: AWS::EC2::VPC
     Properties:
