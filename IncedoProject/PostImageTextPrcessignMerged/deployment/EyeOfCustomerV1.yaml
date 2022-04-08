@@ -141,28 +141,28 @@ Resources:
     Properties:
       Name: AuthConsumerSecretManagerSecret
       SecretString:
-        !Ref AuthConsumerSecret
+        !Ref pTwitterAuthConsumerSecret
 
   AuthAccessTokenSecretManagerSecret:
     Type: AWS::SecretsManager::Secret
     Properties:
       Name: AuthAccessTokenSecretManagerSecret
       SecretString:
-        !Ref AuthAccessTokenSecret
+        !Ref pTwitterAuthTokenSecret
 
   AuthConsumerManagerSecret:
     Type: AWS::SecretsManager::Secret
     Properties:
       Name: AuthConsumerManagerSecret
       SecretString:
-        !Ref AuthConsumerKey
+        !Ref pTwitterAuthConsumerKey
 
   AuthAccessTokenManagerSecret:
     Type: AWS::SecretsManager::Secret
     Properties:
       Name: AuthAccessTokenManagerSecret
       SecretString:
-        !Ref AuthAccessToken
+        !Ref pTwitterAuthToken
   rTweetsEC2SecurityGroup:
     Type: AWS::EC2::SecurityGroup
     Properties:
@@ -207,7 +207,7 @@ Resources:
                     - 'firehose:PutRecordBatch'
                     - 'firehose:UpdateDestination'
 #                Resource: '*'
-                Resource: [!GetAtt [IngestionFirehoseStream, Arn]]
+                Resource: [!GetAtt [rIngestionFirehoseStream, Arn]]
               -
                 Effect: Allow
                 Action:
@@ -371,7 +371,7 @@ Resources:
           SizeInMBs: 5
         Prefix: 'raw/'
         CompressionFormat: 'UNCOMPRESSED'
-        RoleARN: !GetAtt IngestionFirehoseRole.Arn
+        RoleARN: !GetAtt rIngestionFirehoseRole.Arn
 
   rEntitiesFirehoseStream:
     Type: AWS::KinesisFirehose::DeliveryStream
@@ -383,7 +383,7 @@ Resources:
           SizeInMBs: 5
         Prefix: 'entities/'
         CompressionFormat: 'UNCOMPRESSED'
-        RoleARN: !GetAtt IngestionFirehoseRole.Arn
+        RoleARN: !GetAtt rIngestionFirehoseRole.Arn
 
   rSentimentFirehoseStream:
     Type: AWS::KinesisFirehose::DeliveryStream
@@ -395,7 +395,7 @@ Resources:
           SizeInMBs: 5
         Prefix: 'sentiment/'
         CompressionFormat: 'UNCOMPRESSED'
-        RoleARN: !GetAtt IngestionFirehoseRole.Arn
+        RoleARN: !GetAtt rIngestionFirehoseRole.Arn
 
 # EyeOfCustomer Change
   rRekognitionFirehoseStream:
@@ -408,9 +408,9 @@ Resources:
           SizeInMBs: 5
         Prefix: 'media/'
         CompressionFormat: 'UNCOMPRESSED'
-        RoleARN: !GetAtt IngestionFirehoseRole.Arn
+        RoleARN: !GetAtt rIngestionFirehoseRole.Arn
 
-  IngestionFirehoseRole:
+  rIngestionFirehoseRole:
     Type: AWS::IAM::Role
     Properties:
       AssumeRolePolicyDocument:
@@ -430,7 +430,7 @@ Resources:
     Properties:
       PolicyName: TweetIngestionFirehosePolicy
       Roles:
-        - !Ref IngestionFirehoseRole
+        - !Ref rIngestionFirehoseRole
       PolicyDocument:
         Version: 2012-10-17
         Statement:
@@ -484,7 +484,7 @@ Resources:
           - Sid: LambdaAddPermission
             Effect: Allow
             Action: [ 'lambda:AddPermission' ]
-            Resource: [ !GetAtt [ SocialMediaAnalyticsLambda, Arn ], !GetAtt [ SMIAWRAOfCustomerLambda, Arn ] ]
+            Resource: [ !GetAtt [ rSocialMediaAnalyticsLambda, Arn ], !GetAtt [ rEyeOfCustomerLambda, Arn ] ]
           - Sid: FirehoseAccess
             Effect: Allow
             Action: ['firehose:ListDeliveryStreams', 'firehose:PutRecord', 'firehose:PutRecordBatch']
@@ -528,18 +528,18 @@ Resources:
           - Sid: S3Access
             Effect: Allow
             Action: ['s3:GetObject', 's3:PutObject', 's3:PutBucketNotification', 's3:ListBucket', 's3:DeleteObject']
-            Resource: [!GetAtt [TweetsBucket, Arn],
-                      !Join ['', [!GetAtt [TweetsBucket, Arn], /*]]]
+            Resource: [!GetAtt [rTweetsBucket, Arn],
+                      !Join ['', [!GetAtt [rTweetsBucket, Arn], /*]]]
           - Sid: LambdaAddPermission
             Effect: Allow
             Action: ['lambda:AddPermission']
-            Resource: [!GetAtt [SocialMediaAnalyticsLambda, Arn], !GetAtt [SMIAWRAOfCustomerLambda, Arn]]
+            Resource: [!GetAtt [rSocialMediaAnalyticsLambda, Arn], !GetAtt [rEyeOfCustomerLambda, Arn]]
           - Sid: FirehoseAccess
             Effect: Allow
             Action: [ 'firehose:ListDeliveryStreams', 'firehose:PutRecord', 'firehose:PutRecordBatch' ]
-            Resource: [ !GetAtt [ SentimentFirehoseStream, Arn ],
-                        !GetAtt [ EntitiesFirehoseStream, Arn ],
-                        !GetAtt [ RekognitionFirehoseStream, Arn ] ]
+            Resource: [ !GetAtt [ rSentimentFirehoseStream, Arn ],
+                        !GetAtt [ rEntitiesFirehoseStream, Arn ],
+                        !GetAtt [ rRekognitionFirehoseStream, Arn ] ]
           - Sid: ComprehendAccess
             Effect: Allow
             Action: [ 'comprehend:DetectEntities', 'comprehend:DetectSentiment' ]
@@ -591,7 +591,7 @@ Resources:
           REKOGNITION_STREAM: !Ref rRekognitionFirehoseStream
           BUCKET: !Ref rTweetsBucket
           IMAGEKEY_PREFIX: tmp/images/
-  SocialMediaGlueDB:
+  rSocialMediaGlueDB:
     Type: "AWS::Glue::Database"
     Properties:
       DatabaseInput:
@@ -660,7 +660,7 @@ Resources:
           - Name: quote_count
             Type: bigint
         Parameters: {'classification': 'json'}
-      DatabaseName: !Ref SocialMediaGlueDB
+      DatabaseName: !Ref rSocialMediaGlueDB
       CatalogId: !Ref AWS::AccountId
 
   tweetsentiment:
@@ -696,7 +696,7 @@ Resources:
         Parameters: {'classification': 'json'}
       DatabaseName: ai_driven_social_media_dashboard
       CatalogId: !Ref AWS::AccountId
-    DependsOn: SocialMediaGlueDB
+    DependsOn: rSocialMediaGlueDB
 
   tweetentities:
     Type: "AWS::Glue::Table"
@@ -721,7 +721,7 @@ Resources:
           - Name: score
             Type: double
         Parameters: {'classification': 'json'}
-      DatabaseName: !Ref SocialMediaGlueDB
+      DatabaseName: !Ref rSocialMediaGlueDB
       CatalogId: !Ref AWS::AccountId
 
   LambdaS3EventCreationCustomResource:
