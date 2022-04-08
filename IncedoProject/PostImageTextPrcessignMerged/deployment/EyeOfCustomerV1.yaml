@@ -199,15 +199,13 @@ Resources:
           PolicyDocument:
             Version: '2012-10-17'
             Statement:
-              -
-                Effect: Allow
+              - Effect: Allow
                 Action:
                     - 'firehose:DeleteDeliveryStream'
                     - 'firehose:PutRecord'
                     - 'firehose:PutRecordBatch'
                     - 'firehose:UpdateDestination'
-#                Resource: '*'
-                Resource: [ !GetAtt [ IngestionFirehoseStream, Arn ] ]
+                Resource: [ !GetAtt [ IngestionFirehoseStream, Arn ] ] # Resource: '*'
                   - Effect: Allow
                     Action:
                       - 'secretsmanager:GetSecretValue'
