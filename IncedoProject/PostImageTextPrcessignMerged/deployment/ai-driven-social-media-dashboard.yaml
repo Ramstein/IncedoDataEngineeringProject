@@ -450,7 +450,6 @@ Resources:
           - Sid: CloudWatchAccess
             Effect: Allow
             Action: ['logs:CreateLogGroup', 'logs:CreateLogStream', 'logs:PutLogEvents']
-            Resource: !Sub "arn:${AWS::Partition}:logs:${AWS::Region}:${AWS::AccountId}:log-group:/aws/lambda/*"
 
           - Sid: S3Access
             Effect: Allow
