@@ -17,10 +17,10 @@ Metadata:
       - Label:
           default: Twitter API Parameters
         Parameters:
-          - AuthAccessToken
-          - AuthAccessTokenSecret
           - AuthConsumerKey
           - AuthConsumerSecret
+          - AuthAccessToken
+          - AuthAccessTokenSecret
 Parameters:
   InstanceKeyName:
     Type: AWS::EC2::KeyPair::KeyName
@@ -505,7 +505,7 @@ Resources:
           - Sid: LambdaAddPermission
             Effect: Allow
             Action: ['lambda:AddPermission']
-            Resource: !GetAtt [SocialMediaAnalyticsLambda, Arn]
+            Resource: [!GetAtt [SocialMediaAnalyticsLambda, Arn], !GetAtt [SMIAWRAOfCustomerLambda, Arn]]
 
   SocialMediaAnalyticsLambda:
     Type: AWS::Lambda::Function
@@ -720,6 +720,21 @@ Resources:
       Code:
         S3Bucket: !Join ['-', [!FindInMap [ Function, AddTriggerForFunction, S3Bucket], !Ref 'AWS::Region']]
         S3Key: !FindInMap [ Function, AddTriggerForFunction, S3Key]
+  LambdaS3EventCreationCustomResource1:
+    Type: AWS::Lambda::Function
+    Properties:
+      Handler: index.lambda_handler
+      Role: !GetAtt AttachPolicyCustomResourceLambdaRole.Arn
+      Runtime: python3.7
+      Timeout: 300
+      Environment:
+        Variables:
+          lambda_arn: !GetAtt SMIAWRAOfCustomerLambda.Arn
+          account_number: !Ref 'AWS::AccountId'
+          s3_bucket: !Ref 'TweetsBucket'
+      Code:
+        S3Bucket: !Join [ '-', [ !FindInMap [ Function, AddTriggerForFunction, S3Bucket ], !Ref 'AWS::Region' ] ]
+        S3Key: !FindInMap [ Function, AddTriggerForFunction, S3Key ]
 
 Outputs:
   SSHCommand:
