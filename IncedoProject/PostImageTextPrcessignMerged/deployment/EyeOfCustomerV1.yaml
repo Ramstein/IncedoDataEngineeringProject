@@ -206,6 +206,7 @@ Resources:
                     - 'firehose:PutRecord'
                     - 'firehose:PutRecordBatch'
                     - 'firehose:UpdateDestination'
+#                Resource: '*'
                 Resource: [!GetAtt [IngestionFirehoseStream, Arn]]
               -
                 Effect: Allow
