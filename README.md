@@ -45,8 +45,8 @@ Develop a data pipeline to process a large volume of financial transaction data,
 
 ## Deliverables:
 - A powerpoint presentation which should contain a description of what you have tried to build. (Download Sample PPT)
--- a. what problem you are solve
--- b. solution approach
+* a. what problem you are solve
+* b. solution approach
 -- c. Any supporting assumptions, functional requirements(FR) and non-functional requirements(NFR)
 -- d. list of AWS services used with reasoning
 -- e. reason why your solution should be considered for the final round
