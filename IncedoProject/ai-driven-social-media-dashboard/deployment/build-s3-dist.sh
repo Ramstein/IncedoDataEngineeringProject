@@ -60,6 +60,8 @@ echo "Packaging addtriggerfunction lambda"
 cd $deployment_dir/../source/addtriggerfunction/ || exit
 zip -q -r9 $deployment_dir/dist/addtriggerfunction.zip *
 
+
+
 #zipping code for ec2, code already provided in s3 bucket
 #echo "tarring ec2 twitter reader code"
 #cd $deployment_dir/../source/SocialAnalyticsReader/ || exit
