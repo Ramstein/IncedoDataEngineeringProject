@@ -506,6 +506,24 @@ Resources:
             Effect: Allow
             Action: ['lambda:AddPermission']
             Resource: [!GetAtt [SocialMediaAnalyticsLambda, Arn], !GetAtt [SMIAWRAOfCustomerLambda, Arn]]
+          - Sid: FirehoseAccess
+            Effect: Allow
+            Action: [ 'firehose:ListDeliveryStreams', 'firehose:PutRecord', 'firehose:PutRecordBatch' ]
+            Resource: [ !GetAtt [ SentimentFirehoseStream, Arn ],
+                        !GetAtt [ EntitiesFirehoseStream, Arn ],
+                        !GetAtt [ RekognitionFirehoseStream, Arn ] ]
+          - Sid: ComprehendAccess
+            Effect: Allow
+            Action: [ 'comprehend:DetectEntities', 'comprehend:DetectSentiment' ]
+            Resource: '*'
+          - Sid: TranslateAccess
+            Effect: Allow
+            Action: [ 'translate:TranslateText' ]
+            Resource: '*'
+          - Sid: RekognitionAccess
+            Effect: Allow
+            Action: [ 'rekognition:DetectLabels','rekognition:DetectFaces','rekognition:RecognizeCelebrities','rekognition:DetectModerationLabels','rekognition:DetectText' ]
+            Resource: '*'
 
   SocialMediaAnalyticsLambda:
     Type: AWS::Lambda::Function
@@ -546,25 +564,6 @@ Resources:
       Code:
         S3Bucket: !Join ['-', [!FindInMap [ Function, SMIAWRAOfCustomerLambdaFunction, S3Bucket], !Ref 'AWS::Region']]
         S3Key: !FindInMap [ Function, SocialMediaMLFunction, S3Key]
-#  SMIAWRAOfCustomerLambda:
-#    Type: 'AWS::Serverless::Function'
-#    Properties:
-#      CodeUri: s3://aws-bigdata-blog/artifacts/EyeOfCustomer/labelimage.zip # TODO
-#      Handler: index.handler
-#      Runtime: python3.7
-#      MemorySize: 256
-#      Timeout: 900
-#      Role:
-#        Fn::GetAtt:
-#        - SocialMediaAnalyticLambdaFuntionLambdaRole
-#        - Arn
-#      Environment:
-#        Variables:
-#          SENTIMENT_STREAM: !Ref SentimentFirehoseStream
-#          ENTITY_STREAM: !Ref EntitiesFirehoseStream
-#          REKOGNITION_STREAM: !Ref RekognitionFirehoseStream
-#          BUCKET: !Ref TweetsBucket
-#          IMAGEKEY_PREFIX: tmp/images/
 
   SocialMediaGlueDB:
     Type: "AWS::Glue::Database"
