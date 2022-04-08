@@ -35,16 +35,16 @@ echo "mkdir -p $deployment_dir/dist"
 mkdir -p $deployment_dir/dist
 
 # Copy project CFN template(s) to "dist" folder and replace bucket name with arg $1
-echo "cp -f ai-driven-social-media-dashboard.yaml $deployment_dir/dist/ai-driven-social-media-dashboard.yaml"
-cp -f ai-driven-social-media-dashboard.yaml $deployment_dir/dist/ai-driven-social-media-dashboard.yaml
-echo "Updating code source bucket in yaml with $1"
-bucket="s/%%BUCKET_NAME%%/$1/g"
-echo "sed -i '' -e $bucket $deployment_dir/dist/ai-driven-social-media-dashboard.yaml"
-sed -i '' -e $bucket $deployment_dir/dist/ai-driven-social-media-dashboard.yaml
-echo "Updating code source version in yaml with $1"
-version="s/%%VERSION%%/$2/g"
-echo "sed -i '' -e $version $deployment_dir/dist/ai-driven-social-media-dashboard.yaml"
-sed -i '' -e $version $deployment_dir/dist/ai-driven-social-media-dashboard.yaml
+echo "cp -f EyeOfCustomerV1.yaml $deployment_dir/dist/EyeOfCustomerV1.yaml"
+cp -f EyeOfCustomerV1.yaml $deployment_dir/dist/EyeOfCustomerV1.yaml
+#echo "Updating code source bucket in yaml with $1"
+#bucket="s/%%BUCKET_NAME%%/$1/g"
+#echo "sed -i '' -e $bucket $deployment_dir/dist/ai-driven-social-media-dashboard.yaml"
+#sed -i '' -e $bucket $deployment_dir/dist/ai-driven-social-media-dashboard.yaml
+#echo "Updating code source version in yaml with $1"
+#version="s/%%VERSION%%/$2/g"
+#echo "sed -i '' -e $version $deployment_dir/dist/ai-driven-social-media-dashboard.yaml"
+#sed -i '' -e $version $deployment_dir/dist/ai-driven-social-media-dashboard.yaml
 
 # for just getting the raw data od the parameters.
 # bucket = "$1"
@@ -60,6 +60,11 @@ echo "Packaging addtriggerfunction lambda"
 cd $deployment_dir/../source/addtriggerfunction/ || exit
 zip -q -r9 $deployment_dir/dist/addtriggerfunction.zip *
 
+# Package labelimage Lambda function
+echo "Packaging labelimage lambda function"
+cd $deployment_dir/../source/labelimage/ || exit
+zip -q -r9 $deployment_dir/dist/labelimage.zip *
+
 
 
 #zipping code for ec2, code already provided in s3 bucket
@@ -73,19 +78,31 @@ zip -q -r9 $deployment_dir/dist/addtriggerfunction.zip *
 #zip -q -r9 $deployment_dir/dist/ec2_twitter_reader.zip *
 #cp ./dist/ec2_twitter_reader.tar $deployment_dir/dist/ec2_twitter_reader.zip
 # Remove temporary build files
-rm -rf dist
-rm -rf node_modules
+#rm -rf dist
+#rm -rf node_modules
 
 # Done, so go back to deployment_dir
 cd $deployment_dir || exit
 
+
+#aws s3api wait bucket-exists --bucket $1
 echo " creating bucket " $1 " in region_name us-east-1 as default"
 aws s3api create-bucket --bucket $1 --region us-east-1
 
 aws s3 cp $deployment_dir/dist/socialmediafunction.zip s3://$1/$2/socialmediafunction.zip
+aws s3api put-object-acl --bucket $1 --key $2/socialmediafunction.zip --acl public-read # makes the uploaded file public
+
 aws s3 cp $deployment_dir/dist/addtriggerfunction.zip s3://$1/$2/addtriggerfunction.zip
+aws s3api put-object-acl --bucket $1 --key $2/addtriggerfunction.zip --acl public-read # makes the uploaded file public
+
+aws s3 cp $deployment_dir/dist/addtriggerfunction.zip s3://$1/$2/labelimage.zip
+aws s3api put-object-acl --bucket $1 --key $2/addtriggerfunction.zip --acl public-read # makes the uploaded file public
+
 #aws s3 cp $deployment_dir/dist/ec2_twitter_reader.zip s3://$1/$2/ec2_twitter_reader.zip
-aws s3 cp $deployment_dir/dist/ai-driven-social-media-dashboard.yaml s3://$1/$2/ai-driven-social-media-dashboard.yaml
+#aws s3api put-object-acl --bucket $1 --key $2/ec2_twitter_reader.zip --acl public-read # makes the uploaded file public
+
+aws s3 cp $deployment_dir/dist/EyeOfCustomerV1.yaml s3://$1/$2/EyeOfCustomerV1.yaml
+aws s3api put-object-acl --bucket $1 --key $2/EyeOfCustomerV1.yaml --acl public-read # makes the uploaded file public
 
 echo "removing all files from dist"
 rm -rf $deployment_dir/dist
