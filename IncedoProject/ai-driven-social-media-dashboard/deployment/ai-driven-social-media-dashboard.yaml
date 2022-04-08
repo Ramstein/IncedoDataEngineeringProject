@@ -563,7 +563,7 @@ Resources:
           IMAGEKEY_PREFIX: tmp/images/
       Code:
         S3Bucket: !Join ['-', [!FindInMap [ Function, SMIAWRAOfCustomerLambdaFunction, S3Bucket], !Ref 'AWS::Region']]
-        S3Key: !FindInMap [ Function, SocialMediaMLFunction, S3Key]
+        S3Key: !FindInMap [ Function, SMIAWRAOfCustomerLambdaFunction, S3Key]
 
   SocialMediaGlueDB:
     Type: "AWS::Glue::Database"
@@ -719,21 +719,21 @@ Resources:
       Code:
         S3Bucket: !Join ['-', [!FindInMap [ Function, AddTriggerForFunction, S3Bucket], !Ref 'AWS::Region']]
         S3Key: !FindInMap [ Function, AddTriggerForFunction, S3Key]
-  LambdaS3EventCreationCustomResource1:
-    Type: AWS::Lambda::Function
-    Properties:
-      Handler: index.lambda_handler
-      Role: !GetAtt AttachPolicyCustomResourceLambdaRole.Arn
-      Runtime: python3.7
-      Timeout: 300
-      Environment:
-        Variables:
-          lambda_arn: !GetAtt SMIAWRAOfCustomerLambda.Arn
-          account_number: !Ref 'AWS::AccountId'
-          s3_bucket: !Ref 'TweetsBucket'
-      Code:
-        S3Bucket: !Join [ '-', [ !FindInMap [ Function, AddTriggerForFunction, S3Bucket ], !Ref 'AWS::Region' ] ]
-        S3Key: !FindInMap [ Function, AddTriggerForFunction, S3Key ]
+#  LambdaS3EventCreationCustomResource1:
+#    Type: AWS::Lambda::Function
+#    Properties:
+#      Handler: index.lambda_handler
+#      Role: !GetAtt AttachPolicyCustomResourceLambdaRole.Arn
+#      Runtime: python3.7
+#      Timeout: 300
+#      Environment:
+#        Variables:
+#          lambda_arn: !GetAtt SMIAWRAOfCustomerLambda.Arn
+#          account_number: !Ref 'AWS::AccountId'
+#          s3_bucket: !Ref 'TweetsBucket'
+#      Code:
+#        S3Bucket: !Join [ '-', [ !FindInMap [ Function, AddTriggerForFunction, S3Bucket ], !Ref 'AWS::Region' ] ]
+#        S3Key: !FindInMap [ Function, AddTriggerForFunction, S3Key ]
 
 Outputs:
   SSHCommand:

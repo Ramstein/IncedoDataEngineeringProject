@@ -5,7 +5,6 @@ Description: 'AWS CloudFormation template for SocialMediaImageAnalysisWithRekogn
 Metadata:
   AWS::CloudFormation::Interface:
     ParameterGroups:
-
       - Label:
           default: Application Settings
         Parameters:
@@ -80,7 +79,6 @@ Mappings:
       AMI: ami-47205e28
 
 Parameters:
-
   pInstanceKeyName:
     Type: AWS::EC2::KeyPair::KeyName
     Description: "The name of the private key to use for SSH access."
