@@ -68,20 +68,20 @@ Parameters:
 Mappings:
   Function:
     SocialMediaMLFunction:
-      S3Bucket: %%BUCKET_NAME%%
-      S3Key: ai-driven-social-media-dashboard/%%VERSION%%/socialmediafunction.zip
-      # wget https://ai-social-media-dashboard.s3.amazonaws.com/ai-driven-social-media-dashboard/v1.0/SocialAnalyticsReader.tar
+      S3Bucket: ai-social-media-dashboard
+      S3Key: v1.0/socialmediafunction.zip
+      # wget https://ai-social-media-dashboard.s3.amazonaws.com/v1.0/SocialAnalyticsReader.tar
       #  unzip -q ec2_twitter_reader.zip -d /home/ec2-user/
     SMIAWRAOfCustomerLambdaFunction:
-      S3Bucket: %%BUCKET_NAME%%
-      S3Key: ai-driven-social-media-dashboard/%%VERSION%%/labelimage.zip
+      S3Bucket: ai-social-media-dashboard
+      S3Key: v1.0/labelimage.zip
     AddTriggerForFunction:
-      S3Bucket: %%BUCKET_NAME%%
-      S3Key: ai-driven-social-media-dashboard/%%VERSION%%/addtriggerfunction.zip
+      S3Bucket: ai-social-media-dashboard
+      S3Key: v1.0/addtriggerfunction.zip
   Code:
     EC2Twitter:
-      S3Bucket: %%BUCKET_NAME%%
-      S3Key: ai-driven-social-media-dashboard/%%VERSION%%/SocialAnalyticsReader.tar
+      S3Bucket: ai-social-media-dashboard
+      S3Key: v1.0/SocialAnalyticsReader.tar
 
   #  This is just the Amazon Linux AMI:
   AmazonLinuxAMI:
