@@ -82,10 +82,10 @@ cd $deployment_dir || exit
 echo " creating bucket " $1 " in region_name us-east-1 as default"
 aws s3api create-bucket --bucket $1 --region us-east-1
 
-aws s3 cp $deployment_dir/dist/socialmediafunction.zip s3://$1/ai-driven-social-media-dashboard/$2/socialmediafunction.zip
-aws s3 cp $deployment_dir/dist/addtriggerfunction.zip s3://$1/ai-driven-social-media-dashboard/$2/addtriggerfunction.zip
-#aws s3 cp $deployment_dir/dist/ec2_twitter_reader.zip s3://$1/ai-driven-social-media-dashboard/$2/ec2_twitter_reader.zip
-aws s3 cp $deployment_dir/dist/ai-driven-social-media-dashboard.yaml s3://$1/ai-driven-social-media-dashboard/$2/ai-driven-social-media-dashboard.yaml
+aws s3 cp $deployment_dir/dist/socialmediafunction.zip s3://$1/$2/socialmediafunction.zip
+aws s3 cp $deployment_dir/dist/addtriggerfunction.zip s3://$1/$2/addtriggerfunction.zip
+#aws s3 cp $deployment_dir/dist/ec2_twitter_reader.zip s3://$1/$2/ec2_twitter_reader.zip
+aws s3 cp $deployment_dir/dist/ai-driven-social-media-dashboard.yaml s3://$1/$2/ai-driven-social-media-dashboard.yaml
 
 echo "removing all files from dist"
 rm -rf $deployment_dir/dist
