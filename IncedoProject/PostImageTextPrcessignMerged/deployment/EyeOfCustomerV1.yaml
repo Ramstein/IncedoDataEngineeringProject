@@ -204,7 +204,8 @@ Resources:
                     - 'firehose:PutRecordBatch'
                     - 'firehose:UpdateDestination'
                 Resource: [ !GetAtt [ IngestionFirehoseStream, Arn ] ]
-                  - Effect: Allow
+                  -
+                    Effect: Allow
                     Action:
                       - 'secretsmanager:GetSecretValue'
                     Resource:
