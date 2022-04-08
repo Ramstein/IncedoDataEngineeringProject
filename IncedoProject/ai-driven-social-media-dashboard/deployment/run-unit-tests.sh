@@ -7,6 +7,6 @@
 # Run unit tests
 echo "Running unit tests"
 echo "cd ../source"
-cd ../source || exit
+cd ../source
 echo "No unit tests to run, so sad ..."
 echo "Completed unit tests"

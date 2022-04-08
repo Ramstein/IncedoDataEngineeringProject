@@ -27,7 +27,6 @@ fi
 echo "Staring to build distribution"
 # Create variable for deployment directory to use as a reference for builds
 echo "export deployment_dir=`pwd`"
-# shellcheck disable=SC2155
 export deployment_dir=`pwd`
 
 # Make deployment/dist folder for containing the built solution
@@ -35,46 +34,38 @@ echo "mkdir -p $deployment_dir/dist"
 mkdir -p $deployment_dir/dist
 
 # Copy project CFN template(s) to "dist" folder and replace bucket name with arg $1
-echo "cp -f ai-driven-social-media-dashboard.yaml $deployment_dir/dist/ai-driven-social-media-dashboard.yaml"
+echo "cp -f ai-driven-social-media-dashboard.template $deployment_dir/dist/ai-driven-social-media-dashboard.template"
 cp -f ai-driven-social-media-dashboard.yaml $deployment_dir/dist/ai-driven-social-media-dashboard.yaml
-echo "Updating code source bucket in yaml with $1"
-bucket="s/%%BUCKET_NAME%%/$1/g"
-echo "sed -i '' -e $bucket $deployment_dir/dist/ai-driven-social-media-dashboard.yaml"
-sed -i '' -e $bucket $deployment_dir/dist/ai-driven-social-media-dashboard.yaml
-echo "Updating code source version in yaml with $1"
-version="s/%%VERSION%%/$2/g"
-echo "sed -i '' -e $version $deployment_dir/dist/ai-driven-social-media-dashboard.yaml"
-sed -i '' -e $version $deployment_dir/dist/ai-driven-social-media-dashboard.yaml
-
-# for just getting the raw data od the parameters.
-# bucket = "$1"
-# version = "$2"
+echo "Updating code source bucket in template with $1"
+replace="s/%%BUCKET_NAME%%/$1/g"
+echo "sed -i '' -e $replace $deployment_dir/dist/ai-driven-social-media-dashboard.template"
+sed -i '' -e $replace $deployment_dir/dist/ai-driven-social-media-dashboard.yaml
+echo "Updating code source version in template with $1"
+replace="s/%%VERSION%%/$2/g"
+echo "sed -i '' -e $replace $deployment_dir/dist/ai-driven-social-media-dashboard.template"
+sed -i '' -e $replace $deployment_dir/dist/ai-driven-social-media-dashboard.yaml
 
 # Package socialmediafunction Lambda function
 echo "Packaging socialmediafunction lambda"
-cd $deployment_dir/../source/socialmediafunction/ || exit
+cd $deployment_dir/../source/socialmediafunction/
 zip -q -r9 $deployment_dir/dist/socialmediafunction.zip *
 
 # Package addtriggerfunction Lambda function
 echo "Packaging addtriggerfunction lambda"
-cd $deployment_dir/../source/addtriggerfunction/ || exit
+cd $deployment_dir/../source/addtriggerfunction/
 zip -q -r9 $deployment_dir/dist/addtriggerfunction.zip *
 
-
-
-#zipping code for ec2, code already provided in s3 bucket
+##zipping code for ec2
 #echo "tarring ec2 twitter reader code"
-#cd $deployment_dir/../source/SocialAnalyticsReader/ || exit
-# npm install
-# npm run build
-# npm run tar
-# # Copy packaged Lambda function to $deployment_dir/dist
-
-#zip -q -r9 $deployment_dir/dist/ec2_twitter_reader.zip *
-#cp ./dist/ec2_twitter_reader.tar $deployment_dir/dist/ec2_twitter_reader.zip
-# Remove temporary build files
-rm -rf dist
-rm -rf node_modules
+#cd $deployment_dir/../source/ec2_twitter_reader/
+#npm install
+#npm run build
+#npm run tar
+## Copy packaged Lambda function to $deployment_dir/dist
+#cp ./dist/ec2_twitter_reader.tar $deployment_dir/dist/ec2_twitter_reader.tar
+## Remove temporary build files
+#rm -rf dist
+#rm -rf node_modules
 
 # Done, so go back to deployment_dir
 cd $deployment_dir || exit
