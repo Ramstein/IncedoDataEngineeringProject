@@ -72,6 +72,9 @@ Mappings:
       S3Key: ai-driven-social-media-dashboard/v1.0/socialmediafunction.zip
       # wget https://ai-social-media-dashboard.s3.amazonaws.com/ai-driven-social-media-dashboard/v1.0/SocialAnalyticsReader.tar
       #  unzip -q ec2_twitter_reader.zip -d /home/ec2-user/
+    SMIAWRAOfCustomerLambdaFunction:
+      S3Bucket: ai-social-media-dashboard
+      S3Key: ai-driven-social-media-dashboard/v1.0/labelimage.zip
     AddTriggerForFunction:
       S3Bucket: ai-social-media-dashboard
       S3Key: ai-driven-social-media-dashboard/v1.0/addtriggerfunction.zip
@@ -523,17 +526,16 @@ Resources:
         S3Bucket: !Join ['-', [!FindInMap [ Function, SocialMediaMLFunction, S3Bucket], !Ref 'AWS::Region']]
         S3Key: !FindInMap [ Function, SocialMediaMLFunction, S3Key]
   SMIAWRAOfCustomerLambda:
-    Type: 'AWS::Serverless::Function'
+    Type: AWS::Lambda::Function
     Properties:
-      CodeUri: s3://aws-bigdata-blog/artifacts/EyeOfCustomer/labelimage.zip # TODO
-      Handler: index.handler
+      Handler: index.lambda_handler
       Runtime: python3.7
       MemorySize: 256
       Timeout: 900
       Role:
         Fn::GetAtt:
-        - SocialMediaAnalyticLambdaFuntionLambdaRole
-        - Arn
+          - SocialMediaAnalyticLambdaFuntionLambdaRole
+          - Arn
       Environment:
         Variables:
           SENTIMENT_STREAM: !Ref SentimentFirehoseStream
@@ -541,6 +543,28 @@ Resources:
           REKOGNITION_STREAM: !Ref RekognitionFirehoseStream
           BUCKET: !Ref TweetsBucket
           IMAGEKEY_PREFIX: tmp/images/
+      Code:
+        S3Bucket: !Join ['-', [!FindInMap [ Function, SMIAWRAOfCustomerLambdaFunction, S3Bucket], !Ref 'AWS::Region']]
+        S3Key: !FindInMap [ Function, SocialMediaMLFunction, S3Key]
+#  SMIAWRAOfCustomerLambda:
+#    Type: 'AWS::Serverless::Function'
+#    Properties:
+#      CodeUri: s3://aws-bigdata-blog/artifacts/EyeOfCustomer/labelimage.zip # TODO
+#      Handler: index.handler
+#      Runtime: python3.7
+#      MemorySize: 256
+#      Timeout: 900
+#      Role:
+#        Fn::GetAtt:
+#        - SocialMediaAnalyticLambdaFuntionLambdaRole
+#        - Arn
+#      Environment:
+#        Variables:
+#          SENTIMENT_STREAM: !Ref SentimentFirehoseStream
+#          ENTITY_STREAM: !Ref EntitiesFirehoseStream
+#          REKOGNITION_STREAM: !Ref RekognitionFirehoseStream
+#          BUCKET: !Ref TweetsBucket
+#          IMAGEKEY_PREFIX: tmp/images/
 
   SocialMediaGlueDB:
     Type: "AWS::Glue::Database"
