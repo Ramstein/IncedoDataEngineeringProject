@@ -46,6 +46,10 @@ version="s/%%VERSION%%/$2/g"
 echo "sed -i '' -e $version $deployment_dir/dist/ai-driven-social-media-dashboard.yaml"
 sed -i '' -e $version $deployment_dir/dist/ai-driven-social-media-dashboard.yaml
 
+# for just getting the raw data od the parameters.
+# bucket = "$1"
+# version = "$2"
+
 # Package socialmediafunction Lambda function
 echo "Packaging socialmediafunction lambda"
 cd $deployment_dir/../source/socialmediafunction/ || exit
@@ -56,14 +60,16 @@ echo "Packaging addtriggerfunction lambda"
 cd $deployment_dir/../source/addtriggerfunction/ || exit
 zip -q -r9 $deployment_dir/dist/addtriggerfunction.zip *
 
-#zipping code for ec2
-echo "tarring ec2 twitter reader code"
-cd $deployment_dir/../source/ec2_twitter_reader/ || exit
-npm install
-npm run build
-npm run tar
-# Copy packaged Lambda function to $deployment_dir/dist
-cp ./dist/ec2_twitter_reader.tar $deployment_dir/dist/ec2_twitter_reader.tar
+#zipping code for ec2, code already provided in s3 bucket
+#echo "tarring ec2 twitter reader code"
+#cd $deployment_dir/../source/SocialAnalyticsReader/ || exit
+# npm install
+# npm run build
+# npm run tar
+# # Copy packaged Lambda function to $deployment_dir/dist
+
+#zip -q -r9 $deployment_dir/dist/ec2_twitter_reader.zip *
+#cp ./dist/ec2_twitter_reader.tar $deployment_dir/dist/ec2_twitter_reader.zip
 # Remove temporary build files
 rm -rf dist
 rm -rf node_modules
@@ -71,10 +77,12 @@ rm -rf node_modules
 # Done, so go back to deployment_dir
 cd $deployment_dir || exit
 
-echo " creating bucket " $bucket " in region_name us-east-1 as default"
-aws s3api create-bucket --bucket $bucket --region us-east-1
+echo " creating bucket " $1 " in region_name us-east-1 as default"
+aws s3api create-bucket --bucket $1 --region us-east-1
 
-aws s3 cp $deployment_dir/dist/socialmediafunction.zip s3://$bucket/ai-driven-social-media-dashboard/$version/socialmediafunction.zip
-aws s3 cp $deployment_dir/dist/addtriggerfunction.zip s3://$bucket/ai-driven-social-media-dashboard/$version/addtriggerfunction.zip
-aws s3 cp $deployment_dir/dist/ec2_twitter_reader.tar s3://$bucket/ai-driven-social-media-dashboard/$version/ec2_twitter_reader.tar
-aws s3 cp $deployment_dir/dist/ai-driven-social-media-dashboard.yaml s3://$bucket/ai-driven-social-media-dashboard/$version/ai-driven-social-media-dashboard.yaml
+aws s3 cp $deployment_dir/dist/socialmediafunction.zip s3://$1/ai-driven-social-media-dashboard/$2/socialmediafunction.zip
+aws s3 cp $deployment_dir/dist/addtriggerfunction.zip s3://$1/ai-driven-social-media-dashboard/$2/addtriggerfunction.zip
+#aws s3 cp $deployment_dir/dist/ec2_twitter_reader.zip s3://$1/ai-driven-social-media-dashboard/$2/ec2_twitter_reader.zip
+aws s3 cp $deployment_dir/dist/ai-driven-social-media-dashboard.yaml s3://$1/ai-driven-social-media-dashboard/$2/ai-driven-social-media-dashboard.yaml
+
+

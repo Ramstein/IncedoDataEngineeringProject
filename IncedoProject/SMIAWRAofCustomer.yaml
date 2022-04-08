@@ -287,7 +287,8 @@ Resources:
             wget https://s3.amazonaws.com/serverless-analytics/SocialMediaAnalytics-blog/SocialAnalyticsReader.tar
 
             tar --warning=no-unknown-keyword -xf SocialAnalyticsReader.tar -C /home/ec2-user/
-
+            cd /home/ec2-user
+            nohup node twitter_stream_producer_app.js &
             echo "Service started."
           - {
               TwitterTerms: !Ref pTwitterTermList,

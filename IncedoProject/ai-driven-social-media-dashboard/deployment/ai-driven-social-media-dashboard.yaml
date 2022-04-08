@@ -76,20 +76,38 @@ Mappings:
   Code:
     EC2Twitter:
       S3Bucket: %%BUCKET_NAME%%
-      S3Key: ai-driven-social-media-dashboard/%%VERSION%%/ec2_twitter_reader.tar
+      S3Key: ai-driven-social-media-dashboard/%%VERSION%%/SocialAnalyticsReader.tar
 
-#Mappings:
-#  Function:
-#    SocialMediaMLFunction:
-#      S3Bucket: fakdjgnkaj
-#      S3Key: ai-driven-social-media-dashboard/VERSION/socialmediafunction.zip
-#    AddTriggerForFunction:
-#      S3Bucket: fakdjgnkaj
-#      S3Key: ai-driven-social-media-dashboard/VERSION/addtriggerfunction.zip
-#  Code:
-#    EC2Twitter:
-#      S3Bucket: fakdjgnkaj
-#      S3Key: ai-driven-social-media-dashboard/VERSION/ec2_twitter_reader.tar
+  #  This is just the Amazon Linux AMI:
+  AmazonLinuxAMI:
+    us-east-1: # Virginia
+      AMI: ami-a4c7edb2
+    us-east-2: # Ohio
+      AMI: ami-8a7859ef
+    us-west-1: # North California
+      AMI: ami-327f5352
+    us-west-2: # Oregon
+      AMI: ami-6df1e514
+    eu-west-1: # Ireland
+      AMI: ami-d7b9a2b1
+    eu-west-2: # London
+      AMI: ami-ed100689
+    eu-central-1: # Frankfurt
+      AMI: ami-82be18ed
+    sa-east-1: # Sao Paulo
+      AMI: ami-87dab1eb
+    ap-southeast-1: # Singapore
+      AMI: ami-77af2014
+    ap-southeast-2: # Sydney
+      AMI: ami-10918173
+    ap-northeast-1: # Tokyo
+      AMI: ami-3bd3c45c
+    ap-northeast-2: # Seoul
+      AMI: ami-e21cc38c
+    ca-central-1: # Canada
+      AMI: ami-a7aa15c3
+    ap-south-1: # Mumbai
+      AMI: ami-47205e28
 
 Resources:
   AuthConsumerSecretManagerSecret:
@@ -133,8 +151,10 @@ Resources:
       - Key: Project
         Value: !Join ['-', [!Ref 'ApplicationName', !Ref 'AWS::Region']]
       SecurityGroupEgress:
-      - CidrIp: 0.0.0.0/0
-        IpProtocol: "-1"
+      - IpProtocol: tcp
+        CidrIp: 0.0.0.0/0
+        FromPort: '22'
+        ToPort: '22'
 
   SocialMediaAnalyticsEC2Role:
     Type: AWS::IAM::Role
@@ -257,9 +277,9 @@ Resources:
       - !Ref TweetsEC2SecurityGroup
       IamInstanceProfile: !Ref TwitterStreamingInstanceProfile
       SubnetId: !Ref PublicSubnet1
-      BlockDeviceMappings: 
+      BlockDeviceMappings:
       - DeviceName: "/dev/xvda"
-        Ebs: 
+        Ebs:
           Encrypted: True
           VolumeType: gp2
           DeleteOnTermination: True
@@ -272,16 +292,18 @@ Resources:
       UserData:
         Fn::Base64:
           Fn::Sub:
-          - |     # No more Fn::Join needed
+          - |
             #!/bin/bash -ex
+            set -e
+
             sleep 60
 
-            curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.1/install.sh | bash
-            export NVM_DIR="$HOME/.nvm"
-            [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
-            nvm install 10.15.3
-            npm install --registry=https://registry.npmjs.org/
-            npm install --registry=https://custom.npm.registry.com/
+            yum clean all
+
+            yum -y install nodejs npm --enablerepo=epel
+
+            npm config set registry http://registry.npmjs.org/
+
             npm install node-sass request@2.81.0
 
             echo "var twitter_config = module.exports = {
@@ -297,8 +319,10 @@ Resources:
             }" > /home/ec2-user/twitter_reader_config.js
 
             wget ${EC2TwitterCode}
+#            wget https://ai-social-media-dashboard.s3.amazonaws.com/ai-driven-social-media-dashboard/v1.0/SocialAnalyticsReader.tar
 
-            tar --warning=no-unknown-keyword -xf ec2_twitter_reader.tar -C /home/ec2-user/
+             tar --warning=no-unknown-keyword -xf SocialAnalyticsReader.tar -C /home/ec2-user/
+#            unzip -q ec2_twitter_reader.zip -d /home/ec2-user/
 
             cd /home/ec2-user
             nohup node twitter_stream_producer_app.js &
@@ -345,6 +369,19 @@ Resources:
           IntervalInSeconds: 60
           SizeInMBs: 5
         Prefix: 'sentiment/'
+        CompressionFormat: 'UNCOMPRESSED'
+        RoleARN: !GetAtt IngestionFirehoseRole.Arn
+
+  # SMIAWRAOfCustomer Change
+  RekognitionFirehoseStream:
+    Type: AWS::KinesisFirehose::DeliveryStream
+    Properties:
+      ExtendedS3DestinationConfiguration:
+        BucketARN: !Join ['', ['arn:aws:s3:::', !Ref TweetsBucket]]
+        BufferingHints:
+          IntervalInSeconds: 60
+          SizeInMBs: 5
+        Prefix: 'media/'
         CompressionFormat: 'UNCOMPRESSED'
         RoleARN: !GetAtt IngestionFirehoseRole.Arn
 
@@ -422,7 +459,8 @@ Resources:
             Effect: Allow
             Action: ['firehose:ListDeliveryStreams', 'firehose:PutRecord', 'firehose:PutRecordBatch']
             Resource: [!GetAtt [SentimentFirehoseStream, Arn],
-                       !GetAtt [EntitiesFirehoseStream, Arn]]
+                       !GetAtt [EntitiesFirehoseStream, Arn],
+                       !GetAtt [RekognitionFirehoseStream, Arn]]
           - Sid: ComprehendAccess
             Effect: Allow
             Action: ['comprehend:DetectEntities', 'comprehend:DetectSentiment']
@@ -430,6 +468,10 @@ Resources:
           - Sid: TranslateAccess
             Effect: Allow
             Action: ['translate:TranslateText']
+            Resource: '*'
+          - Sid: RekognitionAccess
+            Effect: Allow
+            Action: ['rekognition:DetectLabels','rekognition:DetectFaces','rekognition:RecognizeCelebrities','rekognition:DetectModerationLabels','rekognition:DetectText']
             Resource: '*'
 
   AttachPolicyCustomResourceLambdaRole:
@@ -467,7 +509,7 @@ Resources:
     Type: AWS::Lambda::Function
     Properties:
       Handler: index.lambda_handler
-      Runtime: python3.6
+      Runtime: python3.7
       MemorySize: 256
       Timeout: 300
       Role:
@@ -481,6 +523,25 @@ Resources:
       Code:
         S3Bucket: !Join ['-', [!FindInMap [ Function, SocialMediaMLFunction, S3Bucket], !Ref 'AWS::Region']]
         S3Key: !FindInMap [ Function, SocialMediaMLFunction, S3Key]
+  SMIAWRAOfCustomerLambda:
+    Type: 'AWS::Serverless::Function'
+    Properties:
+      CodeUri: s3://aws-bigdata-blog/artifacts/EyeOfCustomer/labelimage.zip # TODO
+      Handler: index.handler
+      Runtime: python3.7
+      MemorySize: 256
+      Timeout: 900
+      Role:
+        Fn::GetAtt:
+        - SocialMediaAnalyticLambdaFuntionLambdaRole
+        - Arn
+      Environment:
+        Variables:
+          SENTIMENT_STREAM: !Ref SentimentFirehoseStream
+          ENTITY_STREAM: !Ref EntitiesFirehoseStream
+          REKOGNITION_STREAM: !Ref RekognitionFirehoseStream
+          BUCKET: !Ref TweetsBucket
+          IMAGEKEY_PREFIX: tmp/images/
 
   SocialMediaGlueDB:
     Type: "AWS::Glue::Database"
@@ -626,7 +687,7 @@ Resources:
     Properties:
       Handler: index.lambda_handler
       Role: !GetAtt AttachPolicyCustomResourceLambdaRole.Arn
-      Runtime: python3.6
+      Runtime: python3.7
       Timeout: 300
       Environment :
         Variables:
@@ -638,6 +699,18 @@ Resources:
         S3Key: !FindInMap [ Function, AddTriggerForFunction, S3Key]
 
 Outputs:
+  SSHCommand:
+    Description: To establish an SSH tunnel with the twitter stream reader, type the following command.
+    Value: !Join ['', [ssh -i ~/, !Ref 'InstanceKeyName', .pem ec2-user@, !GetAtt [
+          TwitterStreamingReaderServer, PublicDnsName]]]
+
+  EC2InstanceConsoleURL:
+    Description: URL to ec2 EC2InstanceConsoleURL
+    Value: !Join ['', ['https://', !Ref "AWS::Region", '.console.aws.amazon.com/ec2/home?region=', !Ref "AWS::Region", '#Instances:search=', !Ref 'TwitterStreamingReaderServer']]
+
+  LambdaFunctionConsoleURL:
+    Description: URL to the Lambda Function console
+    Value: !Join ['', ['https://console.aws.amazon.com/lambda/home?region=', !Ref "AWS::Region", '#/functions/', !Ref "SMIAWRAOfCustomerLambda", '?tab=graph']]
 
   S3ConsoleURL:
     Description: URL to the Lambda Function console
@@ -654,3 +727,7 @@ Outputs:
   TwitterSentimentLocation:
     Description: S3 Twitter Sentiment location.
     Value: !Join ['', ['s3://', !Ref 'TweetsBucket', /sentiment/]]
+
+  TwitterMediaLabelsLocation:
+    Description: S3 Twitter Media Labels location.
+    Value: !Join ['', ['s3://', !Ref 'TweetsBucket', /media/]]

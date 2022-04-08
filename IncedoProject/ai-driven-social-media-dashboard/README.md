@@ -21,6 +21,7 @@ sudo apt-get install zip sed wget -y
 
 ```bash
 cd deployment 
+chmod +x ./build-s3-dist.sh
 ./build-s3-dist.sh source-bucket-base-name version
 ```
 e.g.
