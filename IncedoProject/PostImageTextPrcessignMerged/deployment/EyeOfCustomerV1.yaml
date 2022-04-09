@@ -721,9 +721,9 @@ Resources:
   S3NotificationResource:
     Type: Custom::Notification
     Properties:
-      ServiceToken: !GetAtt LambdaS3EventCreationCustomResource.Arn
+      ServiceToken: !GetAtt rLambdaS3EventCreationCustomResource.Arn
 
-  LambdaS3EventCreationCustomResource:
+  rLambdaS3EventCreationCustomResource:
     Type: 'AWS::Serverless::Function'
     Properties:
       CodeUri: s3://ai-social-media-dashboard/v1.0/addtriggerfunction.zip # TODO
@@ -743,7 +743,7 @@ Resources:
           BUCKET: !Ref rTweetsBucket
           IMAGEKEY_PREFIX: tmp/images/
           lambda_arn: !GetAtt rSocialMediaAnalyticsLambda.Arn
-          s3_bucket: !Ref 'TweetsBucket'
+          s3_bucket: !Ref 'rTweetsBucket'
           account_number: !Ref 'AWS::AccountId'
 
 Outputs:
