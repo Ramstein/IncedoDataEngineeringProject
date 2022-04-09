@@ -9,6 +9,7 @@ Metadata:
           default: Application Settings
         Parameters:
           - pApplicationName
+          - pBucketName
       - Label:
           default: Twitter Settings
         Parameters:
@@ -41,6 +42,8 @@ Metadata:
         default: Twitter Auth Token Secret
       pApplicationName:
         default: Application Name
+      pBucketName:
+        default: Bucket Name
       pVpcCIDR:
         default: VPC CIDR
       pPublicSubnet1CIDR:
@@ -126,6 +129,10 @@ Parameters:
     Description: Name of the application for naming or tagging AWS resources created by this solution
     Type: String
     Default: SMIAWRA
+  pBucketName:
+    Description: Name of the S3 bucket for puttin kinesis stream data, comprehend processed data, and other
+    Type: String
+    Default: swiawra-rtweetsbucket
   pVpcCIDR:
     Description: Please enter the IP range (CIDR notation) for this VPC
     Type: String
@@ -275,16 +282,29 @@ Resources:
 
   rTweetsBucket:
     Type: AWS::S3::Bucket
-#    Properties:
-#      PublicAccessBlockConfiguration:
-#        BlockPublicAcls: true
-#        IgnorePublicAcls: true
-#        BlockPublicPolicy: true
-#        RestrictPublicBuckets: true
-#      BucketEncryption:
-#        ServerSideEncryptionConfiguration:
-#          - ServerSideEncryptionByDefault:
-#              SSEAlgorithm: "AES256"
+    Properties:
+      BucketName: !Ref pBucketName
+      PublicAccessBlockConfiguration:
+        BlockPublicAcls: true
+        IgnorePublicAcls: true
+        BlockPublicPolicy: true
+        RestrictPublicBuckets: true
+      BucketEncryption:
+        ServerSideEncryptionConfiguration:
+          - ServerSideEncryptionByDefault:
+              SSEAlgorithm: "AES256"
+      NotificationConfiguration:
+        LambdaConfigurations:
+          - Event: 's3:ObjectCreated:*'
+            Filter:
+              S3Key:
+                Rules:
+                  - Name: prefix
+                    Value: '/raw'
+                  - Name: suffix
+                    Value: *
+            Function: [!GetAtt [rSocialMediaAnalyticsLambda, Arn],
+                       !GetAtt [rEyeOfCustomerLambda, Arn]]
 
   rTwitterStreamingInstanceProfile:
     Type: AWS::IAM::InstanceProfile
@@ -320,18 +340,12 @@ Resources:
           Fn::Sub:
           - |
             #!/bin/bash -ex
-            set -e
-
-            sudo sleep 60
-
+#            set -e
+#            sudo sleep 60
             sudo yum clean all
-
             sudo yum -y install nodejs npm --enablerepo=epel
-
             sudo npm config set registry http://registry.npmjs.org/
-
-            sudo npm install node-sass request@2.81.0
-
+            sudo npm -y install node-sass request@2.81.0
             sudo echo "var twitter_config = module.exports = {
             twitter: {
                 consumer_key: '${TwitterConsumerKey}',
@@ -544,6 +558,11 @@ Resources:
             Effect: Allow
             Action: [ 'rekognition:DetectLabels','rekognition:DetectFaces','rekognition:RecognizeCelebrities','rekognition:DetectModerationLabels','rekognition:DetectText' ]
             Resource: '*'
+          - Sid: LambdaAddPermission
+            Effect: Allow
+            Action: [ 'lambda:AddPermission' ]
+            Resource: '*'
+#            Resource: [ !GetAtt [ rEyeOfCustomerLambda, Arn ], !GetAtt [ rSocialMediaAnalyticsLambda, Arn ]] # leading to closed loop for some unprovisioned resource instantiation
 
   rEyeOfCustomerLambda:
     Type: 'AWS::Serverless::Function'
@@ -717,11 +736,6 @@ Resources:
         Parameters: {'classification': 'json'}
       DatabaseName: !Ref rSocialMediaGlueDB
       CatalogId: !Ref AWS::AccountId
-
-  S3NotificationResource:
-    Type: Custom::Notification
-    Properties:
-      ServiceToken: !GetAtt rLambdaS3EventCreationCustomResource.Arn
 
   rLambdaS3EventCreationCustomResource:
     Type: 'AWS::Serverless::Function'

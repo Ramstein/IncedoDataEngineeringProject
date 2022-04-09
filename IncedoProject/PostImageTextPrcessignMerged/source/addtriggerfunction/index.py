@@ -20,7 +20,7 @@ def sendResponseCfn(event, context, responseStatus):
 
 
 def lambda_handler(event, context):
-    print(json.dumps(event))
+    # print(json.dumps(event))
     if event["RequestType"] == "Create":
         print("RequestType %s, nothing to do" % event["RequestType"])
 
