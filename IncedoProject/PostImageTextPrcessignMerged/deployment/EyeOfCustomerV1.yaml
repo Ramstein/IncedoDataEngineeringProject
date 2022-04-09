@@ -481,10 +481,6 @@ Resources:
 #            Action: [ 's3:GetObject', 's3:PutObject', 's3:PutBucketNotification', 's3:ListBucket', 's3:DeleteObject' ]
             Resource: [!GetAtt [rTweetsBucket, Arn],
                       !Join ['', [!GetAtt [rTweetsBucket, Arn], /*]]]
-          - Sid: LambdaAddPermission
-            Effect: Allow
-            Action: [ 'lambda:AddPermission' ]
-            Resource: [ !GetAtt [ rSocialMediaAnalyticsLambda, Arn ], !GetAtt [ rEyeOfCustomerLambda, Arn ] ]
           - Sid: FirehoseAccess
             Effect: Allow
             Action: ['firehose:ListDeliveryStreams', 'firehose:PutRecord', 'firehose:PutRecordBatch']
@@ -530,10 +526,6 @@ Resources:
             Action: ['s3:GetObject', 's3:PutObject', 's3:PutBucketNotification', 's3:ListBucket', 's3:DeleteObject']
             Resource: [!GetAtt [rTweetsBucket, Arn],
                       !Join ['', [!GetAtt [rTweetsBucket, Arn], /*]]]
-          - Sid: LambdaAddPermission
-            Effect: Allow
-            Action: ['lambda:AddPermission']
-            Resource: [!GetAtt [rSocialMediaAnalyticsLambda, Arn], !GetAtt [rEyeOfCustomerLambda, Arn]]
           - Sid: FirehoseAccess
             Effect: Allow
             Action: [ 'firehose:ListDeliveryStreams', 'firehose:PutRecord', 'firehose:PutRecordBatch' ]
@@ -572,6 +564,7 @@ Resources:
           REKOGNITION_STREAM: !Ref rRekognitionFirehoseStream
           BUCKET: !Ref rTweetsBucket
           IMAGEKEY_PREFIX: tmp/images/
+
   rSocialMediaAnalyticsLambda:
     Type: 'AWS::Serverless::Function'
     Properties:
@@ -591,6 +584,7 @@ Resources:
           REKOGNITION_STREAM: !Ref rRekognitionFirehoseStream
           BUCKET: !Ref rTweetsBucket
           IMAGEKEY_PREFIX: tmp/images/
+
   rSocialMediaGlueDB:
     Type: "AWS::Glue::Database"
     Properties:
@@ -724,49 +718,33 @@ Resources:
       DatabaseName: !Ref rSocialMediaGlueDB
       CatalogId: !Ref AWS::AccountId
 
-  LambdaS3EventCreationCustomResource:
-    Type: AWS::Lambda::Function
-    Properties:
-      Handler: index.lambda_handler
-      Role: !GetAtt rEyeOfCustomerLambdaFunctionRole.Arn
-      Runtime: python3.7
-      Timeout: 300
-      Environment:
-        Variables:
-          lambda_arn: !GetAtt rEyeOfCustomerLambda.Arn
-          account_number: !Ref 'AWS::AccountId'
-          s3_bucket: !Ref 'rTweetsBucket'
-      Code:
-        S3Bucket: !Join [ '-', [ !FindInMap [ Function, AddTriggerForFunction, S3Bucket ], !Ref 'AWS::Region' ] ]
-        S3Key: !FindInMap [ Function, AddTriggerForFunction, S3Key ]
-
-  LambdaS3EventCreationCustomResourceSMIAWRA:
-    Type: AWS::Lambda::Function
-    Properties:
-      Handler: index.lambda_handler
-      Role: !GetAtt AttachPolicyCustomResourceLambdaRole.Arn
-      Runtime: python3.7
-      Timeout: 300
-      Environment:
-        Variables:
-          lambda_arn: !GetAtt rSocialMediaAnalyticsLambda.Arn
-          account_number: !Ref 'AWS::AccountId'
-          s3_bucket: !Ref 'rTweetsBucket'
-      Code:
-        S3Bucket: !Join [ '-', [ !FindInMap [ Function, AddTriggerForFunction, S3Bucket ], !Ref 'AWS::Region' ] ]
-        S3Key: !FindInMap [ Function, AddTriggerForFunction, S3Key ]
-
-
   S3NotificationResource:
     Type: Custom::Notification
     Properties:
       ServiceToken: !GetAtt LambdaS3EventCreationCustomResource.Arn
 
-  S3NotificationResourceSMIAWRA:
-    Type: Custom::Notification
+  LambdaS3EventCreationCustomResource:
+    Type: 'AWS::Serverless::Function'
     Properties:
-      ServiceToken: !GetAtt LambdaS3EventCreationCustomResourceSMIAWRA.Arn
-
+      CodeUri: s3://ai-social-media-dashboard/v1.0/addtriggerfunction.zip # TODO
+      Handler: index.lambda_handler
+      Runtime: python3.7
+      MemorySize: 256
+      Timeout: 300
+      Role:
+        Fn::GetAtt:
+          - AttachPolicyCustomResourceLambdaRole
+          - Arn
+      Environment:
+        Variables:
+          SENTIMENT_STREAM: !Ref rSentimentFirehoseStream
+          ENTITY_STREAM: !Ref rEntitiesFirehoseStream
+          REKOGNITION_STREAM: !Ref rRekognitionFirehoseStream
+          BUCKET: !Ref rTweetsBucket
+          IMAGEKEY_PREFIX: tmp/images/
+          lambda_arn: !GetAtt rSocialMediaAnalyticsLambda.Arn
+          s3_bucket: !Ref 'TweetsBucket'
+          account_number: !Ref 'AWS::AccountId'
 
 Outputs:
   SSHCommand:
