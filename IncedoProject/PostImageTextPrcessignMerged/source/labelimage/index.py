@@ -29,7 +29,7 @@ def label_image(image_url):
 
     # Catch unsupported extensions
     if not image_match.group('ext') in ('jpg', 'png'):
-        return (None, None)
+        return None, None
     image_s3_key = imagekey_prefix + image_path
 
     # Logic to prevent rework
@@ -42,7 +42,7 @@ def label_image(image_url):
             urllib.request.urlretrieve(image_url, image_fullpath)
         except Exception as e:
             print('Failed to analyze image: {image} {error}'.format(image=image_url, error=str(e)))
-            return (None, None)
+            return None, None
         # Upload Image to S3
         s3client.upload_file(image_fullpath, s3_bucket, image_s3_key)
         # Remove Local Copy of Image
@@ -78,7 +78,8 @@ def label_image(image_url):
             'FaceDetails': []
         }
 
-        # Determine the need to run Detect Text, Recognize Celebrities, or Detect Faces APIs based on labels detected in image
+        # Determine the need to run Detect Text, Recognize Celebrities, or Detect Faces APIs based on labels detected
+        # in image
         labelNames = {label['Name'] for label in labels['Labels']}
 
         if 'Text' in labelNames:
@@ -102,10 +103,10 @@ def label_image(image_url):
             'ModerationLabels': moderation['ModerationLabels']
         }
         print('Processed: s3://{bucket}/{key}'.format(bucket=s3_bucket, key=image_s3_key))
-        return (item, 's3://{bucket}/{key}'.format(bucket=s3_bucket, key=image_s3_key))
+        return item, 's3://{bucket}/{key}'.format(bucket=s3_bucket, key=image_s3_key)
     except Exception as e:
         print('Failed to analyze image: {image} {error}'.format(image=json.dumps(image), error=str(e)))
-        return (None, None)
+        return None, None
 
 
 def analyze_tweet(tweet_json):
@@ -161,7 +162,8 @@ def analyze_tweet(tweet_json):
 
 
 def lambda_handler(event, context):
-    # Download tweets from S3, analyze them using Amazon Comprehend and Amazon Rekognition, and send the results to Firehose
+    # Download tweets from S3, analyze them using Amazon Comprehend and Amazon Rekognition, and send the results to
+    # Firehose
     bucket = event['Records'][0]['s3']['bucket']['name']
     key = event['Records'][0]['s3']['object']['key']
     tweets_file = '/tmp/tweets.json'

@@ -130,7 +130,7 @@ Parameters:
     Type: String
     Default: SMIAWRA
   pBucketName:
-    Description: Name of the S3 bucket for puttin kinesis stream data, comprehend processed data, and other
+    Description: Name of the S3 bucket for putting kinesis stream data, comprehend processed data, and other
     Type: String
     Default: swiawra-rtweetsbucket
   pVpcCIDR:
@@ -293,18 +293,6 @@ Resources:
         ServerSideEncryptionConfiguration:
           - ServerSideEncryptionByDefault:
               SSEAlgorithm: "AES256"
-      NotificationConfiguration:
-        LambdaConfigurations:
-          - Event: 's3:ObjectCreated:*'
-            Filter:
-              S3Key:
-                Rules:
-                  - Name: prefix
-                    Value: /raw
-                  - Name: suffix
-                    Value: ['*']
-            Function: [!GetAtt [rSocialMediaAnalyticsLambda, Arn],
-                       !GetAtt [rEyeOfCustomerLambda, Arn]]
 
   rTwitterStreamingInstanceProfile:
     Type: AWS::IAM::InstanceProfile
@@ -344,6 +332,7 @@ Resources:
             sudo sleep 60
             sudo yum clean all
             sudo yum -y install nodejs npm --enablerepo=epel
+            sudo npm config set strict-ssl false
             sudo npm config set registry http://registry.npmjs.org/
             sudo npm -y install node-sass request@2.81.0
             sudo echo "var twitter_config = module.exports = {
@@ -362,7 +351,7 @@ Resources:
 
             sudo tar --warning=no-unknown-keyword -xf SocialAnalyticsReader.tar -C /home/ec2-user/
 
-            sudo cd /home/ec2-user
+            cd /home/ec2-user
             sudo echo "Service starting..."
             sudo nohup node twitter_stream_producer_app.js
           - {
@@ -491,8 +480,8 @@ Resources:
 #            Resource: !Sub "arn:${AWS::Partition}:logs:${AWS::Region}:${AWS::AccountId}:log-group:/aws/lambda/*"
           - Sid: S3Access
             Effect: Allow
-            Action: ['*']
-#            Action: [ 's3:GetObject', 's3:PutObject', 's3:PutBucketNotification', 's3:ListBucket', 's3:DeleteObject' ]
+            Action: [ 's3:GetObject', 's3:PutObject', 's3:PutBucketNotification', 's3:ListBucket', 's3:DeleteObject' ]
+#            Action: ['*']
             Resource: [!GetAtt [rTweetsBucket, Arn],
                       !Join ['', [!GetAtt [rTweetsBucket, Arn], /*]]]
           - Sid: FirehoseAccess
@@ -513,6 +502,12 @@ Resources:
             Effect: Allow
             Action: ['rekognition:DetectLabels','rekognition:DetectFaces','rekognition:RecognizeCelebrities','rekognition:DetectModerationLabels','rekognition:DetectText']
             Resource: '*'
+          - Sid: LambdaAddPermission
+            Effect: Allow
+            Action: [ 'lambda:AddPermission' ]
+            Resource: '*'
+#            Resource: [ !GetAtt [ rEyeOfCustomerLambda, Arn ], !GetAtt [ rSocialMediaAnalyticsLambda, Arn ]] # leading to closed loop for some unprovisioned resource instantiation
+
 
   AttachPolicyCustomResourceLambdaRole:
     Type: AWS::IAM::Role
@@ -737,6 +732,11 @@ Resources:
       DatabaseName: !Ref rSocialMediaGlueDB
       CatalogId: !Ref AWS::AccountId
 
+  S3NotificationResource:
+    Type: Custom::Notification
+    Properties:
+      ServiceToken: !GetAtt rLambdaS3EventCreationCustomResource.Arn
+
   rLambdaS3EventCreationCustomResource:
     Type: 'AWS::Serverless::Function'
     Properties:
@@ -747,16 +747,12 @@ Resources:
       Timeout: 300
       Role:
         Fn::GetAtt:
-          - AttachPolicyCustomResourceLambdaRole
+          - rEyeOfCustomerLambdaFunctionRole
           - Arn
       Environment:
         Variables:
-          SENTIMENT_STREAM: !Ref rSentimentFirehoseStream
-          ENTITY_STREAM: !Ref rEntitiesFirehoseStream
-          REKOGNITION_STREAM: !Ref rRekognitionFirehoseStream
-          BUCKET: !Ref rTweetsBucket
-          IMAGEKEY_PREFIX: tmp/images/
-          lambda_arn: !GetAtt rSocialMediaAnalyticsLambda.Arn
+          rSocialMediaAnalyticsLambda_arn: !GetAtt rSocialMediaAnalyticsLambda.Arn
+          rEyeOfCustomerLambda_arn: !GetAtt rEyeOfCustomerLambda.Arn
           s3_bucket: !Ref 'rTweetsBucket'
           account_number: !Ref 'AWS::AccountId'
 
