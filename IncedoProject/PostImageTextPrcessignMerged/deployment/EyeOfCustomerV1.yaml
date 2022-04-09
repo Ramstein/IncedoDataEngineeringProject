@@ -300,7 +300,7 @@ Resources:
               S3Key:
                 Rules:
                   - Name: prefix
-                    Value: '/raw'
+                    Value: /raw
                   - Name: suffix
                     Value: *
             Function: [!GetAtt [rSocialMediaAnalyticsLambda, Arn],
