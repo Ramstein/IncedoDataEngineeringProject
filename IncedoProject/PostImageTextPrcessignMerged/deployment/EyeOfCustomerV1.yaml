@@ -302,7 +302,7 @@ Resources:
                   - Name: prefix
                     Value: /raw
                   - Name: suffix
-                    Value: *
+                    Value: ['*']
             Function: [!GetAtt [rSocialMediaAnalyticsLambda, Arn],
                        !GetAtt [rEyeOfCustomerLambda, Arn]]
 
@@ -340,8 +340,8 @@ Resources:
           Fn::Sub:
           - |
             #!/bin/bash -ex
-#            set -e
-#            sudo sleep 60
+            set -e
+            sudo sleep 60
             sudo yum clean all
             sudo yum -y install nodejs npm --enablerepo=epel
             sudo npm config set registry http://registry.npmjs.org/
